@@ -1,0 +1,958 @@
+{
+  "code": "en",
+  "languageName": "English",
+  "unlockables": {
+    "Lost Baby": {
+      "description": "Lost Baby is a special co-op baby.",
+      "effect": "Constantly bleeds small puddles of red creep which can damage enemies. Releases a larger puddle of creep upon death."
+    },
+    "Isaac's Tears": {
+      "description": "Isaac's Tears is an unlockable activated item .",
+      "effect": "Each tear shot by Isaac increases item charge by one. Upon use, fires 8 tears around Isaac, which retain the damage , range , shot speed , and most special tear effects of his tears. Tears from this item have a +5 flat damage bonus."
+    },
+    "Mom's Knife": {
+      "description": "Mom's Knife is an unlockable passive item .",
+      "effect": "Isaac's tears are replaced by a knife that pierces enemies and can travel through obstacles. Holding down the fire button increases its range and power. The knife deals damage 20 times per second upon contact with enemies while Isaac is holding it. The knife deals 2× Isaac's damage while held and 6× damage at the furthest possible point of its throw distance, regardless of the actual maximum range stat."
+    },
+    "The D20": {
+      "description": "D20 is an unlockable activated item .",
+      "effect": "Upon use, re-rolls all pickups , chests , and trinkets in the current room ."
+    },
+    "Missing Poster": {
+      "description": "Missing Poster is an unlockable trinket .",
+      "effect": "If Isaac dies to a Sacrifice Room 's spikes, a puzzle piece will appear on his last will . Dying in a Sacrifice Room while holding the trinket consumes it, revives Isaac as The Lost and unlocks the character. If The Lost is already unlocked, the trinket works outside Sacrifice Rooms as well, reviving Isaac as The Lost. Adds a 1/3 chance to reveal a super secret room upon entering a new floor."
+    },
+    "Isaac's Head": {
+      "description": "Isaac's Head is an unlockable trinket .",
+      "effect": "Isaac's severed head will follow him as a familiar firing piercing tears that deal 3.5 damage with each shot. The head shoots once per second. The head shoots once every 3/4ths of a second."
+    },
+    "Fart Baby": {
+      "description": "Farting Baby is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a familiar that follows Isaac around and blocks enemy projectiles. Upon blocking a shot, it has a 25% chance of farting. Farting has a cooldown of 210 frames. There are three possible fart effects: Charms all nearby enemies. Poisons all nearby enemies. Knocks back nearby enemies and hostile tears."
+    },
+    "Lil' Chest": {
+      "description": "Lil Chest is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a chest familiar that has a 25% chance to spawn a pickup and a 10% chance to spawn a trinket after clearing a room . The possible rewards are: Hearts"
+    },
+    "D1": {
+      "description": "D1 is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon use, duplicates one random pickup in the current room, including Cards , Runes , Chests , and trinkets . Duplicated pickups may not be identical to the original; for example, a duplicated card may be a different one than the original."
+    },
+    "D infinity": {
+      "description": "D infinity is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon use, grants a random die item that transforms into a different random die item. Each die item has a 2 room charge. D infinity is able to use all the available effects, regardless of whether the individual die mimicked by this item has been unlocked prior or not. Upon use, acts as any die item except for Spindown Dice , and can be cycled through by pressing the drop key."
+    },
+    "Cry Baby": {
+      "description": "Cry Baby is a special co-op baby.",
+      "effect": "Occasionally briefly increases Isaac's tears by 1."
+    },
+    "Buddy Baby": {
+      "description": "Buddy Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac the Guillotine effect, detaching Isaac's head and increasing damage and tears."
+    },
+    "Meat Cleaver": {
+      "description": "Meat Cleaver is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon use, splits enemies in the current room into two smaller versions with ~40% health each. Normal enemies can be split twice, while champions and bosses can be split three times. If an enemy cannot be split, they instead take 25 damage. If the enemy splits as part of their mechanic, such as Squirt , Teratoma , or The Fallen , they will instead take the damage required to split them."
+    },
+    "Options?": {
+      "description": "Options? is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "At 0 Luck and with no other modifiers, reduces the chance for a room clear to give no reward from 22% to 16%. Whenever a room clear reward spawns, a different alternative reward is spawned next to it. Picking up either reward causes the other to disappear."
+    },
+    "Cute Baby": {
+      "description": "Cute Baby is a special co-op baby.",
+      "effect": "Has no special gameplay effect; it is a co-op baby appearance."
+    },
+    "A Cross": {
+      "description": "The Relic is an unlockable passive item .",
+      "effect": "Spawns a small blue cross familiar that follows Isaac and drops a Soul Heart alternatingly: Every 5 or 6 rooms . Every 7 or 8 rooms ."
+    },
+    "Guardian Angel": {
+      "description": "Guardian Angel is an unlockable passive item .",
+      "effect": "Spawns an orbital familiar that blocks enemy shots and deals 7 damage per tick on contact. This deals 105 damage per second. This deals 52.5 damage per second. Increases the speed that all orbital familiars rotate around Isaac at."
+    },
+    "Celtic Cross": {
+      "description": "Celtic Cross is an unlockable passive item .",
+      "effect": "Grants a chance to trigger the Book of Shadows effect upon taking damage, creating a shield that nullifies all types of damage for 7 seconds."
+    },
+    "Maggy's Faith": {
+      "description": "Maggy's Faith is an unlockable trinket .",
+      "effect": "Gives an Eternal Heart at the start of every floor."
+    },
+    "Maggy's Bow": {
+      "description": "Maggy's Bow is an unlockable passive item .",
+      "effect": "Adds one Red Heart Container . Heals 1 additional Red Heart Red Hearts heal double their value. A Half Red Heart replenishes one Red Heart, a Red Heart or Scared Heart replenishes two Red Hearts, and a Double Heart replenishes four Red Hearts. Blended Hearts either replenish two Red Hearts or replenish one Red Heart and add one Soul Heart , depending on how many empty Red Heart Containers Isaac has."
+    },
+    "Purity": {
+      "description": "Purity is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Grants a random aura around Isaac that grants a boost depending on the aura's color: Red : +4 damage . Blue : -4 tear delay . Blue : +2.0 fire rate ."
+    },
+    "Censer": {
+      "description": "Censer is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a familiar projecting a circular aura that slows enemies and enemy shots within its radius and for a short period once they exit."
+    },
+    "Glyph of Balance": {
+      "description": "Glyph of Balance is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Grants 2 Soul Hearts. Modifies drops from Champion enemies depending on certain conditions. Also modifies room clear drops."
+    },
+    "Eucharist": {
+      "description": "Eucharist is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Sets the Angel Deal chance to 100% and the Devil Deal chance to 0% regardless of all other modifiers (except Duality ), guaranteeing an Angel Room Door will spawn whenever possible and preventing it from closing."
+    },
+    "Red Baby": {
+      "description": "Red Baby is a special co-op baby.",
+      "effect": "Spawns with an extra red heart ."
+    },
+    "Colorful Baby": {
+      "description": "Colorful Baby is a special co-op baby.",
+      "effect": "Upon joining, fully heals Isaac, similar to the rainbow poop effect."
+    },
+    "Yuck Heart": {
+      "description": "Yuck Heart is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Grants a Rotten Heart upon use. If Isaac has an empty red heart container or empty bone heart, the rotten heart will fill it. If Isaac has only filled red and/or bone hearts, it will replace the contents. If Isaac has no red or bone hearts, or they all are already rotten, there is no effect."
+    },
+    "Candy Heart": {
+      "description": "Candy Heart is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Gives Isaac one of the following stat boosts per half heart healed with Red Heart pickups or when gaining an extra filled heart container: +0.02 speed . +0.10 flat damage . +0.02 shot speed ."
+    },
+    "Glass Baby": {
+      "description": "Glass Baby is a special co-op baby.",
+      "effect": "Drops a random pickup on death."
+    },
+    "A Bag of Pennies": {
+      "description": "Sack of Pennies is an unlockable passive item .",
+      "effect": "Spawns a familiar that drops a coin every 2 rooms . The first drop happens after 1 room."
+    },
+    "A Bag of Bombs": {
+      "description": "Bomb Bag is an unlockable passive item .",
+      "effect": "Spawns a familiar that drops a Bomb every 3 rooms. The first drop happens after 2 rooms. The bomb dropped can be a Double Bomb , Troll Bomb , Mega Troll Bomb , Golden Bomb , or a Golden Troll Bomb ."
+    },
+    "Cain's Eye": {
+      "description": "Cain's Eye is an unlockable trinket .",
+      "effect": "When starting a floor, 25% chance to gain the effect of The Compass for the duration of the floor. The chance increases based on the Luck stat, and the formula used to determine the chance is: 1 4 − ⌊ 𝐿 𝑢 𝑐 𝑘 ⌋ At base luck (0), the chance is 25%, maxing out at 100% at 3 luck."
+    },
+    "Abel": {
+      "description": "Abel is an unlockable passive item .",
+      "effect": "Spawns a familiar that mirrors Isaac's movements and shoots tears that deal 3.5 damage. Abel shoots once per second / half-second . Abel shoots tears in the opposite direction of Isaac. Abel shoots tears towards Isaac regardless of which direction Isaac is shooting."
+    },
+    "Cain's Other Eye": {
+      "description": "Cain's Other Eye is an unlockable passive item .",
+      "effect": "Spawns a familiar that floats slowly around the room in a zig-zag pattern similar to The Peeper and shoots normal tears in the same direction as Isaac. Each tear deals 3.5 damage. Each tear deals Isaac's damage. Spawns a familiar that follows Isaac and copies all of his tear modifiers/stats (like Incubus ), with a 25% damage reduction. It fires randomly in the cardinal directions."
+    },
+    "D12": {
+      "description": "D12 is an unlockable activated item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Re-rolls obstacles in the current room into other random obstacles. Poops , TNT , Fire Places and Key Blocks cannot be re-rolled. Obstacles can reroll into: Rocks , Tinted rocks , Cobwebs , Chapter-specific obstacles ( Urns , Mushrooms , Skulls , and Polyps ), Metal Blocks , Trap doors, Crawl Spaces , TNT , White Poop , Fool's Gold Rocks, Reward Plates and Killswitches ."
+    },
+    "Evil Eye": {
+      "description": "Evil Eye is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Isaac will occasionally fire a slow-moving eye with an infinite range that fires tears identical to Isaac's tears. The eyes fire in the same direction as Isaac."
+    },
+    "Sack of Sacks": {
+      "description": "Sack of Sacks is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Spawns a familiar that follows Isaac and drops a Grab Bag once every few rooms cleared. The rate alternates between every 5 or 6 rooms. The rate alternates between every 7 or 8 rooms."
+    },
+    "Silver Dollar": {
+      "description": "Silver Dollar is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Shops appear in the Womb , Utero , and Scarred Womb . Also spawns Shops in the Corpse . Golden Trinket : An upgraded Shop will appear instead"
+    },
+    "Green Baby": {
+      "description": "Green Baby is a special co-op baby.",
+      "effect": "Occasionally briefly increases Isaac's luck by 2."
+    },
+    "Picky Baby": {
+      "description": "Picky Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac the Paper Clip effect."
+    },
+    "Guppy's Eye": {
+      "description": "Guppy's Eye is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Shows the contents of Chests , Fire Places , Grab Bags , and Shopkeepers before they're opened/destroyed. This item belongs to the Guppy set. Collecting three items from this set will transform Isaac into Guppy."
+    },
+    "A Pound of Flesh": {
+      "description": "A Pound of Flesh is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Devil deals and Black Market items can now be paid with Coins . Anything that generates Devil Deals (such as Satanic Bible or the special chests in Dark Room ) will also create items that cost coins. Items in Shops now cost health . Consumables in shops have no cost, but are surrounded with Spikes and can't be pushed out with an explosion."
+    },
+    "Shadow Baby": {
+      "description": "Shadow Baby is a special co-op baby.",
+      "effect": "Fires red blood shots and deals slightly more damage than other babies."
+    },
+    "Guillotine": {
+      "description": "Guillotine is an unlockable passive item .",
+      "effect": "Isaac's head becomes an orbital familiar that blocks shots and deals contact damage. Tears are still fired from the rotating head. -1 tear delay (increased rate of fire) Since this directly affects tear delay instead of changing the tears stat, it allows Isaac's rate of fire to go over the normal maximum rate. Tear delay decreases are more noticeable and are a greater increase to DPS when the tears stat is high."
+    },
+    "Judas' Tongue": {
+      "description": "Judas' Tongue is an unlockable trinket .",
+      "effect": "Devil Deals only cost 1 heart container ."
+    },
+    "The Left Hand": {
+      "description": "The Left Hand is an unlockable trinket .",
+      "effect": "Replaces all types of Chests with Red Chests ."
+    },
+    "Curved Horn": {
+      "description": "Curved Horn is an unlockable trinket .",
+      "effect": "+2 flat damage ."
+    },
+    "Judas' Shadow": {
+      "description": "Judas' Shadow is an unlockable passive item .",
+      "effect": "Upon death , respawns Isaac as Black Judas with two Black Hearts in the previous room."
+    },
+    "Betrayal": {
+      "description": "Betrayal is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Upon taking damage, all enemies in the room are charmed . It won't trigger if there are less than 2 enemies in the room. Enemies are able to damage each other with projectiles. If an enemy is damaged by another enemy, they will attack that enemy instead of Isaac."
+    },
+    "My Shadow": {
+      "description": "My Shadow is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Upon taking damage, inflicts fear on all enemies in the room. Upon taking damage, spawns a dark friendly Charger which deal 5 damage per hit to enemies. Spawns a shadow familiar that mimics Isaac's movements on a very brief delay. It spawns a friendly Charger whenever an enemy comes into contact with it. The Chargers deal 8.7 damage per hit to enemies, have 20 health, and only last for the current room."
+    },
+    "Eye of Belial": {
+      "description": "Eye of Belial is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "+1.0 tear falling speed . Grants piercing tears . After piercing one enemy, tears will gain double damage , homing , and a 1.3x size multiplier."
+    },
+    "Shade": {
+      "description": "Shade is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Grants a shadow familiar that follows Isaac's movements on a 1-second/ 0.66-second delay and deals 2/ 5 contact damage per tick, or 30/ 75 damage per second, to enemies. Shade is absorbed by Isaac after dealing over 600 damage over 666 damage. The familiar disappears and turns into friendly dark Chargers , identical to those spawned by My Shadow ."
+    },
+    "Brown Baby": {
+      "description": "Brown Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac the Butt Penny effect."
+    },
+    "Belial Baby": {
+      "description": "Belial Baby is a special co-op baby.",
+      "effect": "A baby that looks like it used The Book of Belial ."
+    },
+    "Akeldama": {
+      "description": "Akeldama is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "While in a room with enemies, creates a trail of tears that Isaac drags behind him. Each tear deals 3.5 damage, regardless of Isaac's damage. Tears are spawned at an irregular rate, roughly between once every 0.1 to 1 seconds. The tears are spectral ."
+    },
+    "Redemption": {
+      "description": "Redemption is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon entering a Devil Room , a white inverted cross will appear above Isaac's head. If Isaac goes to the next floor with the icon still above his head, he will gain a Soul Heart and +1.0 damage . Taking anything generated by the room (items or consumables) will result in the icon going away, including opening Red Chests / Black Sacks ."
+    },
+    "Dead Baby": {
+      "description": "Dead Baby is a special co-op baby.",
+      "effect": "Has a chance to spawn a Blue fly upon killing an enemy."
+    },
+    "The D6": {
+      "description": "The D6 is an unlockable activated item .",
+      "effect": "Upon use, replaces every item in the current room (not pickups or trinkets ) with other random items corresponding to the current room's item pool ."
+    },
+    "Forget Me Now": {
+      "description": "Forget Me Now is an unlockable activated item .",
+      "effect": "On use, the current floor will be completely re-generated and Forget Me Now will be removed from Isaac's inventory. Isaac will restart the level as if he had entered a new floor. This will be a brand new floor, with different rooms and mapping generation."
+    },
+    "Fate": {
+      "description": "Fate is an unlockable passive item .",
+      "effect": "Grants flight and one Eternal Heart ."
+    },
+    "???'s Soul": {
+      "description": "???'s Soul is an unlockable trinket .",
+      "effect": "Spawns a familiar that floats slowly around the room on a zig-zag pattern similar to The Peeper and fires spectral and homing tears that deal 3.5 damage. The familiar shoots once per second. The familiar shoots once every 3/4ths of a second."
+    },
+    "???'s Only Friend": {
+      "description": "???'s Only Friend is an unlockable passive item .",
+      "effect": "Spawns a controllable familiar that damages enemies on touch. It can be moved using the shooting directional keys, similarly to The Ludovico Technique and Robo-Baby 2.0 . ???'s Only Friend deals 2.5 damage per tick, and ticks 15 times a second, dealing a total of 37.5 damage per second. ???'s Only Friend deals 3.5 damage per tick, and ticks ~4.3 times per second, dealing a total of 15 damage per second."
+    },
+    "Fate's Reward": {
+      "description": "Fate's Reward is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a familiar that fires tears with the same damage and tear effects as Isaac's tears. Fires at half the normal fire rate of a familiar. Since the normal fire rate of familiars (such as Little Steven , Robo-Baby or Seraphim ) is once per second / 1.36 times a second, Fate's Reward shoots once every 2 seconds / 0.68 times a second. The familiar is not affected by range / tear height ; only tear falling speed ."
+    },
+    "Cracked Dice": {
+      "description": "Cracked Dice is an unlockable trinket added in The Binding of Isaac: Afterbirth .",
+      "effect": "Upon taking damage, randomly activates one of the following dice's effect: The D6 The chance to activate is 50%, and each of the 5 dice have an equal probability to be picked."
+    },
+    "Meconium": {
+      "description": "Meconium is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Adds a 33% chance for Poop to turn into Black Poop . This includes Red Poop . Adds a 5% chance for black poops to drop a Black Heart upon being destroyed. The chances are not affected by luck ."
+    },
+    "King Baby": {
+      "description": "King Baby is a special co-op baby.",
+      "effect": "A baby with a crown."
+    },
+    "Blue Baby": {
+      "description": "Blue Baby is a special co-op baby.",
+      "effect": "Spawns with an extra soul heart ."
+    },
+    "Hive Baby": {
+      "description": "Hive Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac the Hive Mind effect, doubling the damage dealt by blue spiders and blue flies ."
+    },
+    "Eternal D6": {
+      "description": "Eternal D6 is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon use, replaces every pedestal item in the current room with other random items corresponding to the current room's item pool . Each pedestal item rerolled has a 25% chance to disappear."
+    },
+    "Montezuma's Revenge": {
+      "description": "Montezuma's Revenge is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Continuously shooting for 2.35 seconds allows Isaac to fire a short-ranged brown Brimstone laser and corn shots behind himself when he stops shooting. The laser deals Isaac's damage per tick (15x Isaac's damage per second), ticks up to 19 times and lasts ~1.28 seconds (77 frames). Corn shots deal 6 damage, and a random amount are created each blast. This item belongs to the Oh Crap set."
+    },
+    "Crow Baby": {
+      "description": "Crow Baby is a special co-op baby.",
+      "effect": "Deals contact damage to enemies."
+    },
+    "Eve's Bird Foot": {
+      "description": "Eve's Bird Foot is an unlockable trinket .",
+      "effect": "Chance to spawn up to 1 Dead Bird familiar for the current room each time an enemy dies. The Dead Bird deals 4 damage per second. The chance increases with luck , starting at 5% at 0 luck and reaching 100% at 8 luck. The familiar spawns already activated, with no taking damage required unlike the item."
+    },
+    "The Razor": {
+      "description": "Razor Blade is an unlockable activated item .",
+      "effect": "On use, damages Isaac for a full heart of health and grants +1.2 damage for the current room . Razor Blade takes Red Hearts before other heart types. When used more than once in the same room, damage taken is lowered to half a heart."
+    },
+    "Sacrificial Dagger": {
+      "description": "Sacrificial Dagger is an unlockable passive item .",
+      "effect": "Gives Isaac a sideways dagger that orbits him, dealing high damage to enemies on contact and blocking enemy shots. The knife deals 15 damage every 1/15th of a second (every 4 frames) or 225 damage per second. The knife deals 15 damage every 2/15ths of a second (every 8 frames) or 112.5 damage per second."
+    },
+    "Black Lipstick": {
+      "description": "Black Lipstick is an unlockable trinket .",
+      "effect": "Increases the chance of Black Hearts appearing by 10%."
+    },
+    "Eve's Mascara": {
+      "description": "Eve's Mascara is an unlockable passive item .",
+      "effect": "2x damage multiplier. -0.5 shot speed . 0.5x fire rate multiplier."
+    },
+    "Athame": {
+      "description": "Athame is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "When Isaac takes damage, a black ring briefly appears around him, dealing tear damage at a rapid rate to everything touching it. When an enemy is killed with the black ring, there is a 15% chance for it to drop a Black Heart . Black Hearts will drop as soon as the enemy is killed. (In other words, the heart will drop at the beginning of the death animation rather than at the end of the death animation."
+    },
+    "Black Feather": {
+      "description": "Black Feather is an unlockable trinket added in The Binding of Isaac: Afterbirth .",
+      "effect": "Increases Isaac's Damage by a set amount for each of the following items or trinkets he possesses: +0.2 Damage for each item or trinket possessed. +0.5 Damage for each item or trinket possessed. Ceremonial Robes"
+    },
+    "Crow Heart": {
+      "description": "Crow Heart is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Red Heart damage will be taken before Soul Heart , Black Heart , and Rotten Heart damage. With Bone Hearts , Red Hearts contained within the Bone Hearts will be taken before regular Red Heart damage. If Isaac only has half a Red Heart left / has no Red Hearts left, Soul and Black Heart damage will be taken, and Bone Hearts can be destroyed."
+    },
+    "Dull Razor": {
+      "description": "Dull Razor is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Hurts Isaac without taking away health, giving him invincibility frames equal to a full heart damage and activating any items that trigger upon getting hit."
+    },
+    "Lil' Baby": {
+      "description": "Lil' Baby is a special co-op baby.",
+      "effect": "Occasionally briefly decreases Isaac's size."
+    },
+    "Whore Baby": {
+      "description": "Whore Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac the Whore of Babylon effect, increasing damage and speed ."
+    },
+    "Bird Cage": {
+      "description": "Bird Cage is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Gives Isaac a fat bird familiar that sits on Isaac's head until he takes damage. Upon taking damage, it will jump off of Isaac's head and land on the nearest enemy, dealing damage and creating a rock line in a random direction. For the rest of the room, it acts like Dead Bird , flying around, albeit slower, and dealing contact damage to enemies."
+    },
+    "Cracked Orb": {
+      "description": "Cracked Orb is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon taking damage, activates the following effects: Unlocks all locked doors in the room (doors that need the room to be cleared are not affected). Opens the Secret Room and the Super Secret Room if adjacent to the room you are in. Reveals a random unmapped room on the floor."
+    },
+    "Fighting Baby": {
+      "description": "Fighting Baby is a special co-op baby.",
+      "effect": "Appears to throw its tears rather than crying them. Drops a heart pickup upon death."
+    },
+    "Bloody Lust": {
+      "description": "Bloody Lust is an unlockable passive item .",
+      "effect": "Damage increases as Isaac receives damage. The damage increase stays for the whole floor, but resets upon entering a new floor. The first three times Isaac is hit, his damage is increased by 0.5. The next three times Isaac is hit, his damage is increased by 33%. Damage is increased by flat amounts: +0.5 for the first hit and an additional +0.2 for each hit, until +1.5 at the sixth. The maximum total is +6.0."
+    },
+    "Blood Rights": {
+      "description": "Blood Rights is an unlockable activated item .",
+      "effect": "On use, takes a full heart of health and activates The Necronomicon 's effect, dealing 40 damage to all enemies in the room . Blood Rights takes Red Hearts before other heart types. This bypasses damage scaling . When used more than once in the same room, damage taken is lowered to half a red heart."
+    },
+    "Blood Penny": {
+      "description": "Bloody Penny is an unlockable trinket .",
+      "effect": "Gives a chance to drop a Half Red Heart when money is collected. 50% chance. The chance is based on the coin's worth: [ 1 ]"
+    },
+    "Samson's Lock": {
+      "description": "Samson's Lock is an unlockable trinket .",
+      "effect": "1/15 chance to increase damage by 0.5 for the current room each time an enemy dies. Samson's Lock can activate up to 10 times per room. The activation chance depends on the Luck stat and goes up to 100% with 10 Luck."
+    },
+    "Samson's Chains": {
+      "description": "Samson's Chains is an unlockable passive item .",
+      "effect": "Attaches a ball and chain to Isaac's ankle that blocks projectiles and deals 5 damage per tick (~10.7 damage per second). If the ball is moving fast enough, it will destroy any destructible Obstacles it comes into contact with."
+    },
+    "Blind Rage": {
+      "description": "Blind Rage is an unlockable trinket added in The Binding of Isaac: Afterbirth .",
+      "effect": "Doubles the invincibility frames Isaac gets after getting hit."
+    },
+    "Lusty Blood": {
+      "description": "Lusty Blood is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Each time an enemy is killed, Isaac gains a damage boost for the current room. Each kill increases damage by 0.5, up to a maximum of 5 damage after 10 kills."
+    },
+    "Stem Cell": {
+      "description": "Stem Cell is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Heals for a Half Red Heart upon traveling to the next floor. Heals 50% of Isaac's empty Red Hearts and Bone Hearts (rounded down), but at minimum a half heart, upon traveling to the next floor."
+    },
+    "Bloody Crown": {
+      "description": "Bloody Crown is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Treasure Rooms appear in the Womb , Utero , and Scarred Womb . Treasure Rooms also appear in the Corpse ."
+    },
+    "Rage Baby": {
+      "description": "Rage Baby is a special co-op baby.",
+      "effect": "Occasionally briefly increases Isaac's damage by 2."
+    },
+    "Revenge Baby": {
+      "description": "Revenge Baby is a special co-op baby.",
+      "effect": "Occasionally briefly increases Isaac's damage ."
+    },
+    "Bloody Gust": {
+      "description": "Bloody Gust is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "When Isaac takes damage, he gains Speed and Fire Rate for the rest of the floor. Speed gained per hit is (0.04x previous hits taken) +0.07. Fire Rate gained per hit is (0.1x previous hits taken) + 0.25. Both effects stack up to six times, for a total of +1.02 speed and +3 fire rate. Fire rate bonuses can exceed the normal maximum fire rate limit."
+    },
+    "Empty Heart": {
+      "description": "Empty Heart is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "If Isaac has one red heart or less at the beginning of a floor, an empty heart container is added."
+    },
+    "Begotten Baby": {
+      "description": "Begotten Baby is a special co-op baby.",
+      "effect": "Shoots large, slow moving tears that have a chance to cause fear."
+    },
+    "Satanic Bible": {
+      "description": "Satanic Bible is an unlockable activated item .",
+      "effect": "Gives one Black Heart . Once used, the boss for the floor will drop a Devil Deal instead of a Boss Room item . This item must be paid for with hearts and will prevent Angel Rooms from generating under most circumstances if taken, just like a normal Devil Deal. This does not affect The Polaroid , The Negative , or Dad's Note . This item belongs to the Bookworm set."
+    },
+    "Daemon's Tail": {
+      "description": "Daemon's Tail is an unlockable trinket .",
+      "effect": "80% of heart drops are replaced with Keys . All heart drops turn into Black Hearts , if possible. (Sometimes heart types are tied to the room, such as in certain Super Secret Rooms .)"
+    },
+    "Abaddon": {
+      "description": "Abaddon is an unlockable passive item .",
+      "effect": "+0.2 speed Also affects maximum speed (may never exceed 2.0). Removes all current Red Heart containers and grants 6 Black Hearts . Converts all current Red Heart containers into Black Hearts , and adds 2 additional Black Hearts."
+    },
+    "Demon Baby": {
+      "description": "Demon Baby is an unlockable passive item .",
+      "effect": "Spawns a familiar who follows Isaac around and automatically fires normal tears at enemies in its range 3 times per second that each do 3.5 damage. This item belongs to the Conjoined set. Collecting three items from this set will transform Isaac into a three-faced version of himself."
+    },
+    "The Nail": {
+      "description": "The Nail is an unlockable activated item .",
+      "effect": "Gives one Soul Heart , +0.7 damage , -0.18 speed , and the ability to destroy most obstacles by walking into them. Cannot be stacked in one room. Isaac deals 40 contact damage to enemies, once per second. Does not prevent Isaac from taking contact damage. Gives half a Black Heart , +2 damage , -0.18 speed and the ability to destroy obstacles for the current room."
+    },
+    "Maw of the Void": {
+      "description": "Maw Of The Void is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "After firing tears for 2.35 seconds, if Isaac stops shooting, he unleashes a black Brimstone ring around Isaac that expands and contracts, dealing damage at a rapid rate to all enemies touching it. The black ring deals damage equal to Isaac's current damage per tick, and ticks a total of 30 times. It lasts ~1.97 seconds (118 frames). Enemies killed by the black ring have a 5% chance to drop Black Hearts ."
+    },
+    "Lilith": {
+      "description": "Lilith is an unlockable playable character.",
+      "effect": "Adds Lilith to the character selection screen."
+    },
+    "Bat Wing": {
+      "description": "Bat Wing is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon killing an enemy, has a 5% chance to grant flight for the rest of the room."
+    },
+    "Dark Prince's Crown": {
+      "description": "Dark Prince's Crown is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "When at exactly 1 Red Heart , some of Isaac's stats are increased. +0.75 tears . +2.0 fire rate . The bonus can break the soft tears cap. +1 tear falling speed ."
+    },
+    "Black Baby": {
+      "description": "Black Baby is a special co-op baby.",
+      "effect": "Spawns with an extra black heart ."
+    },
+    "Sucky Baby": {
+      "description": "Sucky Baby is a special co-op baby.",
+      "effect": "Has an aura around itself that damages enemies while they are inside, similar to Succubus ."
+    },
+    "Devil's Crown": {
+      "description": "Devil's Crown is an unlockable trinket added in The Binding of Isaac: Repentance .",
+      "effect": "Every Treasure Room is replaced with a Devil Treasure Room which contains items from the Devil Room item pool that can be bought for the usual number of Heart Containers normally requested (for the spawned item) in a Devil Room ."
+    },
+    "Lil Abaddon": {
+      "description": "Lil Abaddon is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Gives Isaac a familiar that creates a fluctuating black ring after a 1 second charge time that damages enemies that touch it, similarly to Maw Of The Void . The black ring lasts for 1 second and deals 3.5 damage per tick, up to 15 times per ring, for a total of 52.5 damage. This item belongs to the Conjoined set. Collecting three items from this set will transform Isaac into a three-faced version of himself."
+    },
+    "Wrapped Baby": {
+      "description": "Wrapped Baby is a special co-op baby.",
+      "effect": "Explodes when hit."
+    },
+    "Lazarus' Rags": {
+      "description": "Lazarus' Rags is an unlockable passive item .",
+      "effect": "Upon dying, resurrect as Lazarus Risen in the current room with one Red Heart container and Anemic . Upon dying, resurrect as Lazarus Risen in the current room with one less Red Heart container (but no less than 1), Anemic , and a permanent +0.5 Damage up. Going to the next floor reverts him back into Lazarus , with his inherent extra life effect."
+    },
+    "Broken Ankh": {
+      "description": "Broken Ankh is an unlockable trinket .",
+      "effect": "When held, Isaac has a 22.22% chance to be revived as ??? in the previous room. Can occur multiple times in the same run."
+    },
+    "Store Credit": {
+      "description": "Store Credit is an unlockable trinket .",
+      "effect": "While holding the trinket, all items in the Shop are free. After purchasing anything there, the trinket disappears. This trinket only works on monetary transactions within the Shop."
+    },
+    "Pandora's Box": {
+      "description": "Pandora's Box is an unlockable activated item .",
+      "effect": "Upon use, spawns specific pickups or items depending on the floor it is used on. Disappears after use."
+    },
+    "Missing No.": {
+      "description": "Missing No. is an unlockable passive item .",
+      "effect": "Randomizes passive items and attributes on pickup and at the start of every floor. Regarding stats, this randomness is not dependent on the run's seed . Stats gain a random modifier. These modifiers do not stack between levels and are instead rerolled every time. Speed -0.2, 0 or +0.2. Also affects maximum speed, may never exceed 2.0. Range -0.5, 0 or +0.5."
+    },
+    "Empty Vessel": {
+      "description": "Empty Vessel is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "When Isaac has no Red Hearts : Grants flight . Every 40 seconds since activation or pickup, when the seconds on the timer hit 00, 20, or 40, while in a room with enemies, a shield triggers, nullifying all types of damage for 10 seconds. Grants 2 Black Hearts on pickup."
+    },
+    "Key Bum": {
+      "description": "Key Bum is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a familiar that follows Isaac around and collects Keys , dropping random Chests in return. Spawns almost exclusively Chests , Red Chests , and Locked Chests , with a very slim chance to spawn another type of chest or a Grab Bag . This item belongs to the Super Bum set. Collecting three items from this set will transform Isaac's bums into Super Bum."
+    },
+    "Plan C": {
+      "description": "Plan C is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon use, deals 9,999,999 damage to every enemy in the room, then kills Isaac 3 seconds later. Kills Isaac 10 seconds later in Delirium 's room and 11.5 seconds later in Mother 's room."
+    },
+    "Compound Fracture": {
+      "description": "Compound Fracture is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Tears turn into bones, which shatter into 1-3 shards upon hitting an obstacle or enemy, which each deal 50% of Isaac's Damage . Unlike The Parasite , there is no damage minimum on splitting, but the tears can also split only once. The shards have a fixed size, about the same as a 3.5 damage tear, regardless of their Damage. +1.0 Tear Falling Speed ."
+    },
+    "Long Baby": {
+      "description": "Long Baby is a special co-op baby.",
+      "effect": "Occasionally briefly increases Isaac's range by 2, shot speed by 0.5, and tear falling speed ."
+    },
+    "Dripping Baby": {
+      "description": "Dripping Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac Anemic , increasing range by 5 and causing Isaac to leave a trail of blood that damages enemies."
+    },
+    "Tinytoma": {
+      "description": "Tinytoma is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Grants a large orbital similar to Teratoma that slowly orbits Isaac. The orbital repels enemies that touch it and deals 3.5 contact damage to enemies, once per second. After blocking 3 shots and/or dealing 3 ticks of contact damage, the orbital splits into two smaller ones that orbit opposite of each other."
+    },
+    "Astral Projection": {
+      "description": "Astral Projection is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "The first time Isaac takes damage while in an uncleared room, time is stopped for 2 seconds and Isaac becomes a ghost and leaves his body behind, which drops to the floor. While in ghost form, Isaac has flight and spectral tears and the next hit he takes is negated. Isaac's tears and speed are greatly increased while time is stopped, although this is not shown on the HUD."
+    },
+    "Glitch Baby": {
+      "description": "Glitch Baby is a special co-op baby.",
+      "effect": "Turns into a random baby at the start of each floor."
+    },
+    "Blank Card": {
+      "description": "Blank Card is an unlockable activated item .",
+      "effect": "Upon use, copies the effect of the card or rune currently held by Isaac. Upon use, copies the effect of the card currently held by Isaac. Blank Card's recharge time changes upon use, depending on the card Isaac was holding when he used it."
+    },
+    "Book of Secrets": {
+      "description": "Book of Secrets is an unlockable activated item .",
+      "effect": "Randomly grants the effect of Treasure Map , The Compass , or Blue Map for the duration of the current floor . If all effects are active, X-Ray Vision is provided for the floor instead. Repeated activations will continue to add the other items' effects. The chosen effect on activation may be one that Isaac already has - effectively doing nothing."
+    },
+    "Mysterious Paper": {
+      "description": "Mysterious Paper is an unlockable trinket .",
+      "effect": "On every frame, it has a random chance to grant the effect of one of the following items/trinkets: The Polaroid The Negative Does not include the +1 damage bonus. If Isaac does not already have the item/trinket, then he will be given the item (but only for that particular frame)."
+    },
+    "Mystery Sack": {
+      "description": "Mystery Sack is an unlockable passive item .",
+      "effect": "Spawns a familiar that drops a Heart , coin , Bomb , or Key (or any of their variations) alternatively every 5 or 6 rooms ."
+    },
+    "Undefined": {
+      "description": "Undefined is an unlockable activated item .",
+      "effect": "Teleports Isaac to the Treasure Room , the Secret Room , the Super Secret Room or I AM ERROR . There is also a 1% chance of teleporting into a Black Market . The chances for each main destination are equal."
+    },
+    "Eden's Blessing": {
+      "description": "Eden's Blessing is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Grants a random item at the start of the next run."
+    },
+    "GB Bug": {
+      "description": "GB Bug is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a familiar that bounces diagonally around the room , deals 8 damage per tick or 120 damage per second and applies a random status effect to enemies it comes in contact with. The familiar also has a chance to re-roll pickups that it passes over into other pickups, Chests , or items , in an uncleared room only (with at least one enemy alive). Spawns a familiar that follows Isaac."
+    },
+    "Metronome": {
+      "description": "Metronome is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Grants a random item's effect for the current room."
+    },
+    "Eden's Soul": {
+      "description": "Eden's Soul is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon use, spawns two random item pedestals using the item pool of the current room. Eden's Soul is consumed and vanishes from Isaac's inventory."
+    },
+    "Yellow Baby": {
+      "description": "Yellow Baby is a special co-op baby.",
+      "effect": "Occasionally briefly increases Isaac's speed by 0.15."
+    },
+    "Cracked Baby": {
+      "description": "Cracked Baby is a special co-op baby.",
+      "effect": "Has no special gameplay effect; it is a co-op baby appearance."
+    },
+    "'M": {
+      "description": "' M is an unlockable trinket added in The Binding of Isaac: Repentance .",
+      "effect": "Using an activated item rerolls it into a different one."
+    },
+    "Everything Jar": {
+      "description": "Everything Jar is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Everything Jar can be activated while not fully charged. If the item is not fully charged, it spawns a pickup based on how many charges it had: 1: A Poop . 5: A full Red Heart ."
+    },
+    "-0- Baby": {
+      "description": "-0- Baby is a special co-op baby.",
+      "effect": "Immune to all forms of damage. Leaving the game as this baby causes a different baby to spawn in its place."
+    },
+    "Isaac's Heart": {
+      "description": "Isaac's Heart is an unlockable passive item .",
+      "effect": "Isaac's body becomes immune to all damage. Most enemies now target the heart instead of Isaac. Eyes and other similar enemies, however, will still target Isaac. Isaac's body becomes immune to all damage from enemies and the environment. This does not include interactable objects such as Blood Donation Machines and Devil Beggars ."
+    },
+    "The Mind": {
+      "description": "The Mind is an unlockable passive item .",
+      "effect": "Grants the combined effects of the Blue Map , Treasure Map , and The Compass , revealing the floor layout and all special rooms, including Secret Rooms and Super Secret Rooms . Picking up this item and then dropping it with Butter! or as Tainted Isaac will not remove the effect."
+    },
+    "The Body": {
+      "description": "The Body is an unlockable passive item .",
+      "effect": "Adds three full Red Heart Containers ."
+    },
+    "The Soul": {
+      "description": "The Soul is an unlockable passive item .",
+      "effect": "Grants two Soul Hearts . Isaac gains a pulsing blue aura that repels enemies and projectiles. The power of the repel force alternates in strength at random, sometimes strong enough to counter a projectile well before it hits Isaac, sometimes only strong enough to slow it down. Ground-based enemies will overcome the counterforce easier than flying enemies and projectiles."
+    },
+    "The D100": {
+      "description": "D100 is an unlockable activated item .",
+      "effect": "Rerolls all passive items on Isaac (like the D4 ). Rerolls all pedestal items in the room (like The D6 ). Rerolls all pickups in the room (like the D20 )."
+    },
+    "Sworn Protector": {
+      "description": "Sworn Protector is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns an orbital familiar that blocks enemy shots and deals 7 damage per tick or 105 / 52.5 damage per second on contact. It also attracts enemy shots to itself, making them more likely to be blocked. A shot actively being attracted can no longer damage Isaac and is essentially nullified, but if it slips outside the Protector's range, it can again deal damage."
+    },
+    "Zodiac": {
+      "description": "Zodiac is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Gives Isaac a random Zodiac item effect that changes each floor."
+    },
+    "Dad's Lost Coin": {
+      "description": "Dad's Lost Coin is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "+1 tear falling speed Drops a Lucky Penny ."
+    },
+    "Holy Card": {
+      "description": "Holy Card is an unlockable special card added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Grants a one-time Holy Mantle effect. This only applies for the current room. The effect lasts until damage is taken. Has a 25% chance to display the message \"You feel blessed!\" and spawn another Holy Card."
+    },
+    "White Baby": {
+      "description": "White Baby is a special co-op baby.",
+      "effect": "Gives Isaac an eternal heart when it spawns."
+    },
+    "Godhead": {
+      "description": "Godhead is an unlockable passive item .",
+      "effect": "-0.3 Shot Speed . +0.8 Tear Falling Speed . Grants homing tears ."
+    },
+    "Lost Soul": {
+      "description": "Lost Soul is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Creates a ghostly familiar that closely follows behind Isaac. It dies in one hit, respawning at the start of the next floor. If Lost Soul survives until the start of the next floor, it rewards Isaac with one of the following: 3 Soul Hearts . 2 Eternal Hearts ."
+    },
+    "Hungry Soul": {
+      "description": "Hungry Soul is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Grants Isaac a chance to spawn a friendly ghost upon killing an enemy, which rapidly chases down and deals contact damage to enemies. The chance to spawn a ghost is 33% and is not affected by luck . Ghosts deal contact damage equal to half of Isaac's damage, 4 times per second (2x Isaac's damage per second). After 7 seconds, the ghost explodes, dealing 7 flat damage to nearby enemies up to 3-4 times."
+    },
+    "Goat Head Baby": {
+      "description": "Goat Head Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac the Goat Head effect, guaranteeing that a Devil room or angel room will open if a boss room is completed while the effect is active."
+    },
+    "Rune Bag": {
+      "description": "Rune Bag is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a familiar that drops a random rune after clearing enough rooms. Runes are dropped alternating every 5 or 6 rooms. Runes are dropped alternating every 7 or 8 rooms."
+    },
+    "Serpent's Kiss": {
+      "description": "Serpent's Kiss is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Grants a 15% chance to fire poison tears , each tick dealing damage equal to Isaac's. Poison from the shots will tick 2 times. Inflicts poison on enemies who make contact with Isaac. Contact poison will tick 6 times. Enemies who are killed after they have been inflicted with this type of poison have a 20% chance to drop Black Hearts . Enemies can still drop black hearts after the poison has worn off."
+    },
+    "Cambion Conception": {
+      "description": "Cambion Conception is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Upon taking damage a certain number of times, Isaac gains a permanent demonic familiar . Possible familiars include: Dark Bum The first and second familiars will each spawn after taking damage 15 times. The third and fourth familiars will each spawn after taking damage 30 more times. No further familiars will spawn. As a result, after taking damage 90 times, four out of eight possible familiars will have spawned."
+    },
+    "Succubus": {
+      "description": "Succubus is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a familiar that bounces around the room and has a dark aura around it. Enemies within the radius of the aura take damage. The aura deals 30% of Isaac's damage per tick or about 129% of Isaac's damage per second. The aura deals 2.5 damage per tick or about 7.5-10 damage per second. If Isaac is within the aura, his tears gain a 1.5× damage multiplier."
+    },
+    "Immaculate Conception": {
+      "description": "Immaculate Conception is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Upon picking up 15 heart pickups , Isaac gains a permanent angelic familiar and generates a Soul Heart drop. Possible familiars include: Holy Water All five familiars will spawn in a random order. Isaac will look progressively more pregnant as he collects heart pickups."
+    },
+    "Incubus": {
+      "description": "Incubus is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Spawns a familiar who follows Isaac around and fires copies of Isaac's tears with reduced size (or width for some special attacks). Incubus' tears ignore Isaac's range and shot speed. Incubus' damage is reduced by 25% when playing as characters other than Lilith and Tainted Lilith . This item belongs to the Conjoined set. Collecting three items from this set will transform Isaac into a three-faced version of himself."
+    },
+    "Box of Friends": {
+      "description": "Box of Friends is an unlockable activated item added in The Binding of Isaac: Afterbirth . It is the starting item for Lilith .",
+      "effect": "Upon use, it adds one copy of each of Isaac's familiars for the duration of the current room. If Isaac has no familiars, a Demon Baby will spawn for the duration of the current room."
+    },
+    "Duality": {
+      "description": "Duality is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Whenever a Devil Room / Angel Room spawns after defeating a boss, the other will also spawn. Upon entering one, the other one will disappear. Both rooms will spawn even if a devil deal was made before. In rooms without enough accessible walls, only one of the two will spawn."
+    },
+    "Euthanasia": {
+      "description": "Euthanasia is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Adds a chance to fire needles which deal triple Isaac's tear damage . Needles will instantly kill regular enemies and cause them to burst into 10 more tears in all directions. The chance to fire a needle depends on luck . The formula used to determine the chance is: 1 3 0 − ⌊ 𝐿 𝑢 𝑐 𝑘 × 2 ⌋ At base luck (0), the chance is 3.33%, maxing out at 100% at 14.5 luck."
+    },
+    "Big Baby": {
+      "description": "Big Baby is a special co-op baby.",
+      "effect": "Occasionally briefly increases Isaac's size."
+    },
+    "Dark Baby": {
+      "description": "Dark Baby is a special co-op baby.",
+      "effect": "Occasionally provides a brief boost to all of Isaac's stats ."
+    },
+    "Blood Puppy": {
+      "description": "Blood Puppy is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Spawns a familiar that chases nearby enemies and deals 2 contact damage to them per tick (~8.57 per second). After killing 15 enemies, Blood Puppy becomes angry, and changes in the following ways: Deals 7.5 damage per tick instead of 2 (15 per second, or 90 per second while charging). Charges at enemies that are aligned with it in the cardinal directions."
+    },
+    "C Section": {
+      "description": "C Section is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Isaac gains a short delay charge attack that fires homing , piercing , spectral fetus tears. The fetus tears do 75% of Isaac's Damage , 3.75 times per second, until they run out of Range . The fetuses will automatically fire when Isaac is at full charge, meaning the charge cannot be held. Charge time is calculated based on Tear Delay . Fetuses per Second = 3 0 R o u n d u p ( Tear Delay × 3 ) + 1"
+    },
+    "Super Greed Baby": {
+      "description": "Super Greed Baby is a special co-op baby.",
+      "effect": "Has the Head of the Keeper effect, firing coin tears that have a chance to spawn a coin upon hitting an enemy."
+    },
+    "Keeper holds Wooden Nickel": {
+      "description": "A permanent starting-item upgrade for Keeper.",
+      "effect": "Keeper starts each run holding Wooden Nickel."
+    },
+    "Keeper holds Store Key": {
+      "description": "A permanent starting-trinket upgrade for Keeper.",
+      "effect": "Keeper starts each run holding Store Key."
+    },
+    "Deep Pockets": {
+      "description": "Deep Pockets is an unlockable passive item added in The Binding of Isaac: Afterbirth .",
+      "effect": "Allows Isaac to carry two cards or pills (or a combination of both) at the same time. Increases the coin cap to 999. If a room would otherwise yield no reward, 1-3 random coins will spawn. All coins spawned will be of the same type."
+    },
+    "Karma": {
+      "description": "Karma is an unlockable trinket added in The Binding of Isaac: Afterbirth .",
+      "effect": "Donating to a Donation Machine has a chance to do one of the following: Heal Isaac for a full Red Heart Get a Penny back, directly added to Isaac's total Increases the chance that donating to a Donation Machine will increase Isaac's luck ."
+    },
+    "Sticky Nickels": {
+      "description": "Coins serve as the currency for Shops , the payment for the Donation Machine in Shops, and payment for Slot Machines , Fortune Telling Machines , Shell Games , Beggars , Shop Restock Machines , and Crane Games . They are also consumed to use a few activated items (most notably Magic Fingers and Portable Slot ). Keeper can also pick up coins to refill his health .",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "Keeper now holds... A Penny!": {
+      "description": "A permanent starting-pickup upgrade for Keeper.",
+      "effect": "Keeper starts each run with one coin."
+    },
+    "Rib of Greed": {
+      "description": "Rib of Greed is an unlockable trinket added in The Binding of Isaac: Afterbirth .",
+      "effect": "Prevents Greed and Super Greed from appearing in Shops and Secret Rooms . Increases the chance of coin drops when clearing rooms at the expense of heart drops."
+    },
+    "Eye of Greed": {
+      "description": "Eye of Greed is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Adds a golden tear every 20 tears fired, which causes enemies to turn gold and petrifies them for a few seconds (similar to Midas' Touch ) at the cost of one Penny . Golden tears can still be fired if Isaac has no money. Unlike other tear effects, golden tears are fired alongside regular tears rather than replacing a regular tear."
+    },
+    "Crooked Penny": {
+      "description": "Crooked Penny is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon use, has a 50% chance to double all items , pickups , trinkets , and chests in the current room. If the effect fails, the items, pickups, and chests disappear, and a Penny is spawned."
+    },
+    "Noose Baby": {
+      "description": "Noose Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac the Transcendence effect, granting flight ."
+    },
+    "Sale Baby": {
+      "description": "Sale Baby is a special co-op baby.",
+      "effect": "Occasionally briefly gives Isaac the Steam Sale effect, halving the prices of all shop items."
+    },
+    "Keeper's Sack": {
+      "description": "Keeper's Sack is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Spawns 3 random coins and a Key on the floor when picked up. Every 3 coins spent on items and pickups grants in a cycle: +0.5 damage , then +0.25 range , then +0.03 speed ."
+    },
+    "Keeper's Box": {
+      "description": "Keeper's Box is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon use, spawns a random pickup or item , which must be bought for its normal Shop price. Items generated will always be shop items and pickups will only be those that can appear for sale in shops. The only exception to this is Black Sacks , which can replace Grab Bags despite not being able to do so in shops. There is an an equal ~11."
+    },
+    "Smelter": {
+      "description": "Smelter is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon use, any trinkets that Isaac is holding are destroyed, and their effects are permanently applied to him. Trinkets that are absorbed show up on the HUD's item tracker. Increases the chance for a trinket to drop after clearing a room. (Has a 2% chance to turn the pickup variant into a trinket.)"
+    },
+    "Locust of Wrath": {
+      "description": "Locust of War is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon entering a room with enemies for the first time, spawns a Red Locust which detonates upon impact with enemies, dealing double tear damage for the impact of the Locust and 60 damage for the explosion."
+    },
+    "Locust of Pestilence": {
+      "description": "Locust of Pestilence is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon entering a room with enemies, spawns a Green Locust that deals double Isaac's damage and poisons enemies, which deals double Isaac's damage over time."
+    },
+    "Locust of Famine": {
+      "description": "Locust of Famine is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon entering a room with enemies, spawns a Yellow Locust that deals double Isaac's damage and slows enemies."
+    },
+    "Locust of Death": {
+      "description": "Locust of Death is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon entering a room with enemies, spawns a Black Locust that deals quadruple Isaac's damage, applied as two hits of double damage."
+    },
+    "Locust of Conquest": {
+      "description": "Locust of Conquest is an unlockable trinket added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Upon entering a room with enemies, spawns 1-4 White Locusts that deal double Isaac's damage."
+    },
+    "Hushy": {
+      "description": "Hushy is an unlockable passive item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Spawns a Hush familiar that floats and travels diagonally around the room , bouncing on walls, and deals contact damage to enemies. While firing tears, Hushy stops moving. In this state, it will: Block enemy projectiles. Fire out rings of 8 blue projectiles that deal 6 damage each, once every 1.033 seconds. Hushy deals 2 contact damage per tick or 30 damage per second."
+    },
+    "Brown Nugget": {
+      "description": "Brown Nugget is an unlockable activated item added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Spawns a stationary fly turret that shoots at enemies up to 3 tiles away The flies are completely invulnerable and ignored by enemies. The flies deal 2 / 3.5 damage per shot."
+    },
+    "Black Rune": {
+      "description": "Black Rune is an unlockable rune added in The Binding of Isaac: Afterbirth † .",
+      "effect": "Deals 40 damage to all enemies in the room. Turns pickups into Blue Flies and Spiders . Absorbs items and turns them into random stat upgrades."
+    },
+    "Void": {
+      "description": "Void is an unlockable activated item added in The Binding of Isaac: Afterbirth † . It is the starting item for Apollyon .",
+      "effect": "Upon use, destroys all pedestal items in the room. Items that require payment cannot be absorbed unless they are bought first. If Void destroys an activated item , it gains the activated ability of that item; whenever Void is used, it will simultaneously use all previous active items that were absorbed in the same order they were absorbed. Passive effects of absorbed active items will not apply (e.g."
+    },
+    "Mort Baby": {
+      "description": "Mort Baby is a special co-op baby.",
+      "effect": "Spawns a blue fly , and spawns a new blue fly whenever its blue fly is destroyed."
+    },
+    "Apollyon Baby": {
+      "description": "Apollyon Baby is a special co-op baby.",
+      "effect": "Spawns with two Pretty Flies ."
+    },
+    "Lil Portal": {
+      "description": "Lil Portal is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Summons a portal familiar that launches itself in the direction Isaac shoots to deal contact damage to enemies. The portal will launch itself forward after double-tapping. The portal will consume all pickups and trinkets in its path, converting them into blue flies and causing the familiar to become larger and deal more contact damage."
+    },
+    "Worm Friend": {
+      "description": "Worm Friend is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Gives Isaac a Nerve Ending familiar that burrows out of the ground to grab enemies for 4 seconds. Grabbed enemies take damage over time, are slowed , and are unable to move. Worm Friend deals 4 damage per tick (8 per second), for a total of 32 damage per grab. Worm Friend can target and restrain bosses in addition to normal enemies, even including endgame bosses such as Ultra Greed ."
+    },
+    "Marrow": {
+      "description": "Marrow is an unlockable passive item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Grants one Bone Heart . Spawns three Red Hearts ."
+    },
+    "Slipped Rib": {
+      "description": "Slipped Rib is an unlockable passive item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Spawns a bone familiar that circles around Isaac and reflects enemy shots. The reflected projectiles deal 5 damage if they would've hurt Isaac for half a heart, and 10 for a full heart. The reflected projectiles deal 6 damage if they would've hurt Isaac for half a heart, and 7 for a full heart. Enemy damage modification from item effects or by stage does not affect the reflected damage."
+    },
+    "Pointy Rib": {
+      "description": "Pointy Rib is an unlockable passive item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Spawns a bone familiar that can be aimed with the fire buttons in all directions and does contact damage. The familiar will continuously hover back and forth in the direction that it is pointing in. The damage is equal to Isaac's tear damage and is dealt 6 times per second."
+    },
+    "Jaw Bone": {
+      "description": "Jaw Bone is an unlockable passive item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Spawns a familiar that fires across the room in the direction of the first tear fired and returns to Isaac when it hits a wall, similar to Little Chubby . Deals a flat 7 damage to enemies that come in contact with it. When thrown, the familiar will pierce through some fly enemies, instantly killing them, but will instantly bounce back upon hitting other enemies. The familiar can pass through obstacles ."
+    },
+    "Brittle Bones": {
+      "description": "Brittle Bones is an unlockable passive item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Grants 6 empty Bone Hearts . Removes all current Red Heart Containers . Does not remove existing Bone Hearts, but does empty them. Upon losing a Bone Heart, including ones acquired from other sources, Isaac fires a ring of 8 bones that split into more bones. Each Bone Heart lost adds a permanent +0.5 tears up."
+    },
+    "Divorce Papers": {
+      "description": "Divorce Papers is an unlockable passive item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Grants one Bone Heart . Spawns Mysterious Paper if it has been unlocked and not previously encountered during the run."
+    },
+    "Hallowed Ground": {
+      "description": "Hallowed Ground is an unlockable passive item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Spawns a white poop familiar which turns into a White Poop when Isaac is hurt. White Poop has an aura that multiplies both fire rate and tear delay by x2.5 and has a 50% chance to ignore damage similarly to Cone Head , except the chance is higher. White Poop has similar durability to Golden Poop . The aura additionally increases damage by 20% and gives Isaac's tears a homing effect."
+    },
+    "Finger Bone": {
+      "description": "Finger Bone is an unlockable trinket added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Grants a 2% / 4% chance to gain a Bone Heart upon taking damage."
+    },
+    "Dad's Ring": {
+      "description": "Dad's Ring is an unlockable passive item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "Creates a ring of light around Isaac that petrifies enemies on contact. Normal enemies stay permanently petrified as long as they are within the ring, whereas bosses get a standard petrification effect that stays even outside the ring but isn't permanent."
+    },
+    "Book of the Dead": {
+      "description": "Book of the Dead is an unlockable activated item added in The Binding of Isaac: Afterbirth † ( Booster Pack #5 ) .",
+      "effect": "When used, spawns one of the following for each enemy already killed in the current room (capped at 8): 80% chance for an orbital bone familiar. 20% chance for a friendly bone monster. 66% chance for a Bony . 33% chance for a Black Bony ."
+    },
+    "Bound Baby": {
+      "description": "Bound Baby is a special co-op baby.",
+      "effect": "Is bound to Isaac, similarly to The Forgotten 's soul. Shoots spectral tears."
+    },
+    "Bone Baby": {
+      "description": "Bone Baby is a special co-op baby.",
+      "effect": "Wields a melee bone club instead of shooting tears, similarly to The Forgotten ."
+    },
+    "Bone Spurs": {
+      "description": "Bone Spurs is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Enemies spawn 1–2 floating bones on death, which block enemy shots and damage/repel enemies that touch them. Bones block 2 shots and/or deal 2 ticks of damage before breaking. Bones deal contact damage equal to Isaac's damage at the moment they were created."
+    },
+    "Spirit Shackles": {
+      "description": "Spirit Shackles is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "If Isaac were to take fatal damage, rather than dying, he instead transforms into a ghostly form, resembling The Soul , with half a heart. The ghost has flight , spectral tears , and is chained to Isaac's immobile corpse. Isaac's soul returns to his corpse' position after 10 seconds, if he doesn't die while in ghost form. Isaac will have invulnerability frames for 1/3rd of a second after reviving."
+    },
+    "Wisp Baby": {
+      "description": "Wisp Baby is a special co-op baby.",
+      "effect": "A wispy baby."
+    },
+    "Book of Virtues": {
+      "description": "Book of Virtues is an unlockable activated / passive item added in The Binding of Isaac: Repentance . It is the starting item for Bethany .",
+      "effect": "Upon use, spawns a wisp that orbits Isaac and fires small spectral tears alongside him. The wisps can block shots and deal contact damage to enemies, but take damage when doing so and will be destroyed when enough damage is taken. When a wisp is destroyed, the sound of fire being extinguished plays."
+    },
+    "Urn of Souls": {
+      "description": "Urn of Souls is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon use, Isaac pulls out (or puts away) the urn; holding a fire button when it's pulled out emits a stream of blue flames in whichever direction Isaac is aiming. Each flame deals 22.5-31.5 damage per second, depending on how far it's traveled, plus an additional 4.5 damage per second times floor number. Multiple flames can damage the same enemy simultaneously. Isaac is also pushed backwards slightly while using it."
+    },
+    "Blessed Penny": {
+      "description": "Blessed Penny is an unlockable trinket added in The Binding of Isaac: Repentance .",
+      "effect": "Gives a chance to drop a Half Soul Heart when money is collected. The chance is based on the coin's worth: [ 1 ]"
+    },
+    "Alabaster Box": {
+      "description": "Alabaster Box is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "This item starts with no charges. Rather than gaining charges by clearing rooms or picking up batteries , Alabaster Box has to be charged through Soul or Black Hearts . Instead of being added to Isaac's health bar , they charge the box at a rate of one charge per half heart. Both Soul or Black Hearts that are picked up, or directly added to Isaac's health will count towards Alabaster Box's charges."
+    },
+    "Beth's Faith": {
+      "description": "Beth's Faith is an unlockable trinket added in The Binding of Isaac: Repentance .",
+      "effect": "At the beginning of each floor, spawn 4 wisps that orbit Isaac and fire tears alongside him. The wisps are the same as the default wisps that spawn with Book of Virtues ."
+    },
+    "Divine Intervention": {
+      "description": "Divine Intervention is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Double tapping a fire key creates a Divine Shield that slowly moves in the chosen direction. The Divine Shield has a variety of effects. Enemies are pushed back in the opposite direction, completely reversing their trajectory with some added momentum. Enemies pushed into walls or obstacles take 10 + 2 * (floor - 1) damage and deal that same damage to other enemies they collide with."
+    },
+    "Soul Locket": {
+      "description": "Soul Locket is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Gives Isaac one of the following stat boosts per half heart gained by picking up Soul Hearts or Black Hearts : +0.04 speed . +0.2 flat damage . +0.04 shot speed ."
+    },
+    "Vade Retro": {
+      "description": "Vade Retro is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "While held, enemies leave behind small, red ghosts on death; using the item causes the ghosts to explode, dealing damage to nearby enemies and destroying nearby enemy projectiles. The explosions will not destroy obstacles, move pickups, or damage Isaac. The damage exploding ghosts deal is equal to 3 + 0.04x the health of the enemy the ghost spawned from + ((floor-1)x0."
+    },
+    "Star of Bethlehem": {
+      "description": "Star of Bethlehem is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Spawns a star familiar that slowly travels toward the Boss Room , fading through doors as it travels towards it. Once it reaches the boss room, the familiar stands in the center of the boss room for the rest of the floor. The familiar emits an aura that, while Isaac stands inside it, gives him a 1.8× / 1.2x damage multiplier, a 2.5× fire rate multiplier, and homing tears ."
+    },
+    "Glowing Baby": {
+      "description": "Glowing Baby is a special co-op baby.",
+      "effect": "Emits very bright light that covers huge part of the screen."
+    },
+    "Hope Baby": {
+      "description": "Hope Baby is a special co-op baby.",
+      "effect": "Drops a half soul heart on death."
+    },
+    "Revelation": {
+      "description": "Revelation is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Grants 2 Soul Hearts on pickup. Continuously firing for 2.35 seconds allows Isaac to fire a powerful holy laser when Isaac stops shooting, similar to the attacks used by the Angel bosses. The laser deals Isaac's damage per tick (up to a maximum of 15 times) and can be aimed diagonally. It lasts for ~1.28 seconds (77 frames)."
+    },
+    "Jar of Wisps": {
+      "description": "Jar of Wisps is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Spawns a wisp that orbits Isaac, fires tears, blocks enemy shots, and deals contact damage to enemies, much like the ones spawned by Book of Virtues . The jar initially spawns only one / two wisps, but spawns an additional wisp each time the jar is used, up to a maximum of 12 per use. The number of wisps that will be spawned by the jar is indicated by both a counter and the jar visually filling up with wisps."
+    },
+    "Double Baby": {
+      "description": "Double Baby is a special co-op baby.",
+      "effect": "Shoots 20/20 style shots which deal 1.1 damage (compared to 1.4 damage of normal co-op babies)."
+    },
+    "The Stairway": {
+      "description": "The Stairway is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "At the start of every floor, generates a ladder which leads to a special Angel Room Shop, regardless of whether a devil deal has been taken. These angel shops always contain the following: Three items/pickups for sale. These items/pickups can be on sale, just like with normal Shops . An item from the Angel Room Item Pool for 15 or 30 pennies. An Eternal Heart for 5 pennies. A Soul Heart for 5 pennies."
+    },
+    "Red Stew": {
+      "description": "Red Stew is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "On pickup, fully heals Isaac and gives him a temporary +21.6 damage up. The damage upgrade scales down to 0 over the course of three minutes. Due to how the damage formula works, the damage upgrade scales down faster over time, starting at -~0.015 per half second and increasing to -~.1 per half second as the bonus approaches 0."
+    },
+    "Birthright": {
+      "description": "Birthright is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Grants a passive ability that varies from character to character. The effect typically enhances/magnifies the character's special traits or helps mitigate some of their downsides."
+    },
+    "Damocles": {
+      "description": "Damocles is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon use, summons a sword that hangs directly above Isaac. As long as the sword hangs above Isaac, all item pedestals are doubled, spawning an additional free item next to them. Items spawned via other means, like Machines , Beggars , and certain items and cards , are also doubled. The extra item will be pulled from the current room's item pool, even if the original item is from a different pool (ex."
+    },
+    "Rock Bottom": {
+      "description": "Rock Bottom is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Prevents Isaac's attributes from falling below their highest values reached. Attributes continue to be calculated normally internally. Rather than use Isaac's current stats, items and effects will impact Isaac the same way they would as if he did not have Rock Bottom."
+    },
+    "Vanishing Twin": {
+      "description": "Vanishing Twin is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Spawns a flat, rotating fetus familiar that follows Isaac. After entering a Boss Room , the familiar will move closer to the center of the room, and become a clone of the boss . Isaac must defeat both bosses. The Vanishing Twin and original boss will be set to 75% of their maximum health, and their movements and attack patterns will be around 20% slower."
+    },
+    "Inner Child": {
+      "description": "Inner Child is an unlockable passive item added in The Binding of Isaac: Repentance .",
+      "effect": "Gives Isaac an extra life. Upon death , Isaac respawns in the current room with half of a Red Heart , a massive size down, and +0.2 Speed . If Isaac doesn't have any Red Heart Containers , he will respawn with a Half Soul Heart instead of a Half Red Heart . When Isaac respawns as the inner child, he emits a blood explosion that deals 35 flat damage to all nearby enemies."
+    },
+    "Genesis": {
+      "description": "Genesis is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "On use, Isaac is teleported to a unique Clean Bedroom that acts like an I AM ERROR room. It has a Bed , two random Chests , two Grab Bags , and a random Trinket . The only way out is through the beam of light, which teleports Isaac to the next floor (with some exceptions, seen below)."
+    },
+    "Suplex!": {
+      "description": "Suplex! is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon use, Isaac dashes forward a short distance. If Isaac runs into an enemy while dashing, he picks them up and a crosshair spawns under him that can be controlled with tear controls. After one second, Isaac leaps up and slams down on the crosshair with the enemy, dealing damage to them and any enemies he lands on depending on his size."
+    },
+    "Illusion Baby": {
+      "description": "Illusion Baby is a special co-op baby.",
+      "effect": "Effect not implemented yet."
+    },
+    "Solomon's Baby": {
+      "description": "Solomon's Baby is a special co-op baby.",
+      "effect": "[A] This baby is composed of two parts and supposedly controls like Jacob and Esau but effect is not implemented yet."
+    },
+    "Magic Skin": {
+      "description": "Magic Skin is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "Upon use, spawns an item pedestal from the current room's item pool . Consumes one of Isaac's heart containers , one Bone Heart , or two Soul Hearts , replaced by a broken heart container . The priority order of hearts that will be consumed is: one heart container, one bone heart, and two soul hearts."
+    },
+    "Friend Finder": {
+      "description": "Friend Finder is an unlockable activated item added in The Binding of Isaac: Repentance .",
+      "effect": "On use, spawns a random friendly monster that mimics Isaac's movements and attacks, similar to Jacob and Esau . Friendly monsters can take damage from flames, spikes, and other hazards."
+    }
+  }
+}

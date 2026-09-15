@@ -1,0 +1,958 @@
+{
+  "code": "es",
+  "languageName": "Español",
+  "unlockables": {
+    "Lost Baby": {
+      "description": "Lost Baby es un bebé especial del modo cooperativo.",
+      "effect": "Constantemente genera pequeños charcos de sangre los cuales dañan a los enemigos. Al morir genera un charco más grande."
+    },
+    "Isaac's Tears": {
+      "description": "Isaac's Tears es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Cada lágrima disparada por el jugador aumenta la carga del objeto en uno. Luego de su uso, dispara 8 lágrimas alrededor del jugador, que retienen el daño, la velocidad de disparo y la mayoría de los efectos especiales de las lágrimas del jugador."
+    },
+    "Mom's Knife": {
+      "description": "Mom's Knife es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Las lágrimas son reemplazadas por un cuchillo que atraviesa a los enemigos y obstáculos. Mantener presionado el botón de disparo la distancia que puede ser lanzado el cuchillo. Al llegar al máximo de su recorrido, el cuchillo regresa al jugador. Mom's Knife también puede herir a los enemigos mientras el jugador lo sostiene."
+    },
+    "The D20": {
+      "description": "D20 es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, todos los recolectables en la habitación (bombas, monedas, corazones, llaves, píldoras , cartas , baratijas , y cofres ) son cambiados por otros recolectables."
+    },
+    "Missing Poster": {
+      "description": "Cartel de Desaparecido es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "RB Si Isaac muere en una Habitación del Sacrificio mientras lleva Missing Poster, se mostrará una pieza de un rompecabezas especial en la causa de su muerte en la última voluntad . AB Morir en una Habitación del Sacrificio mientras se lleva Missing Poster desbloqueará a The Lost . AB Si Isaac muere mientras lleva Missing Poster y ya ha desbloqueado a The Lost, será revivido en la habitación anterior como The Lost ."
+    },
+    "Isaac's Head": {
+      "description": "Isaac's Head es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Una cabeza de Isaac será un familiar que dispara lágrimas perforantes y causa 3.5 de daño."
+    },
+    "Fart Baby": {
+      "description": "Fart Baby es un desbloqueable de The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Lil' Chest": {
+      "description": "Lil Chest es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Lil Chest seguirá al jugador en fila junto a otros familiares. Lil Chest puede hacer aparecer algún recolectable después de que el jugador acabe alguna habitación. No hay número definido de cuantas habitaciones se necesiten hacer para que Lil Chest haga su efecto, por lo que es aleatorio."
+    },
+    "D1": {
+      "description": "D1 es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, duplica un recolectable al azar de la habitación actual, incluyendo cartas, runas, cofres y baratijas."
+    },
+    "D infinity": {
+      "description": "D infinito es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "! RP Utiliza el efecto de un dado al azar que cambia con cada uso. Cada dado tiene 2 barras de carga. No hay forma de manipular el efecto que utilizara el D infinito. D infinito es capaz de utilizar efectos de dados que aún no han sido desbloqueados."
+    },
+    "Cry Baby": {
+      "description": "Cry Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente aumenta brevemente las lágrimas de Isaac."
+    },
+    "Buddy Baby": {
+      "description": "Buddy Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente, brevemente le da a Isaac el efecto de Guillotine , separando la cabeza de Isaac y aumentando el daño y las lágrimas."
+    },
+    "Meat Cleaver": {
+      "description": "Meat Cleaver es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Su efecto varía dependiendo del tipo de enemigos que haya en la habitación al activarlo: Si el enemigo no se divide ni tiene segmentos, será dividido en dos versiones más pequeñas del mismo enemigo pero con aproximadamente el 40% de vida cada uno. Si la división es parte de la mecánica del enemigo, como Teratoma o The Fallen , recibirán el daño necesario para dividirlos. Si el enemigo tiene segmentos, como Larry Jr."
+    },
+    "Options?": {
+      "description": "Options? es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al completar una habitación, si se fuera a generar una recompensa aparecerá una segunda recompensa diferente al lado. Isaac puede tomar o abrir una de las recompensas, y la otra desaparecerá."
+    },
+    "Cute Baby": {
+      "description": "Cute Baby es un bebé especial del modo cooperativo.",
+      "effect": "No tiene un efecto jugable especial; es una apariencia para el modo cooperativo."
+    },
+    "A Cross": {
+      "description": "The Relic es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "The Relic aparece como una pequeña cruz que seguirá al jugador en fila junto con el resto de familiares. The Relic generará un corazón de alma cada 5 habitaciones completadas. El contador de habitaciones es global. Por lo que no importa si se pasa al siguiente piso, The Relic sigue contado cada habitación."
+    },
+    "Guardian Angel": {
+      "description": "Guardian Angel es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Guardian Angel órbita alrededor del jugador a una velocidad rápida. Hace gran daño al contacto a los monstruos. Bloquea proyectiles enemigos."
+    },
+    "Celtic Cross": {
+      "description": "Celtic Cross es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al recibir daño, hay un 20% de probabilidad de que aparezca un escudo protector (similar a Book of Shadows ). El escudo dura por 6.66 segundos. TBOI Se tiene prioridad en activar The Polaroid que en activar Celtic Cros, haciendo que solo genere un escudo que dura solo 5 segundos."
+    },
+    "Maggy's Faith": {
+      "description": "Maggy's Faith es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Da 1 corazón eterno al comenzar cada piso."
+    },
+    "Maggy's Bow": {
+      "description": "Maggy's Bow es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Agrega un contenedor de corazón. Los corazones rojos doblan su valor de curación. Medio corazón rojo repone un corazón entero. Un corazón rojo entero repone dos corazones rojos."
+    },
+    "Purity": {
+      "description": "Purity es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Purity otorga al jugador una aura que lo rodeará, similar a The Polaroid o The Negative . Esta aura puede ser de distintos colores. Dependiendo de cada color, otorgará al jugador alguna bonificación diferente. Amarilla: +0.50 de velocidad. Naranja: +7.50 de rango."
+    },
+    "Censer": {
+      "description": "Censer es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera un familiar que proyecta un aura circular que ralentiza a los enemigos y los disparos de los enemigos dentro de su radio. El aura no tiene efecto sobre los jefes, aunque si ralentiza sus disparos."
+    },
+    "Glyph of Balance": {
+      "description": "Glifo del equilibrio es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Añade 2 corazones de alma Remplaza el recolectable soltado por un monstruo campeón por algo que al jugador le falte más en vez."
+    },
+    "Eucharist": {
+      "description": "Eucaristía es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Habilita siempre el 100% de posibilidad de hacer pacto con los ángeles. Eso significa que ahora es imposible de hacer pacto con el diablo de ninguna forma y no hay forma de revertirlo. Excepto si se cambia Eucharist, como con D4 u otro con el mismo efecto."
+    },
+    "Red Baby": {
+      "description": "Red Baby es un bebé especial del modo cooperativo.",
+      "effect": "Se genera con un corazón rojo extra."
+    },
+    "Colorful Baby": {
+      "description": "Colorful Baby es un bebé especial del modo cooperativo.",
+      "effect": "Al unirse, cura completamente a Isaac, similar al efecto de la caca de arco iris."
+    },
+    "Yuck Heart": {
+      "description": "Yuck Heart es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Otorga un corazón podrido ."
+    },
+    "Candy Heart": {
+      "description": "Candy Heart es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Da una mejora en una estadística de Isaac cada vez que se cura medio corazón al recoger corazones: + 0.02 Velocidad + 0.02 Velocidad del proyectil Hace aparecer un corazón rojo al recogerlo."
+    },
+    "Glass Baby": {
+      "description": "Glass Baby es un bebé especial del modo cooperativo.",
+      "effect": "Suelta un recolectable aleatorio cuando muere."
+    },
+    "A Bag of Pennies": {
+      "description": "Isaac es un nuevo Jefe añadido en La ira del Cordero .",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "A Bag of Bombs": {
+      "description": "Bomb Bag es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Bomb Bag sigue al jugador en fila con los otros familiares. Deja bombas, bombas dobles o bombas troles al completar 3 habitaciones."
+    },
+    "Cain's Eye": {
+      "description": "Cain's Eye es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Al comenzar un piso, tiene un 25% de probabilidad de activar el efecto de La Brújula durante la habitación actual. AB+ La probabilidad aumenta según la suerte , y se activa siempre al tener 3 de suerte."
+    },
+    "Abel": {
+      "description": "Abel es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Copia los movimientos del jugador, al igual que los Doples . Tiene la habilidad de volar también. Dispara hacia el lado contrario hacia donde dispara el jugador."
+    },
+    "Cain's Other Eye": {
+      "description": "Cain's Other Eye es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera un familiar que flota lentamente alrededor de la habitación en un patrón de zigzag similar a The Peeper y dispara lágrimas normales en la misma dirección que Isaac. Cada lágrima hace el daño de el jugador En Afterbirth. Cada lágrima hace el daño base de Isaac."
+    },
+    "D12": {
+      "description": "D12 es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, cambia los obstáculos de la habitación actual (rocas, bloques de metal, etcétera) por otros obstáculos al azar. Los barriles de TNT explotados y cacas destruidas no pueden ser cambiados."
+    },
+    "Evil Eye": {
+      "description": "Evil Eye es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Se gana la posibilidad de disparar un ojo que viajará lentamente. El ojo ocasionalmente junto al jugador disparará lo mismo que él."
+    },
+    "Sack of Sacks": {
+      "description": "Sack of Sacks es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera un saco familiar que seguirá a Isaac y tirará un saco alternadamente cada 5 o 6 habitaciones."
+    },
+    "Silver Dollar": {
+      "description": "Dólar de plata es una baratija introducida en The Binding of Isaac: Afterbirth+ .",
+      "effect": "Hace que aparezcan tiendas en Archivo:Piso Womb.png Womb , Archivo:Piso Utero.png Utero , Archivo:Piso Scarred Womb.png Scarred Womb y Archivo:Piso Corpse.png Corpse ."
+    },
+    "Green Baby": {
+      "description": "Green Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente aumenta brevemente la suerte de Isaac por 2."
+    },
+    "Picky Baby": {
+      "description": "Picky Baby es un bebé especial del modo cooperativo.",
+      "effect": "No tiene un efecto jugable especial; es una apariencia para el modo cooperativo."
+    },
+    "Guppy's Eye": {
+      "description": "Guppy's Eye es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Muestra el contenido de cofres, sacos y hogueras antes de abrirlos a través de íconos mostrados sobre ellos."
+    },
+    "A Pound of Flesh": {
+      "description": "A Pound of Flesh es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Los pactos del demonio son pagados con monedas. Los objetos en la tienda son pagados con vida. Los consumibles de la tienda son rodeados por pinchos, pero no tienen costo. No es posible empujarlos con una explosión."
+    },
+    "Shadow Baby": {
+      "description": "Shadow Baby es un bebé especial del modo cooperativo.",
+      "effect": "Dispara tiros de sangre e inflige un poco más de daño que otros bebés."
+    },
+    "Guillotine": {
+      "description": "Guillotina es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Ahora la cabeza del jugador se separará de su cuerpo, y orbitará alrededor de este, actuando como un familiar. La cabeza disparará lágrimas o usará el ataque correspondiente con normalidad mientras gira. Y el cuerpo se controlará con normalidad también."
+    },
+    "Judas' Tongue": {
+      "description": "Judas' Tongue es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Los objetos de la Habitación del Diablo sólo costarán 1 contenedor de vida roja."
+    },
+    "The Left Hand": {
+      "description": "La Mano izquierda es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Reemplaza todos los tipos de cofres por cofres rojos."
+    },
+    "Curved Horn": {
+      "description": "Cuerno Curvo es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "+ 2 Daño El aumento se aplica después de los cálculos normales y antes que los multiplicadores de daño."
+    },
+    "Judas' Shadow": {
+      "description": "Judas' Shadow es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Otorga una vida extra. Si el jugador muere y es revivido por la vida extra de Judas' Shadow, revivirá como Black Judas, y este objeto será consumido. Al ser revivido como Black Judas, ahora el jugador será considerado como Judas , como si este hubiera sido seleccionado. Así que a partir de ahora cualquier logro al derrotar a un jefe final será para Judas, ignorando al personaje original."
+    },
+    "Betrayal": {
+      "description": "Betrayal es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "El efecto de Betrayal es activado cuando el jugador recibe daño. Al activarse, da a todos los monstruos de la habitación el efecto de encantado por un corto periodo de tiempo."
+    },
+    "My Shadow": {
+      "description": "My Shadow es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Cada vez que el jugador reciba daño, aplicará el efecto de aterrorizado a todos los monstruos, y genera un Charger de color negro aliado. Estos Chargers actuarán como los Chargers normales, causando 5.00 de daño a los monstruos. No desaparecerán al dejar la habitación actual; yendo a donde el jugador vaya. También pueden morir si reciben el daño suficiente."
+    },
+    "Eye of Belial": {
+      "description": "Eye of Belial es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Las lágrimas ahora pueden penetrar. Después de atravesar al primer enemigo que alcancen, las lágrimas se vuelven ojos, que hacen el doble de daño y tienen el efecto psíquico."
+    },
+    "Shade": {
+      "description": "Shade es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Otorga una sombra familiar que sigue los movimientos de Isaac con un retraso de 1 segundo y causa 2 de daño de contacto por tick o 30 de daño por segundo a los enemigos."
+    },
+    "Brown Baby": {
+      "description": "Brown Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente, brevemente le da a Isaac el efecto Butt Penny . Mientras esté activo, recoger una moneda hará que Isaac se tire un pedo, derribando a los enemigos cercanos."
+    },
+    "Belial Baby": {
+      "description": "Belial Baby es un bebé especial del modo cooperativo.",
+      "effect": "Un bebé que parece que usó The Book Of Belial ."
+    },
+    "Akeldama": {
+      "description": "Akeldama es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Mientras esté en una habitación con enemigos, crea una cadena de lágrimas que Isaac arrastra detrás de él. Cada lágrima causa 3.5 de daño, sin importar el daño de Isaac. Conforme más corta es la cadena, más rápido crece."
+    },
+    "Redemption": {
+      "description": "Redención es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al entrar en una Habitación del Diablo , aparecerá una cruz blanca invertida sobre la cabeza de Isaac. Tomar cualquier cosa generada en esta habitación (objetos o consumibles) resultará en el ícono desapareciendo. Si Isaac va al siguiente piso con este ícono sobre su cabeza, obtendrá 1 corazón de alma y + 1.00 Daño"
+    },
+    "Dead Baby": {
+      "description": "Dead Baby es un bebé especial del modo cooperativo.",
+      "effect": "Tiene la oportunidad de generar una mosca azul al matar un enemigo."
+    },
+    "The D6": {
+      "description": "The El D6 es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activar El D6, reemplaza cualquier objeto coleccionable en la habitación actual por otro objeto coleccionable. Los reemplazará con otros objetos relativo a la misma habitación. Como por ejemplo: en la habitación del ángel , cualquier objeto del pacto siempre terminará reemplazado por otro del mismo pacto. Eso incluye los objeto coleccionables que aparecen en los cofres;"
+    },
+    "Forget Me Now": {
+      "description": "Forget Me Now es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, el objeto será consumido y desaparecerá del inventario de Isaac. Al activarlo, regenera el piso actual. Isaac comenzará el nivel como si hubiera cambiado de piso."
+    },
+    "Fate": {
+      "description": "Fate es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Añade un corazón eterno. Otorga la habilidad de volar."
+    },
+    "???'s Soul": {
+      "description": "???'s Soul es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Hace aparecer un familiar que flota lentamente por la habitación diagonalmente, similar al patrón de El fisgón . El familiar dispara lágrimas espectrales que siguen a los enemigos y causan 3.5 de daño."
+    },
+    "???'s Only Friend": {
+      "description": "???'s Only Friend es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Le da a Isaac un familiar controlable que daña a los enemigos al tocarlos e inflige 2.5 de daño por tick. Funciona de forma similar a The Ludovico Technique y Robo-Baby 2.0 . Este item pertenece a la transformación \"Beelzebub\"."
+    },
+    "Fate's Reward": {
+      "description": "Fate's Reward es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Seguirá al jugador en fila junto al resto de familiares que hacen lo mismo. Fate's Reward puede disparar lágrimas con el mismo daño y efecto de los objetos que se tenga. Efectos menores como lágrimas psíquicas, lágrimas penetrantes, lágrimas espectrales. Efectos sobre como funcionan las lágrimas, como The Parasite o Cricket's Body ."
+    },
+    "Cracked Dice": {
+      "description": "Dado Roto es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Cuando Isaac recibe daño, se activa el efecto de uno de los siguientes dados: El D6"
+    },
+    "Meconium": {
+      "description": "Meconio es una baratija introducida en The Binding of Isaac: Afterbirth+ .",
+      "effect": "Hay una probabilidad de que las cacas se conviertan en cacas negras. Hay una probabilidad de obtener corazones negros al destruir cacas negras."
+    },
+    "King Baby": {
+      "description": "King Baby es un bebé especial del modo cooperativo.",
+      "effect": "Un bebé con una corona."
+    },
+    "Blue Baby": {
+      "description": "Blue Baby es un bebé especial del modo cooperativo.",
+      "effect": "Se genera con un corazón de alma extra."
+    },
+    "Hive Baby": {
+      "description": "Hive Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente, brevemente le da a Isaac el efecto de Hive Mind , duplicando el daño infligido por las arañas azules y las moscas azules."
+    },
+    "Eternal D6": {
+      "description": "Eternal El D6 es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Cambia los objetos de los pedestales con el mismo efecto que El D6 . Cada objeto cambiado tiene una probabilidad del 30% de desaparecer."
+    },
+    "Montezuma's Revenge": {
+      "description": "Montezuma's Revenge es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Disparar continuamente durante 2.5 segundos permite a Isaac disparar un láser de caca de corto alcanace y lágrimas de maíz detrás de él al soltar el botón de disparo, similar al láser de Azufre pero más parecido al de Azazel . El láser causa el daño de Isaac por tick (15 veces el daño de Isaac por segundo) y dura ~1.33 segundos. Las lágrimas de maíz causan 6 de daño, y se disparan cantidades aleatorias."
+    },
+    "Crow Baby": {
+      "description": "Crow Baby es un bebé especial del modo cooperativo.",
+      "effect": "Inflige daño de contacto a los enemigos."
+    },
+    "Eve's Bird Foot": {
+      "description": "Eve's Bird Foot es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Tiene un 5% de probabilidad de hacer aparecer un Ave Muerta durante la habitación actual cada vez que un enemigo muere. Causa 4 de daño por segundo. El familiar aparece activo, y no hace falta recibir daño como el objeto normal. La probabilidad aumenta con la suerte, y llega al 100% con 8 puntos."
+    },
+    "The Razor": {
+      "description": "Cuando él cierra sus ojos, el va a disparar rayos de sangre de sus manos, y cuando sus ojos están abiertos él lanzara el rayo de sangre de su boca. Esta es una manera muy fácil de saber que ataque va a usar. Tener los objetos familiares, Little Gish , Spider Bite , y/o Mom's Contacts hace que sea más fácil ganarle.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Sacrificial Dagger": {
+      "description": "Sacrificial Dagger es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera una daga lateral que orbita alrededor de Isaac, inflige mucho daño a los enemigos en contacto y bloquea los disparos de los enemigos. El cuchillo causa 15 de daño por tick o 225 de daño por segundo."
+    },
+    "Black Lipstick": {
+      "description": "Labial negro es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Duplica la probabilidad de que aparezcan corazones negros."
+    },
+    "Eve's Mascara": {
+      "description": "Eve's Mascara es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Duplica el daño del jugador. Reduce la velocidad de disparo drásticamente. Disminuye el número de lágrimas enormemente."
+    },
+    "Athame": {
+      "description": "Athame es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al matar a un enemigo habrá una probabilidad de que aparezca un anillo negro alrededor del lugar donde murió el enemigo, causando daño por contacto a los enemigos cercanos."
+    },
+    "Black Feather": {
+      "description": "Pluma negra es una baratija introducida en The Binding of Isaac: Afterbirth .",
+      "effect": "+ 0.2 Daño por cada objeto o baratija de los siguientes que se tengan: Abaddón Manto Ceremonial Caja de Fósforos"
+    },
+    "Crow Heart": {
+      "description": "Corazón de cuervo es una baratija introducida en The Binding of Isaac: Afterbirth+ .",
+      "effect": "Los corazones rojos recibirán daño antes que los corazones de alma y negros."
+    },
+    "Dull Razor": {
+      "description": "Dull Razor es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarse, Isaac recibe daño sin perder vida. Esto activara cualquier objeto que necesite que el jugador reciba daño."
+    },
+    "Lil' Baby": {
+      "description": "Lil' Baby es un desbloqueable de The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Whore Baby": {
+      "description": "Whore Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente, brevemente le da a Isaac el efecto de Whore Of Babylon , aumentando el daño y la velocidad."
+    },
+    "Bird Cage": {
+      "description": "Pecho de ave es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Un familiar que se sienta sobre la cabeza de Isaac hasta que recibe daño. Al recibir daño, salta de la cabeza de Isaac y aterriza sobre un enemigo, causando daño y creando un terremoto. Durante el resto de la habitación, actúa como Ave Muerta , volando alrededor y causando daño por contacto a los enemigos."
+    },
+    "Cracked Orb": {
+      "description": "Cracked Orb es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al recibir daño, revela una habitación al azar del piso y desbloquea todas las puertas en las habitaciones que necesiten llaves."
+    },
+    "Fighting Baby": {
+      "description": "Fighting Baby es un bebé especial del modo cooperativo.",
+      "effect": "Parece arrojar sus lágrimas en lugar de llorarlas. Suelta un corazón recolectable después de la muerte."
+    },
+    "Bloody Lust": {
+      "description": "Bloody Lust es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Cada vez que se recibe daño de cualquier fuente, se recibe una bonificación de daño. Estas bonificaciones duran hasta que se pase al siguiente piso. Las primeras 3 bonificaciones dan el 1/7 del daño más, y las siguientes y últimas 3 dará casi lo mismo que 1/2 del daño. Dependiendo de cuanto daño se tenga, las bonificaciones son mayor junto con este."
+    },
+    "Blood Rights": {
+      "description": "Derechos de sangre es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo Isaac pierde un corazón completo y causa 40 de daño a todos los enemigos en la habitación."
+    },
+    "Blood Penny": {
+      "description": "Moneda Sangrienta es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Tiene una probabilidad del ! RP 50% / RP 25% de soltar una mitad de corazón rojo al recoger una moneda."
+    },
+    "Samson's Lock": {
+      "description": "Samson's Lock es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Hay un 6% (1/15) de probabilidad de dar + 0.5 Daño durante la habitación actual cada vez que un enemigo muere. Puede activarse un máximo de 10 veces por habitación. La probabilidad depende de la suerte, y se activará el 100% de las veces al tener 10 puntos."
+    },
+    "Samson's Chains": {
+      "description": "Samson's Chains es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Samson's Chains aparece como una bola metálica conecta a una cadena que está atada al tobillo del jugador. La bola aplasta rocas, bloquea proyectiles y hace 5 de daño por golpe o aproximadamente 10.7 de daño por segundo."
+    },
+    "Blind Rage": {
+      "description": "Furia del Ciego es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Duplica los frames de invencibilidad que Isaac recibe tras recibir daño."
+    },
+    "Lusty Blood": {
+      "description": "Lusty Blood es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Cada vez que se mata a un enemigo, Isaac gana una bonificación de daño. Cada muerte incrementa el daño en un 0.5, para un máximo de 5 de daño tras 10 muertes. La bonificación durara lo que dure el jugador en una habitación, al salir de esta, el contador de reiniciara."
+    },
+    "Stem Cell": {
+      "description": "Célula madre es una baratija introducida en The Binding of Isaac: Afterbirth+ .",
+      "effect": "! RP Cura medio corazón rojo al cambiar de piso. RP Recupera la vida roja de Isaac hasta llegar al 50% de su vida máxima al cambiar de piso. Si Isaac ya tiene 50% o más de su vida, cura medio corazón rojo en su lugar."
+    },
+    "Bloody Crown": {
+      "description": "Corona Sangrienta es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Hace que aparezcan habitaciones del tesoro en Archivo:Piso Womb.png Womb , Archivo:Piso Utero.png Utero , Archivo:Piso Scarred Womb.png Scarred Womb y Archivo:Piso Corpse.png Corpse ."
+    },
+    "Rage Baby": {
+      "description": "Rage Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente aumenta brevemente el daño de Isaac."
+    },
+    "Revenge Baby": {
+      "description": "Revenge Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente aumenta brevemente el daño de Isaac."
+    },
+    "Bloody Gust": {
+      "description": "Bloody Gust es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al recibir daño, mejora las estadísticas de Isaac durante el piso actual: + 0.07 + 0.04 x (Golpes - 1) Velocidad + 0.25 + 0.1 x (Golpes - 1) Lágrimas Ambos efectos se acumulan hasta seis veces, para un máximo de + 1.02 Velocidad y + 3 Lágrimas ."
+    },
+    "Empty Heart": {
+      "description": "Empty Heart es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Si Isaac tiene un corazón rojo o menos al comenzar cada piso, añade un contenedor de vida vacío."
+    },
+    "Begotten Baby": {
+      "description": "Begotten Baby es un bebé especial del modo cooperativo.",
+      "effect": "Dispara lágrimas grandes y lentas que tienen la oportunidad de causar miedo."
+    },
+    "Satanic Bible": {
+      "description": "Biblia Satánica es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, se gana un corazón negro. Si ya se tiene los suficientes, reemplazará a uno de los corazones de alma que se tienen por uno negro al siguiente uso. AB+ Satanic Bible forma parte de los objetos que sirven para la transformación Book Worm ."
+    },
+    "Daemon's Tail": {
+      "description": "Daemon's Tail es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "80% de los corazones dejados son convertidos en llaves. Convierte los corazones en corazones negros, si es posible."
+    },
+    "Abaddon": {
+      "description": "Abaddón es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Remueve todos los contenedores de corazón y añade 2 corazones negros. RP Convierte todos los contenedores de corazón en corazones negros, y añade dos corazones negros adicionales. RP Si es obtenido con Bethany , la deja a medio corazón y remueve todoos los otros contenedores de corazón. AB+ Mata a Keeper al instante al recogerlo. RP En Repentance , reduce la cantidad de vida de Keeper a 1."
+    },
+    "Demon Baby": {
+      "description": "Demon Baby es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Sigue al jugador en fila con los otros familiares. Dispara automáticamente disparos sangrientos de corta distancia a los monstruos cercanos. Tiene una velocidad de disparo alta."
+    },
+    "The Nail": {
+      "description": "El clavo es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, se adquiere un nuevo aspecto temporal. Añade medio corazón de alma, incrementa el daño en 1.25, reduce la velocidad en 0.18, y da el poder de destruir rocas al caminar sobre ellas por una habitación. El corazón de alma es permanente. Activarlo de nuevo en la misma habitación solamente añade otro medio corazón de alma."
+    },
+    "Maw of the Void": {
+      "description": "Fauces del Vacío es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Recibes un ataque adicional que se carga al mantener pulsado el botón de disparo. Como es un ataque distinto al principal, no interfiere con este La carga aparece en otra barra diferente a la principal (la barra de cualquier otro objeto cargable). Cuando está completa la carga, también aparecerá un cruz roja invertida en la frente del jugador, indicando que puede usar la habilidad."
+    },
+    "Lilith": {
+      "description": "Lilith es un personaje jugable desbloqueable.",
+      "effect": "Añade a Lilith a la pantalla de selección de personajes."
+    },
+    "Bat Wing": {
+      "description": "Ala de murciélago es una baratija introducida en The Binding of Isaac: Afterbirth+ .",
+      "effect": "Al matar a un enemigo, hay una probabilidad de recibir la capacidad de volar durante el resto de la habitación."
+    },
+    "Dark Prince's Crown": {
+      "description": "Dark Prince's Crown es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Si la corona está activa, brilla de color rojo y flota lentamente. Si no, se queda gris y quieta. Para activarla, se tiene que tener un corazón rojo entero, siempre y cuando sea solamente un corazón rojo completo y no más o menos. No importa la cantidad de corazones de otro tipo. Si obtienes otro corazón rojo o pierdes el único que tienes, Dark Prince's Crown se desactivará al instante."
+    },
+    "Black Baby": {
+      "description": "Black Baby es un bebé especial del modo cooperativo.",
+      "effect": "Se genera con un corazón negro adicional."
+    },
+    "Sucky Baby": {
+      "description": "Sucky Baby es un bebé especial del modo cooperativo.",
+      "effect": "Tiene un aura alrededor de sí mismo que daña a los enemigos mientras están dentro, similar a Succubus ."
+    },
+    "Devil's Crown": {
+      "description": "Devil's Crown es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Cambia la apariencia de la Habitación del Tesoro y esta contendrá objetos de la fuente de obtención del diablo . Los objetos no serán gratis y deberán comprarse usando contenedores de vida, como los pactos."
+    },
+    "Lil Abaddon": {
+      "description": "Mini-Abaddón es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Hace aparecer un familiar que sigue a Isaac y ataca con una versión pequeña de Fauce del Vacío cuando Isaac dispara. El anillo negro causa 3.5 de daño por tick, y causa daño hasta 15 veces."
+    },
+    "Wrapped Baby": {
+      "description": "Wrapped Baby es un bebé especial del modo cooperativo.",
+      "effect": "Explota cuando es golpeado."
+    },
+    "Lazarus' Rags": {
+      "description": "Lazarus' Rags es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Otorga una vida extra y después de morir, se reaparece como el personaje Lazarus . A diferencia de de otros items que hacen que el jugador reaparezca, este objeto revive al jugador en el lugar en el que murió, a diferencia de revivirlo en la habitación anterior. Añade un corazon de alma"
+    },
+    "Broken Ankh": {
+      "description": "Anj roto es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Al llevarlo equipado, hay un 22.22% de probabilidad de ser revivido como ??? al morir. Este efecto puede ocurrir múltiples veces en una misma partida."
+    },
+    "Store Credit": {
+      "description": "Crédito de Tienda es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Mientras se lleva equipado, todos los objetos en la tienda costarán 0 monedas. Tras comprar un objeto, la baratija desaparece. No afecta a los pactos del diablo, habitaciones de I AM ERROR o el mercado negro."
+    },
+    "Pandora's Box": {
+      "description": "Pandora's Box es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al usarse, aparece ciertos recolectables u objetos dependiendo del nivel en que se use. Pandora's Box desaparece después de usarlo. Basement / Cellar / Burning Basement / Downpour / Dross I: 2 corazones de alma. Basement/Cellar/Burning Basement II: 2 llaves y 2 bombas. Caves / Catacombs / Flooded Caves / Mines /Ashpit I: Un objeto de la habitación del jefe."
+    },
+    "Missing No.": {
+      "description": "Missing No. es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Cambio los coleccionables pasivos y estadísticas cada vez que se pasa al siguiente piso. Las estadísticas obtienen un modificador plano aleatorio. Estos modificadores no se acumulan entre niveles y, en cambio, se vuelven a cambiar cada vez. Velocidad: -0.2, 0 o +0.2. Rango: -0.5, 0 o +0.5. Lagrimas: -0.5, 0 o +0.5."
+    },
+    "Empty Vessel": {
+      "description": "Empty Vessel es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Añade 2 corazones negros. Si no se tiene ningún corazón rojo, se adquirirá el poder de volar."
+    },
+    "Key Bum": {
+      "description": "Key Bum es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera un familiar que sigue a Isaac y recoge las llaves, dejando caer cofres al azar a cambio. Este item pertenece a la transformación \" Super Bum \" ."
+    },
+    "Plan C": {
+      "description": "Plan C es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Mata instantáneamente a todos los enemigos de la habitación, excepto en la batalla de The Beast que depende de que fase matara solo a un jinete (si Plan C es utilizado contra The Beast directamente lo matará). Después de 3 segundos, el jugador muere sin que pueda evitarlo No funciona con mother debido a que la animación de muerte dura más de 3 segundos."
+    },
+    "Compound Fracture": {
+      "description": "Compound Fracture es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Las lágrimas se convierten en huesos, que se rompen en 1-3 fragmentos al golpear un obstáculo o enemigo. Los fragmentos tratan el 50% del daño de la lágrima normal de Isaac. +1.0 Altura de lágrima."
+    },
+    "Long Baby": {
+      "description": "Long Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente, aumenta brevemente el rango, la velocidad de disparo y la altura de lágrimas de Isaac."
+    },
+    "Dripping Baby": {
+      "description": "Dripping Baby es un bebé especial del modo cooperativo.",
+      "effect": "De vez en cuando le da brevemente a Isaac Anemic , aumentando el rango en 5 y haciendo que Isaac deje un rastro de sangre que daña a los enemigos."
+    },
+    "Tinytoma": {
+      "description": "Tinytoma es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Otorga un orbital de gran tamaño similar a Teratoma que orbita lentamente alrededor de Isaac. El orbital empuja a los enemigos con los que entra en contacto, causando 3.5 de daño una vez por segundo. Al bloquear 3 proyectiles o causar 3 ticks de daño por contacto, el orbital se divide en dos más pequeños que orbitan en direcciones opuestas."
+    },
+    "Astral Projection": {
+      "description": "Astral Projection es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Si Isaac recibe daño en una habitación con enemigos, el tiempo es detenido durante 3 segundos y Isaac se convierte en un fantasma que deja su cuerpo atrás. En la forma de fantasma, Isaac puede volar y tiene lágrimas espectrales. Además, el siguiente golpe que Isaac reciba será negado. La cadencia de disparo y la velocidad aumentan mientras el tiempo está detenido."
+    },
+    "Glitch Baby": {
+      "description": "Glitch Baby es un bebé especial del modo cooperativo.",
+      "effect": "Se convierte en un bebé al azar al comienzo de cada piso."
+    },
+    "Blank Card": {
+      "description": "Carta en Blanco es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Imita el efecto de la carta o runa que se lleve. sin consumir dicha carta/runa."
+    },
+    "Book of Secrets": {
+      "description": "Libro de Secretos es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, añadirá el efecto de Treasure Map , The Compass o Blue Map . Este efecto durará todo el piso, desapareciendo al pasar al siguiente. Los efectos se puede acumular, revelando todo el mapa eventualmente."
+    },
+    "Mysterious Paper": {
+      "description": "Papel misterioso es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "En cada frame, tiene una probabilidad de otorgar el efecto de uno de los siguientes objetos y baratijas: La Polaroid Una Página Faltante Cartel de Desaparecido"
+    },
+    "Mystery Sack": {
+      "description": "Mystery Sack es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera un familiar que sigue a Isaac y tiene la oportunidad de soltar un corazón, una moneda, una bomba o una llave (y cualquiera de sus variaciones) después de limpiar una habitación."
+    },
+    "Undefined": {
+      "description": "Undefined es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al usarlo, teletransporta al jugador a la habitación del tesoro , la habitación secreta, la habitación súper secreta, o I AM ERROR . También es posible que teletransporte al jugador al mercado negro, pero tiene menor posibilidad de que eso pase."
+    },
+    "Eden's Blessing": {
+      "description": "Eden's Blessing es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Disminuye el número de lágrimas en 2~1. En la siguiente partida, se iniciará con un objeto extra. Este efecto se puede acumular solo 2 veces (lo que hace que, en la próxima run, solo empieces con 2 objetos extra). Las únicas excepciones es que no puede ser un objeto activable y que no puede ser un objeto que no se haya desbloqueado."
+    },
+    "GB Bug": {
+      "description": "Error Crítico es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "! RP Genera un familiar que rebota alrededor de la habitación , inflige 8 de daño por tick o 120 de daño por segundo, y aplica un efecto de estado aleatorio a los enemigos con los que entra en contacto. El familiar tiene una probabilidad de cambiar los recolectables al pasar sobre ellos por otros recolectables, cofres y objetos , pero solo al estar en una habitación hostil (con al menos un enemigo vivo)."
+    },
+    "Metronome": {
+      "description": "Metronome es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, el jugador enseñará un objeto coleccionable pasivo aleatoriamente arriba de su cabeza y añade su efecto. El efecto dura por una habitación. Este puede ser desde Lord of the Pit hasta Godhead , siempre y cuando se haya desbloqueado."
+    },
+    "Eden's Soul": {
+      "description": "Eden's Soul es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, este objeto es consumido y desaparecerá del inventario de Isaac. Hace aparecer dos pedestales de objeto de la fuente de obtención de la habitación actual."
+    },
+    "Yellow Baby": {
+      "description": "Yellow Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente aumenta brevemente la velocidad de Isaac en 0.15."
+    },
+    "Cracked Baby": {
+      "description": "Cracked Baby es un bebé especial del modo cooperativo.",
+      "effect": "No tiene un efecto jugable especial; es una apariencia para el modo cooperativo."
+    },
+    "'M": {
+      "description": "' M es una baratija introducida en The Binding of Isaac: Repentance .",
+      "effect": "Usar un objeto activable lo cambia por otro objeto activable."
+    },
+    "Everything Jar": {
+      "description": "Everything Jar es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Si el objeto no está totalmente cargado, hace aparecer un recurso dependiendo de su número de cargas. Un corazón rojo. Un corazón de alma."
+    },
+    "-0- Baby": {
+      "description": "-0- Baby es un desbloqueable de The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Isaac's Heart": {
+      "description": "Isaac's Heart es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "El jugador se vuelve inmune al daño. Un corazón aparece como familiar y si recibe daño, el jugador también. Los monstruos atacan al corazón en vez de al jugador, los Eyes y similares seguirán al jugador igual."
+    },
+    "The Mind": {
+      "description": "The Mind es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Concede los efectos combinados de Blue Map , Treasure Map y The Compass , que revela el diseño del piso y todas las salas especiales, incluidas las habitaciones secretas y las salas súper secretas."
+    },
+    "The Body": {
+      "description": "The Body es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Añade 3 contenedores de corazón rojo llenos."
+    },
+    "The Soul": {
+      "description": "The Soul es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Añade 2 corazones de alma. Ahora el cuerpo del jugador emite una fuerza que puede desviar ligeramente las balas de los enemigos. Si bien hace eso, no lo protege absolutamente y puede ser golpeado por una de estas."
+    },
+    "The D100": {
+      "description": "D100 es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo: Cambia todos los objetos pasivos de Isaac con el mismo efecto que D4 . Cambia todos los objetos en pedestales de la habitación con el mismo efecto que El D6 . Cambia todos los recolectables de la habitación con el mismo efecto que D20 ."
+    },
+    "Sworn Protector": {
+      "description": "Sworn Protector es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Sworn Protector orbitará muy cerca y alrededor del jugador. Funcionando similar a Halo of Flies . El protector hace 7.00 de daño al contacto y puede bloquear cualquier proyectil enemigo. Al bloquear 10 proyectiles enemigos en una sola habitación genera un corazón eterno, esto solo pasará una vez por habitación pero se pueden cosechar los corazones usando una bomba para salir de la habitación y entrando de nuevo."
+    },
+    "Zodiac": {
+      "description": "Zodiac es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Agrega el efecto de uno de los objetos basado en los signos del zodiaco por todo un piso, cambiando de efecto al pasar al siguiente piso. Puede ser cualquiera de los siguientes objetos: Aries : El jugador hará daño al embestir contra enemigos. Taurus : Al entrar a una habitación que no se haya visitado antes, la velocidad empezará a aumentar hasta alcanza el máximo."
+    },
+    "Dad's Lost Coin": {
+      "description": "Dad's Lost Coin es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Suelta una Lucky Penny."
+    },
+    "Holy Card": {
+      "description": "Al activarla, otorga el efecto de Manto sagrado .",
+      "effect": "Da el efecto de Manto sagrado una vez. AF+ El efecto sólo se aplica durante la habitación actual. RP El efecto se mantiene entre habitaciones y pisos. ! RP Tiene un 25% de probabilidad de mostrar el mensaje \"You feel blessed!\" y hacer aparecer otra copia de Holy Card."
+    },
+    "White Baby": {
+      "description": "White Baby es un bebé especial del modo cooperativo.",
+      "effect": "Le da a Isaac un corazón eterno cuando se genera."
+    },
+    "Godhead": {
+      "description": "Deidad es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Incrementa el ataque y el rango, pero reduce las lágrimas y la velocidad de disparo. Las lágrimas pueden seguir a los enemigos . Las lagrimas adquieren un halo que produce daño por contacto, El aura inflige 1,05 de daño por tic."
+    },
+    "Lost Soul": {
+      "description": "Lost Soul es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Le da a Isaac un alma que lo sigue. Si el alma recibe daño, muere y reaparece al comenzar el siguiente piso. Si el alma sobrevive hasta comenzar el siguiente piso, hace aparecer una de las siguientes recompensas: 3 corazones de alma. 2 corazones eternos."
+    },
+    "Hungry Soul": {
+      "description": "Hungry Soul es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al morir, los enemigos tienen una probabilidad de hacer un fantasma en su lugar, los cuales siguen rápidamente a los enemigos y causan daño por contacto. Causan la mitad del daño de Isaac como daño por contacto (4 veces por segundo). Los enemigos matados por fantasmas no pueden hacer aparecer más fantasmas, excepto aquellos matados por la explosión final."
+    },
+    "Goat Head Baby": {
+      "description": "Goat Head Baby es un bebé especial del modo cooperativo.",
+      "effect": "De vez en cuando, brevemente le da a Isaac el efecto de Goat Head , garantizando que una habitación del Diablo o habitación del Ángel se abra si se"
+    },
+    "Rune Bag": {
+      "description": "Rune Bag es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Suelta una runa aleatoria cada pocas habitaciones. Si no hay runas desbloqueadas, caerán cartas en su lugar."
+    },
+    "Serpent's Kiss": {
+      "description": "Serpent's Kiss es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Añade la posibilidad de disparar lágrimas venenosas. Puede hacer aparecer con regularidad corazones negros cuando mata a algún monstruo con las lágrimas. Esto no se ve afectado por la suerte del jugador. Desde el DLC Repentance ya no genera corazones negros."
+    },
+    "Cambion Conception": {
+      "description": "Cambion Conception es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al recibir una cierta cantidad de golpes (sin importar la cantidad de daño), se generará un familiar demoníaco permanente, eso incluye a: Pordiosero Oscuro Solo puede generar 4 familiares. Los primeros dos aparecen después de recibir 15 golpes, y los otros dos después de 30 golpes. Isaac obtendrá una apariencia de embarazado que se hará cada vez más pronunciada mientras más daño vaya recibiendo."
+    },
+    "Succubus": {
+      "description": "Súcubo es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera un familiar que rebota alrededor de la habitación y que tiene una aura oscura que le rodea. Los enemigos dentro del radio del aura reciben daño. El aura produce el 30% del daño de Isaac por tick, o aproximadamente el 129% del daño de Isaac por segundo. Si Isaac está dentro del aura, sus lágrimas obtienen un multiplicador de daño de 1.5x Esta aura se acumula con las auras de otros Succubus."
+    },
+    "Immaculate Conception": {
+      "description": "Immaculate Conception es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al recoger corazones , el vientre del personaje se hinchará más. Si se recoge 15 corazones (todo tipo de corazón cuentan como uno), el jugador generará un familiar angelical permanente y su vientre regresa a la normalidad. Los posibles familiares que puede ser generados son: Holy Water"
+    },
+    "Incubus": {
+      "description": "Incubus es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera un familiar demoníaco que dispara lágrimas. Las lágrimas del Incubus se ven afectadas por las estadísticas de Isaac y los modificadores de lágrimas, excepto por el rango y la velocidad de disparo. Hace el 75% del daño de Isaac."
+    },
+    "Box of Friends": {
+      "description": "Cajón de Amigos es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, añade 1 copia de cada uno de los familiares de Isaac hasta que se salga de la habitación. Si no se tienen familiares, hace aparecer un Bebé Demonio hasta que se salga de la habitación."
+    },
+    "Duality": {
+      "description": "Duality es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Independientemente de la posibilidad de que hay para hacer pacto con el ángel, al lograr activar el pacto, ambas habitaciones, tanto la del diablo como la del ángel se abrirán. Se podrá elegir entre una de ellas. Si entras a uno, la otra desaparecerá y no se podrá entrar de ninguna forma."
+    },
+    "Euthanasia": {
+      "description": "Eutanasia es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Agrega la posibilidad de disparar agujas que infligen el triple de daño de la lágrima de Isaac. Las agujas matarán al instante a los enemigos habituales y harán que exploten en 10 lágrimas más en todas las direcciones. La posibilidad de disparar una aguja depende de la suerte y sube al 100% de posibilidades a los 15 de suerte. En Afterbirth este objeto pertenece a la transformación de Spun ."
+    },
+    "Big Baby": {
+      "description": "Big Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente aumenta brevemente el tamaño de Isaac."
+    },
+    "Dark Baby": {
+      "description": "Dark Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente proporciona un breve impulso a todas las estadísticas de Isaac."
+    },
+    "Blood Puppy": {
+      "description": "Blood Puppy es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Hace aparecer un familiar que persigue a los enemigos cercanos y causa 2 de daño por contacto en cada tick (4 por segundo). Tras matar a 15 enemigos, Blood Puppy se enfurece y cambia su comportamiento: Causa 7.5 de daño por tick en lugar de 2 (15 por segundo). Adquiere un ataque donde puede embestir hacia los enemigos."
+    },
+    "C Section": {
+      "description": "C Section es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Isaac ya no dispara lágrimas, entonces ahora salen fetos de su estómago, que hacen el 100% del daño de Isaac por tick. Este objeto para disparar se necesita tiempo de carga. El feto adquiere sinergias de lágrimas como si fuera las lágrimas normales de Isaac, también depende de suerte ."
+    },
+    "Super Greed Baby": {
+      "description": "Super Greed Baby es un bebé especial del modo cooperativo.",
+      "effect": "Tiene el efecto de Head Of Keeper , disparando lágrimas de monedas que tienen la oportunidad de generar una moneda al golpear a un enemigo."
+    },
+    "Keeper holds Wooden Nickel": {
+      "description": "Una mejora permanente del objeto inicial de Keeper.",
+      "effect": "Keeper comienza cada partida con Wooden Nickel."
+    },
+    "Keeper holds Store Key": {
+      "description": "Una mejora permanente del trinket inicial de Keeper.",
+      "effect": "Keeper comienza cada partida con Store Key."
+    },
+    "Deep Pockets": {
+      "description": "Bolsillos profundos es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Permite que Isaac lleve un máximo de 999 monedas superando el limite normal de 99"
+    },
+    "Karma": {
+      "description": "Karma es una baratija introducida en The Binding of Isaac: Afterbirth .",
+      "effect": "Donar a una máquina de donaciones tiene una probabilidad de hacer uno de los siguientes efectos: Curar a Isaac un corazón rojo completo. Hacer aparecer un mendigo. Regresar una moneda, añadida directamente al inventario de Isaac."
+    },
+    "Sticky Nickels": {
+      "description": "Boss Rush es un nuevo reto que fue añadido en Rebirth . Es una habitación que puede ser accesible después de derrotar a Mom en menos de 20 minutos. En dicha habitación, se tendrá que combatir 15 oleadas de jefes (dos jefes por oleada).",
+      "effect": "240 Sticky Nickels Completa la Boss Rush con Keeper ."
+    },
+    "Keeper now holds... A Penny!": {
+      "description": "Una mejora permanente de los recursos iniciales de Keeper.",
+      "effect": "Keeper comienza cada partida con una moneda."
+    },
+    "Rib of Greed": {
+      "description": "Costilla de Codicia es una baratija introducida en The Binding of Isaac: Afterbirth .",
+      "effect": "Impide que Greed y Super Greed aparezcan en la tienda y habitación secreta . Aumenta la probabilidad de conseguir monedas como recompensa al limpiar habitaciones en lugar de corazones."
+    },
+    "Eye of Greed": {
+      "description": "Eye of Greed es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Cada vez que el jugador dispare 20 lágrimas, también disparará una moneda. Esta moneda tiene la capacidad de convertir en oro a cualquier monstruo que golpee, similar a Midas' Touch ."
+    },
+    "Crooked Penny": {
+      "description": "Crooked Penny es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, tiene un 50% de probabilidad de duplicar todos los objetos y recolectables de la habitación. Si el efecto falla, todos los elementos desaparecen y en su lugar hace aparecer una única moneda."
+    },
+    "Noose Baby": {
+      "description": "Noose Baby es un bebé especial del modo cooperativo.",
+      "effect": "Ocasionalmente, brevemente le da a Isaac el efecto de Transcendence , otorgando vuelo."
+    },
+    "Sale Baby": {
+      "description": "Sale Baby es un bebé especial del modo cooperativo.",
+      "effect": "De vez en cuando ofrece brevemente a Isaac el efecto de Steam Sale , reduciendo a la mitad los precios de todos los artículos de la tienda."
+    },
+    "Keeper's Sack": {
+      "description": "Keeper's Sack es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Hace aparecer 3 monedas y 1 llave. Mejora las estadísticas de Isaac al comprar objetos o recursos en la tienda. Las mejoras posibles son: + 0.5 Daño + 0.03 Velocidad"
+    },
+    "Keeper's Box": {
+      "description": "Keeper's Box es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Hace aparecer un recurso u objeto a la venta por su precio normal. Los objetos generados siempre serán objetos de la tienda . El objeto o recurso estará rodeado por pinchos si se activa Keeper's Box en la Habitación del Diablo o Mercado Negro ."
+    },
+    "Smelter": {
+      "description": "Smelter es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Se eliminará la baratija que se lleve, absorbiendo su efecto permanentemente. De esta forma se puede ir acumulando los efectos de todas las baratijas que sean encontradas. Si se intenta llevar la misma baratija que ya fue absorbido e incluso si la absorber de nuevo, no hará ninguna mejora."
+    },
+    "Locust of Wrath": {
+      "description": "Langosta de Guerra es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Al entrar en una habitación con enemigos, hace aparecer 1 langosta roja que explota al golpear a un enemigo."
+    },
+    "Locust of Pestilence": {
+      "description": "Langosta de Pestilencia es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Al entrar en una habitación con enemigos, hace aparecer 1 langosta verde que causan el doble del daño de Isaac y aplica efecto de envenenamiento en los enemigos."
+    },
+    "Locust of Famine": {
+      "description": "Langosta de Hambruna es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Al entrar en una habitación con enemigos, hace aparecer 1 langosta amarilla que causan el doble del daño de Isaac y aplica efecto de lentitud en los enemigos."
+    },
+    "Locust of Death": {
+      "description": "Langosta de Muerte es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Al entrar en una habitación con enemigos, hace aparecer 1 langosta negra que causan cuatro veces el daño de Isaac, aplicado como dos impactos con el doble de daño."
+    },
+    "Locust of Conquest": {
+      "description": "Langosta de Conquista es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Al entrar en una habitación con enemigos, hace aparecer 1-4 langostas blancas que causan el doble del daño de Isaac."
+    },
+    "Hushy": {
+      "description": "Hushy es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Otorga un familiar que rebota alrededor de la sala e inflige daño de contacto a los enemigos. Hushy hace 2 de daño por tick o 30 de daño por segundo. Mientras se dispara lágrimas, Hushy deja de moverse. Cuando Hushy deja de moverse, puede bloquear las lágrimas de los enemigos."
+    },
+    "Brown Nugget": {
+      "description": "Brown Nugget es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, hace aparecer una mosca torreta que dispara a los enemigos. Desaparecerán al salir de la habitación. Las moscas son completamente invulnerables e ignoradas por los enemigos. Sus proyectiles infligen 2 de daño."
+    },
+    "Black Rune": {
+      "description": "Las cartas (en el original inglés Cards ) son objetos recolectables que aparecen en The Binding of Isaac y su remake Rebirth , para las cartas invertidas o \"Reversed Cards\" véase Cartas/Repentance .",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Void": {
+      "description": "Void es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Si se usa el Void en una habitación con un ítem pasivo, Void lo absorberá y subirá stats de forma aleatoria (daño, rango, Etc). No se puede conseguir corazones con Void. Cuando el jugador absorbe un ítem activo como Guppy's Head , Kamikaze , o The Bible , Void lo absorberá y lo \"guardará\". En la siguiente activación de Void, el efecto del activo previamente absorbido se activará junto con el efecto normal de Void."
+    },
+    "Mort Baby": {
+      "description": "Mort Baby es un bebé especial del modo cooperativo.",
+      "effect": "Genera una mosca azul, y genera una mosca nueva cada vez que la mosca anterior muere."
+    },
+    "Apollyon Baby": {
+      "description": "Apollyon Baby es un bebé especial del modo cooperativo.",
+      "effect": "Se genera junto con dos Pretty Flies."
+    },
+    "Lil Portal": {
+      "description": "Lil Portal es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Invoca un portal como familiar que se lanza en la dirección en la que Isaac dispara, causando daño por contacto. El portal consumirá cualquier recurso y baratija que encuentre en su camino, convirtiéndolos en moscas azules y haciendo que el familiar se vuelva más grande y cause más daño por contacto. El daño de Lil Portal es 2 + 2 × Número de recursos consumidos. Causa daño hasta 10 veces por segundo."
+    },
+    "Worm Friend": {
+      "description": "Worm Friend es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Isaac obtiene un Nerve Ending como familiar que sale del piso para sujetar a los enemigos durante 4 segundos. Los enemigos sujetados reciben daño con el tiempo, reciben el efecto de ralentización y no pueden moverse. Worm Friend causa 4 de daño por tick (8 por segundo), para un total de 32 de daño por agarre. Puede detener tanto a enemigos normales como a jefes."
+    },
+    "Marrow": {
+      "description": "Marrow es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Otorga un corazón de hueso. Genera tres corazones rojos en el suelo."
+    },
+    "Slipped Rib": {
+      "description": "Slipped Rib es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Slipped Rib es un familiar que orbita alrededor del jugador a un ritmo rápido. La costilla proporciona más protección, reflejando cualquier proyectil enemigo. Cubriendo buena parte debido a lo largo que es. El proyectil reflejado podría dañar a los enemigos si se corrige la trayectoria de la bala con la forma de hueso de la manera correcta."
+    },
+    "Pointy Rib": {
+      "description": "Pointy Rib es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Pointy Rib siempre apuntará a donde se mire. Avanzado y retrocediendo lentamente indefinidamente. Algo que se nota es que normalmente cuando el jugador permanece quieto, él siempre cambia su mirada hacia abajo, o la cambia a la dirección hacia donde camine si es que no está disparando, pero sin embargo, al tener Pointy Rib, seguirá mirando hacia la última dirección donde disparo."
+    },
+    "Jaw Bone": {
+      "description": "Jaw Bone es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Jaw Bone seguirá al jugador en fila junto al resto de los familiares. Jaw Bone se lanzará a si mismo a la misma dirección a la que se dispare. La mandíbula seguirá viajando hasta topar con la pared o algún enemigo. No puede ser parado por las rocas ni las fogatas o cualquier cosa parecida. Al parar, regresará con el jugador, formándose en la fila nuevamente."
+    },
+    "Brittle Bones": {
+      "description": "Brittle Bones es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Reemplaza todos los corazones rojos con 6 corazones de hueso vacíos. Al perder un corazón de hueso, Isaac dispara huesos en 8 direcciones y gana permanentemente un +0.5 de velocidad de las lágrimas."
+    },
+    "Divorce Papers": {
+      "description": "Papeles del divorcio es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Genera el trinket \" Mysterious Paper \". Si Mysterious Paper aun no se desbloqueó, no se generará. Aumenta la velocidad de las lágrimas en 0.7. Otorga un corazón de hueso."
+    },
+    "Hallowed Ground": {
+      "description": "Suelo Santificado es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Spawnea una caca familiar, que se convierte en una caca con aura blanca cuando Isaac recibe daño. La caca blanca tiene un aura que reduce a la mitad el retraso de las lágrimas de los enemigos y tiene una gran probabilidad de bloquear el daño como el item Cone Head. La caca vuelve a spawnear al pasar a otra habitación."
+    },
+    "Finger Bone": {
+      "description": "Hueso del Dedo es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "! RP Tiene un 2% de probabilidad de dar un corazón de hueso al recibir daño. RP Tiene un 5% de probabilidad de dar un corazón de hueso al recibir daño."
+    },
+    "Dad's Ring": {
+      "description": "Dad's Ring es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Crea un anillo de luz alrededor de Isaac que petrifica a los enemigos en contacto. Los enemigos normales permanecen permanentemente petrificados siempre que estén dentro del anillo, mientras que los jefes obtienen un efecto de petrificación estándar que se mantiene incluso fuera del anillo, pero no es permanente."
+    },
+    "Book of the Dead": {
+      "description": "Book of the Dead es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Cuando se usa, puede generar una de las siguientes cosas para cada enemigo que murió en la habitación actual: Un hueso orbital familiar (muy común). Un Bony aliado (poco común). Un Black Bony aliado (raro)."
+    },
+    "Bound Baby": {
+      "description": "Bound Baby es un bebé especial del modo cooperativo.",
+      "effect": "Está ligado a Isaac, de manera similar al alma de The Forgotten. Dispara lágrimas espectrales."
+    },
+    "Bone Baby": {
+      "description": "Bone Baby es un bebé especial del modo cooperativo.",
+      "effect": "Maneja un palo de hueso en lugar de disparar lágrimas, de manera similar a The Forgotten ."
+    },
+    "Bone Spurs": {
+      "description": "Bone Spurs es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Cuando un enemigo muere, aparecen 1-2 huesos flotantes que bloquean proyectiles enemigos y protegen del daño, empujando a los enemigos que los tocan. El comportamiento de los huesos es similar al de los que genera Libro de los Muertos . Los huesos bloquean 2 disparos y/o causan 2 ticks de daño antes de romperse. Los huesos causan daño por contacto igual al daño de Isaac."
+    },
+    "Spirit Shackles": {
+      "description": "Spirit Shackles es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al morir, Isaac se convierte en un fantasma atado a su cuerpo muerto y podrá seguir peleando con medio corazón. 10 segundos después, Isaac vuelve a la vida. Isaac puede volar y disparar lágrimas espectrles mientras está en la forma de fantasma. Al activarse el efecto, Spirit Shackles no puede activarse nuevamente a menos que Isaac consiga un corazón de alma."
+    },
+    "Wisp Baby": {
+      "description": "Wisp Baby es un bebé especial del modo cooperativo.",
+      "effect": "Un bebé tenue."
+    },
+    "Book of Virtues": {
+      "description": "Book of Virtues es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Hace aparecer una llama que orbita alrededor del jugador y dispara lágrimas más pequeñas. La llama es destruida si entra en contacto contra un enemigo, un proyectil o una explosión. Cuando son destruidas, se reproduce un sonido de fuego extinguiéndose. Las llamas normales tienen 2 de vida y lágrimas espectrales que hacen 1.6~2.4 de daño."
+    },
+    "Urn of Souls": {
+      "description": "Urn of Souls es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Se necesitan cargas de alma para activar el efecto de Urn of Souls. Al matar enemigos se consigue una carga de alma para la urna, con un máximo de 20. Matar a jefes da más cargas de alma. Cada carga de alma es equivalente a 15 llamas cada medio segundo."
+    },
+    "Blessed Penny": {
+      "description": "Moneda bendecida es una baratija introducida en The Binding of Isaac: Rebirth .",
+      "effect": "Hay una probabilidad de que aparezca un medio corazón de alma al recoger una moneda. La probabilidad depende del valor de la moneda:"
+    },
+    "Alabaster Box": {
+      "description": "Alabaster Box es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Comienza sin cargas. En lugar de conseguirlas limpiando habitaciones o recogiendo baterías, tiene que cargarse con corazones de alma o corazones negros; estos no serán añadidos a la vida de Isaac. Cada mitad de corazón cuenta por una carga, por lo que se necesitan de 6 corazones completos para cargarlo completamente."
+    },
+    "Beth's Faith": {
+      "description": "Beth's Faith es una baratija introducida en The Binding of Isaac: Repentance .",
+      "effect": "Al comenzar cada piso, hace aparecer 8 llamas que orbitan alrededor de Isaac y disparan lágrimas con él. Las flamas son las mismas que las generadas por Libro de virtudes . Interactuar con un mendigo y recibir recompensas 2 veces también genera una llama. Si Isaac ya tiene flamas antes de entrar en el siguiente piso, sólo ganará suficientes flamas para tener un total de 8."
+    },
+    "Divine Intervention": {
+      "description": "Divine Intervention es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Pulsar dos veces el botón de disparo crea un escudo divino que se mueve lentamente en la dirección elegida. Los enemigos son empujados por el escudo, revirtiendo su trayectoria con un momento añadido. Si chocan contra un muro u obstáculo mientras son empujados, recibirán 10 de daño y causarán 10 de daño a los enemigos que golpeen."
+    },
+    "Soul Locket": {
+      "description": "Soul Locket es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Hace aparecer un corazón de alma al recogerlo. Isaac obtiene una de las siguientes mejoras por cada mitad de corazón de alma que recoge: + 0.04 Velocidad + 0.04 Velocidad del proyectil"
+    },
+    "Vade Retro": {
+      "description": "Vade Retro es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Mientras se lleve encima, los enemigos no fantasmales harán aparecer pequeños fantasmas rojos al morir; usar Vade Retro hace que los fantasmas exploten, causando daño a los enemigos cercanos. El daño de la explosión de los fantasmas es igual a 0.04 veces la vida del enemigo del que apareció el fantasma con 3 puntos fijos adicionales, y cada explosión puede golpear al mismo enemigos hasta 3 veces."
+    },
+    "Star of Bethlehem": {
+      "description": "Star of Bethlehem es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Hace aparecer una estrella como familiar que lentamente se dirige hacia la habitación del jefe. Al llegar a la habitación del jefe, se detiene en el centro durante el resto del piso. Mientras Isaac está dentro del aura del familiar, obtiene los siguientes efectos: + 1 Daño Lágrimas que siguen a los enemigos."
+    },
+    "Glowing Baby": {
+      "description": "Glowing Baby es un desbloqueable de The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Hope Baby": {
+      "description": "Hope Baby es un desbloqueable de The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Revelation": {
+      "description": "Revelation es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Da 2 corazones de alma. Al mantener el botón de ataque se carga una barra; al llenarla y atacar, Isaac dispara un poderoso rayo blanco similar a Azufre o al ataque de rayo usado por los Angel . El láser causa el mismo daño de Isaac por tick (con un máximo de 15 veces) y puede ser apuntado diagonalmente. La cadencia de disparo no afecta al tiempo de carga de Revelation. Está fijo en 2.5 segundos."
+    },
+    "Jar of Wisps": {
+      "description": "Jar of Wisps es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Hace aparecer una llama como Libro de virtudes que orbita alrededor de Isaac, dispara proyectiles, bloquea proyectiles enemigos y causa daño por contacto. Isaac puede tener hasta 3 anillos de llamas, para un total de 26. Inicialmente genera sólo 1 llama, pero crea una llama adicional con cada uso, hasta un máximo de 12 por uso."
+    },
+    "Double Baby": {
+      "description": "Double Baby es un desbloqueable de The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Stairway": {
+      "description": "The Stairway es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Crea una escalera en la habitación inicial de cada piso que lleva a una Habitación del Ángel especial que funciona como tienda. Se genera independientemente de la habitación del ángel normal, y aparece siempre sin importar la probabilidad de la habitación del pacto. La escalera desaparece si Isaac sale de la habitación inicial, sin importar si subió la escalera o no."
+    },
+    "Red Stew": {
+      "description": "Red Stew es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Al recogerlo, llena todos los contenedores de vida y otorga temporalmente + 21.6 Daño . La mejora de daño temporal se pierde en aproximadamente 3 minutos. Debido a cómo funciona la fórmula de daño, el efecto se pierde más rápido conforme pasa más tiempo; comienza disminuyendo ~0.015 cada medio segundo y aumenta hasta perder ~0.1 cada medio segundo al acercarse a 0."
+    },
+    "Birthright": {
+      "description": "Birthright es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Otorga una habilidad pasiva única que varía dependiendo del personaje."
+    },
+    "Damocles": {
+      "description": "Damocles es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, invoca una espada que cuelga directamente sobre Isaac. Mientras la espada esté sobre él, todos los pedestales y objetos generados por máquinas y mendigos son duplicados, haciendo aparecer un objeto adicional gratis junto a ellos. El objeto adicional es tomado de la fuente de obtención de la habitación actual."
+    },
+    "Rock Bottom": {
+      "description": "Rock Bottom es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "A partir de que es recogido, todas las estadísticas son bloqueadas en el valor más alto que han alcanzado. Se aplica a cualquier efecto que modifique los atributos de Isaac aunque sea temporalmente, y lo vuelve inmune a disminuciones de estadísticas."
+    },
+    "Vanishing Twin": {
+      "description": "Vanishing Twin es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Otorga un familiar que sigue a Isaac flotando. Al entrar en la habitación del jefe, el familiar se moverá cerca del centro de la habitación y se convertirá en un clon del jefe. Isaac deberá de derrotar a ambos jefes. Vanishing Twin y el jefe original tendrán el 75% de su vida máxima, y sus movimientos y patrones de ataque serán un poco más lentos."
+    },
+    "Inner Child": {
+      "description": "Niño interior es un objeto pasivo introducido en The Binding of Isaac .",
+      "effect": "Da una vida extra. Al morir, Isaac revive en la habitación actual con medio corazón restante, una gran reducción de tamaño y + 0.2 Velocidad . Si Isaac tiene contenedores de vida, revivirá sólo con medio corazón lleno. De otro modo, aparecerá con medio corazón de alma. Al revivir por el efecto de Inner Child, crea una explosión de sangre que causa 35 puntos fijos de daño a todos los enemigos cercanos."
+    },
+    "Genesis": {
+      "description": "Genesis es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, el personaje es reiniciado a sus estadísticas y objetos iniciales, y es teletransportado a un dormitorio que actúa como una habitación de I AM ERROR . La habitación tiene 1 cama, 2 cofres aleatorios, 2 sacos y una baratija al azar. Sólo se puede salir a través del rayo de luz."
+    },
+    "Suplex!": {
+      "description": "Suplex! es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Permite a Isaac embestir una distancia corta. Si choca contra un enemigo al embestir, lo levanta y aparece una cruz que puede ser controlada con los botones de disparo. Después de 1 segundo, Isaac deja caer al enemigo con su propio peso, causando 50 de daño a él y cualquier enemigo que esté debajo; crea un terremoto circular que daña a los enemigos cercanos."
+    },
+    "Illusion Baby": {
+      "description": "Illusion Baby es un desbloqueable de The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Solomon's Baby": {
+      "description": "Solomon's Baby es un desbloqueable de The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Magic Skin": {
+      "description": "Magic Skin es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, genera un objeto de la fuente de obtención de la habitación actual. Consumirá un contenedor de vida o dos corazones de alma y los reemplazará por un corazón roto, el cual no puede ser llenado y reduce permanentemente la vida máxima de Isaac. Tras usar Magic Skin, si Isaac no lo lleva encima, tiene una probabilidad de sustituir a cualquier objeto generado en el futuro por una copia de Magic Skin."
+    },
+    "Friend Finder": {
+      "description": "Friend Finder es un objeto activable introducido en The Binding of Isaac .",
+      "effect": "Al activarlo, hace aparecer un monstruo aliado aleatorio que sigue los movimientos de Isaac y dispara en la dirección que elija, similar al comportamiento de Jacob y Esau ."
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.character-card {
+  position: relative;
+  width: 180px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 8px 10px 14px;
+
+  user-select: none;
+
+}
+
+/* CONTADOR DE ACHIEVEMENTS */
+.archivementCounter {
+  margin: 0 0 2px 0;
+
+  font-size: 30px;
+  font-weight: 900;
+
+  color: #2b2522;
+
+  text-shadow:
+    1px 1px 0 #d7cec4,
+    -1px -1px 0 #d7cec4;
+
+  line-height: 1;
+}
+
+.completion-crown {
+  position: absolute;
+  top: -10px;
+  right: 42px;
+  width: 28px;
+  height: 20px;
+  background: #e2bd3f;
+  clip-path: polygon(
+    0 100%,
+    3% 25%,
+    28% 56%,
+    43% 0,
+    61% 57%,
+    97% 21%,
+    90% 100%
+  );
+  filter: drop-shadow(1px 1px 0 #625129);
+  transform: rotate(8deg);
+}
+
+
+/* PERSONAJE */
+.character-image {
+  width: 90px;
+  height: 90px;
+
+  object-fit: contain;
+
+  image-rendering: pixelated;
+}
+
+.character-image-fallback {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  border: 4px solid #292321;
+  border-radius: 48% 52% 45% 55%;
+  background: #d2ccca;
+  color: #292321;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1;
+  transform: rotate(-2deg);
+}
+
+.character-name {
+  margin: 10px 5px 5px;
+
+
+  font-size: 40px;
+  font-weight: bold;  
+
+  color: #8f1118;
+
+  text-transform: uppercase;
+
+  letter-spacing: -1px;
+
+  text-shadow:
+    1px 1px 0 #c3bab1,
+    -1px 0 0 #c3bab1;
+
+  line-height: 1;
+}
+
+.character-card:hover .character-name {
+  color: #8f1118;
+}

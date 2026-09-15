@@ -1,0 +1,1702 @@
+{
+    "Isaac":  [
+                  {
+                      "achievementId":  "167",
+                      "bossKey":  "moms-heart",
+                      "boss":  "Mom\u0027s Heart (Hard)",
+                      "item":  "Lost Baby",
+                      "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Isaac"
+                  },
+                  {
+                      "achievementId":  "106",
+                      "bossKey":  "isaac",
+                      "boss":  "Isaac",
+                      "item":  "Isaac\u0027s Tears",
+                      "requirement":  "Defeat Isaac as Isaac"
+                  },
+                  {
+                      "achievementId":  "43",
+                      "bossKey":  "satan",
+                      "boss":  "Satan",
+                      "item":  "Mom\u0027s Knife",
+                      "requirement":  "Defeat Satan as Isaac"
+                  },
+                  {
+                      "achievementId":  "49",
+                      "bossKey":  "blue-baby",
+                      "boss":  "???",
+                      "item":  "The D20",
+                      "requirement":  "Defeat??? as Isaac"
+                  },
+                  {
+                      "achievementId":  "149",
+                      "bossKey":  "the-lamb",
+                      "boss":  "The Lamb",
+                      "item":  "Missing Poster",
+                      "requirement":  "Defeat The Lamb as Isaac"
+                  },
+                  {
+                      "achievementId":  "70",
+                      "bossKey":  "boss-rush",
+                      "boss":  "Boss Rush",
+                      "item":  "Isaac\u0027s Head",
+                      "requirement":  "Complete the Boss Rush as Isaac"
+                  },
+                  {
+                      "achievementId":  "179",
+                      "bossKey":  "hush",
+                      "boss":  "Hush",
+                      "item":  "Fart Baby",
+                      "requirement":  "Defeat Hush as Isaac"
+                  },
+                  {
+                      "achievementId":  "192",
+                      "bossKey":  "ultra-greed",
+                      "boss":  "Ultra Greed",
+                      "item":  "Lil\u0027 Chest",
+                      "requirement":  "Defeat Ultra Greed as Isaac"
+                  },
+                  {
+                      "achievementId":  "296",
+                      "bossKey":  "ultra-greedier",
+                      "boss":  "Ultra Greedier",
+                      "item":  "D1",
+                      "requirement":  "Defeat Ultra Greedier as Isaac"
+                  },
+                  {
+                      "achievementId":  "282",
+                      "bossKey":  "delirium",
+                      "boss":  "Delirium",
+                      "item":  "D infinity",
+                      "requirement":  "Defeat Delirium as Isaac"
+                  },
+                  {
+                      "achievementId":  "205",
+                      "bossKey":  "mega-satan",
+                      "boss":  "Mega Satan",
+                      "item":  "Cry Baby",
+                      "requirement":  "Defeat Mega Satan as Isaac"
+                  },
+                  {
+                      "achievementId":  "253",
+                      "bossKey":  "all-hard-marks",
+                      "boss":  "All Hard Marks",
+                      "item":  "Buddy Baby",
+                      "requirement":  "Earn all Hard mode Completion Marks as Isaac"
+                  },
+                  {
+                      "achievementId":  "440",
+                      "bossKey":  "mother",
+                      "boss":  "Mother",
+                      "item":  "Meat Cleaver",
+                      "requirement":  "Defeat Mother as Isaac"
+                  },
+                  {
+                      "achievementId":  "441",
+                      "bossKey":  "the-beast",
+                      "boss":  "The Beast",
+                      "item":  "Options?",
+                      "requirement":  "Defeat The Beast as Isaac"
+                  }
+              ],
+    "Magdalene":  [
+                      {
+                          "achievementId":  "168",
+                          "bossKey":  "moms-heart",
+                          "boss":  "Mom\u0027s Heart (Hard)",
+                          "item":  "Cute Baby",
+                          "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Magdalene"
+                      },
+                      {
+                          "achievementId":  "20",
+                          "bossKey":  "isaac",
+                          "boss":  "Isaac",
+                          "item":  "A Cross",
+                          "requirement":  "Defeat Isaac as Magdalene"
+                      },
+                      {
+                          "achievementId":  "45",
+                          "bossKey":  "satan",
+                          "boss":  "Satan",
+                          "item":  "Guardian Angel",
+                          "requirement":  "Defeat Satan as Magdalene"
+                      },
+                      {
+                          "achievementId":  "50",
+                          "bossKey":  "blue-baby",
+                          "boss":  "???",
+                          "item":  "Celtic Cross",
+                          "requirement":  "Defeat??? as Magdalene"
+                      },
+                      {
+                          "achievementId":  "71",
+                          "bossKey":  "the-lamb",
+                          "boss":  "The Lamb",
+                          "item":  "Maggy\u0027s Faith",
+                          "requirement":  "Defeat The Lamb as Magdalene"
+                      },
+                      {
+                          "achievementId":  "109",
+                          "bossKey":  "boss-rush",
+                          "boss":  "Boss Rush",
+                          "item":  "Maggy\u0027s Bow",
+                          "requirement":  "Complete the Boss Rush as Magdalene"
+                      },
+                      {
+                          "achievementId":  "180",
+                          "bossKey":  "hush",
+                          "boss":  "Hush",
+                          "item":  "Purity",
+                          "requirement":  "Defeat Hush as Magdalene"
+                      },
+                      {
+                          "achievementId":  "193",
+                          "bossKey":  "ultra-greed",
+                          "boss":  "Ultra Greed",
+                          "item":  "Censer",
+                          "requirement":  "Defeat Ultra Greed as Magdalene"
+                      },
+                      {
+                          "achievementId":  "297",
+                          "bossKey":  "ultra-greedier",
+                          "boss":  "Ultra Greedier",
+                          "item":  "Glyph of Balance",
+                          "requirement":  "Defeat Ultra Greedier as Magdalene"
+                      },
+                      {
+                          "achievementId":  "283",
+                          "bossKey":  "delirium",
+                          "boss":  "Delirium",
+                          "item":  "Eucharist",
+                          "requirement":  "Defeat Delirium as Magdalene"
+                      },
+                      {
+                          "achievementId":  "206",
+                          "bossKey":  "mega-satan",
+                          "boss":  "Mega Satan",
+                          "item":  "Red Baby",
+                          "requirement":  "Defeat Mega Satan as Magdalene"
+                      },
+                      {
+                          "achievementId":  "254",
+                          "bossKey":  "all-hard-marks",
+                          "boss":  "All Hard Marks",
+                          "item":  "Colorful Baby",
+                          "requirement":  "Earn all Hard mode Completion Marks as Magdalene"
+                      },
+                      {
+                          "achievementId":  "442",
+                          "bossKey":  "mother",
+                          "boss":  "Mother",
+                          "item":  "Yuck Heart",
+                          "requirement":  "Defeat Mother as Magdalene"
+                      },
+                      {
+                          "achievementId":  "443",
+                          "bossKey":  "the-beast",
+                          "boss":  "The Beast",
+                          "item":  "Candy Heart",
+                          "requirement":  "Defeat The Beast as Magdalene"
+                      }
+                  ],
+    "Cain":  [
+                 {
+                     "achievementId":  "171",
+                     "bossKey":  "moms-heart",
+                     "boss":  "Mom\u0027s Heart (Hard)",
+                     "item":  "Glass Baby",
+                     "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Cain"
+                 },
+                 {
+                     "achievementId":  "21",
+                     "bossKey":  "isaac",
+                     "boss":  "Isaac",
+                     "item":  "A Bag of Pennies",
+                     "requirement":  "Defeat Isaac as Cain"
+                 },
+                 {
+                     "achievementId":  "46",
+                     "bossKey":  "satan",
+                     "boss":  "Satan",
+                     "item":  "A Bag of Bombs",
+                     "requirement":  "Defeat Satan as Cain"
+                 },
+                 {
+                     "achievementId":  "75",
+                     "bossKey":  "blue-baby",
+                     "boss":  "???",
+                     "item":  "Cain\u0027s Eye",
+                     "requirement":  "Defeat??? as Cain"
+                 },
+                 {
+                     "achievementId":  "51",
+                     "bossKey":  "the-lamb",
+                     "boss":  "The Lamb",
+                     "item":  "Abel",
+                     "requirement":  "Defeat The Lamb as Cain"
+                 },
+                 {
+                     "achievementId":  "110",
+                     "bossKey":  "boss-rush",
+                     "boss":  "Boss Rush",
+                     "item":  "Cain\u0027s Other Eye",
+                     "requirement":  "Complete the Boss Rush as Cain"
+                 },
+                 {
+                     "achievementId":  "181",
+                     "bossKey":  "hush",
+                     "boss":  "Hush",
+                     "item":  "D12",
+                     "requirement":  "Defeat Hush as Cain"
+                 },
+                 {
+                     "achievementId":  "194",
+                     "bossKey":  "ultra-greed",
+                     "boss":  "Ultra Greed",
+                     "item":  "Evil Eye",
+                     "requirement":  "Defeat Ultra Greed as Cain"
+                 },
+                 {
+                     "achievementId":  "298",
+                     "bossKey":  "ultra-greedier",
+                     "boss":  "Ultra Greedier",
+                     "item":  "Sack of Sacks",
+                     "requirement":  "Defeat Ultra Greedier as Cain"
+                 },
+                 {
+                     "achievementId":  "284",
+                     "bossKey":  "delirium",
+                     "boss":  "Delirium",
+                     "item":  "Silver Dollar",
+                     "requirement":  "Defeat Delirium as Cain"
+                 },
+                 {
+                     "achievementId":  "207",
+                     "bossKey":  "mega-satan",
+                     "boss":  "Mega Satan",
+                     "item":  "Green Baby",
+                     "requirement":  "Defeat Mega Satan as Cain"
+                 },
+                 {
+                     "achievementId":  "261",
+                     "bossKey":  "all-hard-marks",
+                     "boss":  "All Hard Marks",
+                     "item":  "Picky Baby",
+                     "requirement":  "Earn all Hard mode Completion Marks as Cain"
+                 },
+                 {
+                     "achievementId":  "444",
+                     "bossKey":  "mother",
+                     "boss":  "Mother",
+                     "item":  "Guppy\u0027s Eye",
+                     "requirement":  "Defeat Mother as Cain"
+                 },
+                 {
+                     "achievementId":  "445",
+                     "bossKey":  "the-beast",
+                     "boss":  "The Beast",
+                     "item":  "A Pound of Flesh",
+                     "requirement":  "Defeat The Beast as Cain"
+                 }
+             ],
+    "Judas":  [
+                  {
+                      "achievementId":  "170",
+                      "bossKey":  "moms-heart",
+                      "boss":  "Mom\u0027s Heart (Hard)",
+                      "item":  "Shadow Baby",
+                      "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Judas"
+                  },
+                  {
+                      "achievementId":  "107",
+                      "bossKey":  "isaac",
+                      "boss":  "Isaac",
+                      "item":  "Guillotine",
+                      "requirement":  "Defeat Isaac as Judas"
+                  },
+                  {
+                      "achievementId":  "72",
+                      "bossKey":  "satan",
+                      "boss":  "Satan",
+                      "item":  "Judas\u0027 Tongue",
+                      "requirement":  "Defeat Satan as Judas"
+                  },
+                  {
+                      "achievementId":  "77",
+                      "bossKey":  "blue-baby",
+                      "boss":  "???",
+                      "item":  "The Left Hand",
+                      "requirement":  "Defeat Ultra Pride as any character, or??? as Judas"
+                  },
+                  {
+                      "achievementId":  "52",
+                      "bossKey":  "the-lamb",
+                      "boss":  "The Lamb",
+                      "item":  "Curved Horn",
+                      "requirement":  "Defeat The Lamb as Judas"
+                  },
+                  {
+                      "achievementId":  "108",
+                      "bossKey":  "boss-rush",
+                      "boss":  "Boss Rush",
+                      "item":  "Judas\u0027 Shadow",
+                      "requirement":  "Complete the Boss Rush as Judas"
+                  },
+                  {
+                      "achievementId":  "182",
+                      "bossKey":  "hush",
+                      "boss":  "Hush",
+                      "item":  "Betrayal",
+                      "requirement":  "Defeat Hush as Judas"
+                  },
+                  {
+                      "achievementId":  "195",
+                      "bossKey":  "ultra-greed",
+                      "boss":  "Ultra Greed",
+                      "item":  "My Shadow",
+                      "requirement":  "Defeat Ultra Greed as Judas"
+                  },
+                  {
+                      "achievementId":  "299",
+                      "bossKey":  "ultra-greedier",
+                      "boss":  "Ultra Greedier",
+                      "item":  "Eye of Belial",
+                      "requirement":  "Defeat Ultra Greedier as Judas"
+                  },
+                  {
+                      "achievementId":  "285",
+                      "bossKey":  "delirium",
+                      "boss":  "Delirium",
+                      "item":  "Shade",
+                      "requirement":  "Defeat Delirium as Judas"
+                  },
+                  {
+                      "achievementId":  "208",
+                      "bossKey":  "mega-satan",
+                      "boss":  "Mega Satan",
+                      "item":  "Brown Baby",
+                      "requirement":  "Defeat Mega Satan as Judas"
+                  },
+                  {
+                      "achievementId":  "263",
+                      "bossKey":  "all-hard-marks",
+                      "boss":  "All Hard Marks",
+                      "item":  "Belial Baby",
+                      "requirement":  "Earn all Hard mode Completion Marks as Judas"
+                  },
+                  {
+                      "achievementId":  "446",
+                      "bossKey":  "mother",
+                      "boss":  "Mother",
+                      "item":  "Akeldama",
+                      "requirement":  "Defeat Mother as Judas"
+                  },
+                  {
+                      "achievementId":  "447",
+                      "bossKey":  "the-beast",
+                      "boss":  "The Beast",
+                      "item":  "Redemption",
+                      "requirement":  "Defeat The Beast as Judas"
+                  }
+              ],
+    "Blue Baby":  [
+                      {
+                          "achievementId":  "174",
+                          "bossKey":  "moms-heart",
+                          "boss":  "Mom\u0027s Heart (Hard)",
+                          "item":  "Dead Baby",
+                          "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as???"
+                      },
+                      {
+                          "achievementId":  "29",
+                          "bossKey":  "isaac",
+                          "boss":  "Isaac",
+                          "item":  "The D6",
+                          "requirement":  "Defeat Isaac as???"
+                      },
+                      {
+                          "achievementId":  "48",
+                          "bossKey":  "satan",
+                          "boss":  "Satan",
+                          "item":  "Forget Me Now",
+                          "requirement":  "Defeat Satan as???"
+                      },
+                      {
+                          "achievementId":  "113",
+                          "bossKey":  "blue-baby",
+                          "boss":  "???",
+                          "item":  "Fate",
+                          "requirement":  "Defeat??? as???"
+                      },
+                      {
+                          "achievementId":  "73",
+                          "bossKey":  "the-lamb",
+                          "boss":  "The Lamb",
+                          "item":  "???\u0027s Soul",
+                          "requirement":  "Defeat The Lamb as???"
+                      },
+                      {
+                          "achievementId":  "114",
+                          "bossKey":  "boss-rush",
+                          "boss":  "Boss Rush",
+                          "item":  "???\u0027s Only Friend",
+                          "requirement":  "Complete the Boss Rush as???"
+                      },
+                      {
+                          "achievementId":  "183",
+                          "bossKey":  "hush",
+                          "boss":  "Hush",
+                          "item":  "Fate\u0027s Reward",
+                          "requirement":  "Defeat Hush as???"
+                      },
+                      {
+                          "achievementId":  "196",
+                          "bossKey":  "ultra-greed",
+                          "boss":  "Ultra Greed",
+                          "item":  "Cracked Dice",
+                          "requirement":  "Defeat Ultra Greed as???"
+                      },
+                      {
+                          "achievementId":  "300",
+                          "bossKey":  "ultra-greedier",
+                          "boss":  "Ultra Greedier",
+                          "item":  "Meconium",
+                          "requirement":  "Defeat Ultra Greedier as???"
+                      },
+                      {
+                          "achievementId":  "286",
+                          "bossKey":  "delirium",
+                          "boss":  "Delirium",
+                          "item":  "King Baby",
+                          "requirement":  "Defeat Delirium as???"
+                      },
+                      {
+                          "achievementId":  "209",
+                          "bossKey":  "mega-satan",
+                          "boss":  "Mega Satan",
+                          "item":  "Blue Baby",
+                          "requirement":  "Defeat Mega Satan as???"
+                      },
+                      {
+                          "achievementId":  "252",
+                          "bossKey":  "all-hard-marks",
+                          "boss":  "All Hard Marks",
+                          "item":  "Hive Baby",
+                          "requirement":  "Earn all Hard mode Completion Marks as???"
+                      },
+                      {
+                          "achievementId":  "448",
+                          "bossKey":  "mother",
+                          "boss":  "Mother",
+                          "item":  "Eternal D6",
+                          "requirement":  "Defeat Mother as???"
+                      },
+                      {
+                          "achievementId":  "449",
+                          "bossKey":  "the-beast",
+                          "boss":  "The Beast",
+                          "item":  "Montezuma\u0027s Revenge",
+                          "requirement":  "Defeat The Beast as???"
+                      }
+                  ],
+    "Eve":  [
+                {
+                    "achievementId":  "169",
+                    "bossKey":  "moms-heart",
+                    "boss":  "Mom\u0027s Heart (Hard)",
+                    "item":  "Crow Baby",
+                    "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Eve"
+                },
+                {
+                    "achievementId":  "76",
+                    "bossKey":  "isaac",
+                    "boss":  "Isaac",
+                    "item":  "Eve\u0027s Bird Foot",
+                    "requirement":  "Defeat Isaac as Eve"
+                },
+                {
+                    "achievementId":  "44",
+                    "bossKey":  "satan",
+                    "boss":  "Satan",
+                    "item":  "The Razor",
+                    "requirement":  "Defeat Satan as Eve"
+                },
+                {
+                    "achievementId":  "53",
+                    "bossKey":  "blue-baby",
+                    "boss":  "???",
+                    "item":  "Sacrificial Dagger",
+                    "requirement":  "Defeat??? as Eve"
+                },
+                {
+                    "achievementId":  "111",
+                    "bossKey":  "the-lamb",
+                    "boss":  "The Lamb",
+                    "item":  "Black Lipstick",
+                    "requirement":  "Defeat The Lamb as Eve"
+                },
+                {
+                    "achievementId":  "112",
+                    "bossKey":  "boss-rush",
+                    "boss":  "Boss Rush",
+                    "item":  "Eve\u0027s Mascara",
+                    "requirement":  "Complete the Boss Rush as Eve"
+                },
+                {
+                    "achievementId":  "184",
+                    "bossKey":  "hush",
+                    "boss":  "Hush",
+                    "item":  "Athame",
+                    "requirement":  "Defeat Hush as Eve"
+                },
+                {
+                    "achievementId":  "197",
+                    "bossKey":  "ultra-greed",
+                    "boss":  "Ultra Greed",
+                    "item":  "Black Feather",
+                    "requirement":  "Defeat Ultra Greed as Eve"
+                },
+                {
+                    "achievementId":  "302",
+                    "bossKey":  "ultra-greedier",
+                    "boss":  "Ultra Greedier",
+                    "item":  "Crow Heart",
+                    "requirement":  "Defeat Ultra Greedier as Eve"
+                },
+                {
+                    "achievementId":  "288",
+                    "bossKey":  "delirium",
+                    "boss":  "Delirium",
+                    "item":  "Dull Razor",
+                    "requirement":  "Defeat Delirium as Eve"
+                },
+                {
+                    "achievementId":  "210",
+                    "bossKey":  "mega-satan",
+                    "boss":  "Mega Satan",
+                    "item":  "Lil\u0027 Baby",
+                    "requirement":  "Defeat Mega Satan as Eve"
+                },
+                {
+                    "achievementId":  "255",
+                    "bossKey":  "all-hard-marks",
+                    "boss":  "All Hard Marks",
+                    "item":  "Whore Baby",
+                    "requirement":  "Earn all Hard mode Completion Marks as Eve"
+                },
+                {
+                    "achievementId":  "450",
+                    "bossKey":  "mother",
+                    "boss":  "Mother",
+                    "item":  "Bird Cage",
+                    "requirement":  "Defeat Mother as Eve"
+                },
+                {
+                    "achievementId":  "451",
+                    "bossKey":  "the-beast",
+                    "boss":  "The Beast",
+                    "item":  "Cracked Orb",
+                    "requirement":  "Defeat The Beast as Eve"
+                }
+            ],
+    "Samson":  [
+                   {
+                       "achievementId":  "177",
+                       "bossKey":  "moms-heart",
+                       "boss":  "Mom\u0027s Heart (Hard)",
+                       "item":  "Fighting Baby",
+                       "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Samson"
+                   },
+                   {
+                       "achievementId":  "54",
+                       "bossKey":  "isaac",
+                       "boss":  "Isaac",
+                       "item":  "Bloody Lust",
+                       "requirement":  "Defeat Isaac as Samson"
+                   },
+                   {
+                       "achievementId":  "56",
+                       "bossKey":  "satan",
+                       "boss":  "Satan",
+                       "item":  "Blood Rights",
+                       "requirement":  "Defeat Satan as Samson"
+                   },
+                   {
+                       "achievementId":  "55",
+                       "bossKey":  "blue-baby",
+                       "boss":  "???",
+                       "item":  "Blood Penny",
+                       "requirement":  "Defeat??? as Samson"
+                   },
+                   {
+                       "achievementId":  "74",
+                       "bossKey":  "the-lamb",
+                       "boss":  "The Lamb",
+                       "item":  "Samson\u0027s Lock",
+                       "requirement":  "Defeat The Lamb as Samson"
+                   },
+                   {
+                       "achievementId":  "115",
+                       "bossKey":  "boss-rush",
+                       "boss":  "Boss Rush",
+                       "item":  "Samson\u0027s Chains",
+                       "requirement":  "Complete the Boss Rush as Samson"
+                   },
+                   {
+                       "achievementId":  "185",
+                       "bossKey":  "hush",
+                       "boss":  "Hush",
+                       "item":  "Blind Rage",
+                       "requirement":  "Defeat Hush as Samson"
+                   },
+                   {
+                       "achievementId":  "198",
+                       "bossKey":  "ultra-greed",
+                       "boss":  "Ultra Greed",
+                       "item":  "Lusty Blood",
+                       "requirement":  "Defeat Ultra Greed as Samson"
+                   },
+                   {
+                       "achievementId":  "301",
+                       "bossKey":  "ultra-greedier",
+                       "boss":  "Ultra Greedier",
+                       "item":  "Stem Cell",
+                       "requirement":  "Defeat Ultra Greedier as Samson"
+                   },
+                   {
+                       "achievementId":  "287",
+                       "bossKey":  "delirium",
+                       "boss":  "Delirium",
+                       "item":  "Bloody Crown",
+                       "requirement":  "Defeat Delirium as Samson"
+                   },
+                   {
+                       "achievementId":  "211",
+                       "bossKey":  "mega-satan",
+                       "boss":  "Mega Satan",
+                       "item":  "Rage Baby",
+                       "requirement":  "Defeat Mega Satan as Samson"
+                   },
+                   {
+                       "achievementId":  "262",
+                       "bossKey":  "all-hard-marks",
+                       "boss":  "All Hard Marks",
+                       "item":  "Revenge Baby",
+                       "requirement":  "Earn all Hard mode Completion Marks as Samson"
+                   },
+                   {
+                       "achievementId":  "452",
+                       "bossKey":  "mother",
+                       "boss":  "Mother",
+                       "item":  "Bloody Gust",
+                       "requirement":  "Defeat Mother as Samson"
+                   },
+                   {
+                       "achievementId":  "453",
+                       "bossKey":  "the-beast",
+                       "boss":  "The Beast",
+                       "item":  "Empty Heart",
+                       "requirement":  "Defeat The Beast as Samson"
+                   }
+               ],
+    "Azazel":  [
+                   {
+                       "achievementId":  "173",
+                       "bossKey":  "moms-heart",
+                       "boss":  "Mom\u0027s Heart (Hard)",
+                       "item":  "Begotten Baby",
+                       "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Lazarus Defeat Mom\u0027s Heart or It Lives! on Hard mode as Azazel"
+                   },
+                   {
+                       "achievementId":  "126",
+                       "bossKey":  "isaac",
+                       "boss":  "Isaac",
+                       "item":  "Satanic Bible",
+                       "requirement":  "Defeat Isaac as Azazel"
+                   },
+                   {
+                       "achievementId":  "127",
+                       "bossKey":  "satan",
+                       "boss":  "Satan",
+                       "item":  "Daemon\u0027s Tail",
+                       "requirement":  "Defeat Satan as Azazel"
+                   },
+                   {
+                       "achievementId":  "128",
+                       "bossKey":  "blue-baby",
+                       "boss":  "???",
+                       "item":  "Abaddon",
+                       "requirement":  "Defeat??? as Azazel"
+                   },
+                   {
+                       "achievementId":  "47",
+                       "bossKey":  "the-lamb",
+                       "boss":  "The Lamb",
+                       "item":  "Demon Baby",
+                       "requirement":  "Defeat The Lamb as Azazel"
+                   },
+                   {
+                       "achievementId":  "9",
+                       "bossKey":  "boss-rush",
+                       "boss":  "Boss Rush",
+                       "item":  "The Nail",
+                       "requirement":  "Complete the Boss Rush as Azazel"
+                   },
+                   {
+                       "achievementId":  "186",
+                       "bossKey":  "hush",
+                       "boss":  "Hush",
+                       "item":  "Maw of the Void",
+                       "requirement":  "Defeat Hush as Azazel"
+                   },
+                   {
+                       "achievementId":  "199",
+                       "bossKey":  "ultra-greed",
+                       "boss":  "Ultra Greed",
+                       "item":  "Lilith",
+                       "requirement":  "Defeat Ultra Greed as Azazel"
+                   },
+                   {
+                       "achievementId":  "304",
+                       "bossKey":  "ultra-greedier",
+                       "boss":  "Ultra Greedier",
+                       "item":  "Bat Wing",
+                       "requirement":  "Defeat Ultra Greedier as Azazel"
+                   },
+                   {
+                       "achievementId":  "290",
+                       "bossKey":  "delirium",
+                       "boss":  "Delirium",
+                       "item":  "Dark Prince\u0027s Crown",
+                       "requirement":  "Defeat Delirium as Azazel"
+                   },
+                   {
+                       "achievementId":  "212",
+                       "bossKey":  "mega-satan",
+                       "boss":  "Mega Satan",
+                       "item":  "Black Baby",
+                       "requirement":  "Defeat Mega Satan as Azazel"
+                   },
+                   {
+                       "achievementId":  "259",
+                       "bossKey":  "all-hard-marks",
+                       "boss":  "All Hard Marks",
+                       "item":  "Sucky Baby",
+                       "requirement":  "Earn all Hard mode Completion Marks as Azazel"
+                   },
+                   {
+                       "achievementId":  "454",
+                       "bossKey":  "mother",
+                       "boss":  "Mother",
+                       "item":  "Devil\u0027s Crown",
+                       "requirement":  "Defeat Mother as Azazel"
+                   },
+                   {
+                       "achievementId":  "455",
+                       "bossKey":  "the-beast",
+                       "boss":  "The Beast",
+                       "item":  "Lil Abaddon",
+                       "requirement":  "Defeat The Beast as Azazel"
+                   }
+               ],
+    "Lazarus":  [
+                    {
+                        "achievementId":  "172",
+                        "bossKey":  "moms-heart",
+                        "boss":  "Mom\u0027s Heart (Hard)",
+                        "item":  "Wrapped Baby",
+                        "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Azazel Defeat Mom\u0027s Heart or It Lives! on Hard mode as Lazarus"
+                    },
+                    {
+                        "achievementId":  "116",
+                        "bossKey":  "isaac",
+                        "boss":  "Isaac",
+                        "item":  "Lazarus\u0027 Rags",
+                        "requirement":  "Defeat Isaac as Lazarus"
+                    },
+                    {
+                        "achievementId":  "117",
+                        "bossKey":  "satan",
+                        "boss":  "Satan",
+                        "item":  "Broken Ankh",
+                        "requirement":  "Defeat Satan as Lazarus"
+                    },
+                    {
+                        "achievementId":  "118",
+                        "bossKey":  "blue-baby",
+                        "boss":  "???",
+                        "item":  "Store Credit",
+                        "requirement":  "Defeat??? as Lazarus"
+                    },
+                    {
+                        "achievementId":  "119",
+                        "bossKey":  "the-lamb",
+                        "boss":  "The Lamb",
+                        "item":  "Pandora\u0027s Box",
+                        "requirement":  "Defeat The Lamb as Lazarus"
+                    },
+                    {
+                        "achievementId":  "105",
+                        "bossKey":  "boss-rush",
+                        "boss":  "Boss Rush",
+                        "item":  "Missing No.",
+                        "requirement":  "Complete the Boss Rush as Lazarus"
+                    },
+                    {
+                        "achievementId":  "187",
+                        "bossKey":  "hush",
+                        "boss":  "Hush",
+                        "item":  "Empty Vessel",
+                        "requirement":  "Defeat Hush as Lazarus"
+                    },
+                    {
+                        "achievementId":  "200",
+                        "bossKey":  "ultra-greed",
+                        "boss":  "Ultra Greed",
+                        "item":  "Key Bum",
+                        "requirement":  "Defeat Ultra Greed as Lazarus"
+                    },
+                    {
+                        "achievementId":  "305",
+                        "bossKey":  "ultra-greedier",
+                        "boss":  "Ultra Greedier",
+                        "item":  "Plan C",
+                        "requirement":  "Defeat Ultra Greedier as Lazarus"
+                    },
+                    {
+                        "achievementId":  "291",
+                        "bossKey":  "delirium",
+                        "boss":  "Delirium",
+                        "item":  "Compound Fracture",
+                        "requirement":  "Defeat Delirium as Lazarus"
+                    },
+                    {
+                        "achievementId":  "213",
+                        "bossKey":  "mega-satan",
+                        "boss":  "Mega Satan",
+                        "item":  "Long Baby",
+                        "requirement":  "Defeat Mega Satan as Lazarus"
+                    },
+                    {
+                        "achievementId":  "257",
+                        "bossKey":  "all-hard-marks",
+                        "boss":  "All Hard Marks",
+                        "item":  "Dripping Baby",
+                        "requirement":  "Earn all Hard mode Completion Marks as Lazarus"
+                    },
+                    {
+                        "achievementId":  "456",
+                        "bossKey":  "mother",
+                        "boss":  "Mother",
+                        "item":  "Tinytoma",
+                        "requirement":  "Defeat Mother as Lazarus"
+                    },
+                    {
+                        "achievementId":  "457",
+                        "bossKey":  "the-beast",
+                        "boss":  "The Beast",
+                        "item":  "Astral Projection",
+                        "requirement":  "Defeat The Beast as Lazarus"
+                    }
+                ],
+    "Eden":  [
+                 {
+                     "achievementId":  "176",
+                     "bossKey":  "moms-heart",
+                     "boss":  "Mom\u0027s Heart (Hard)",
+                     "item":  "Glitch Baby",
+                     "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Eden"
+                 },
+                 {
+                     "achievementId":  "121",
+                     "bossKey":  "isaac",
+                     "boss":  "Isaac",
+                     "item":  "Blank Card",
+                     "requirement":  "Defeat Isaac as Eden"
+                 },
+                 {
+                     "achievementId":  "122",
+                     "bossKey":  "satan",
+                     "boss":  "Satan",
+                     "item":  "Book of Secrets",
+                     "requirement":  "Defeat Satan as Eden"
+                 },
+                 {
+                     "achievementId":  "123",
+                     "bossKey":  "blue-baby",
+                     "boss":  "???",
+                     "item":  "Mysterious Paper",
+                     "requirement":  "Defeat??? as Eden"
+                 },
+                 {
+                     "achievementId":  "124",
+                     "bossKey":  "the-lamb",
+                     "boss":  "The Lamb",
+                     "item":  "Mystery Sack",
+                     "requirement":  "Defeat The Lamb as Eden"
+                 },
+                 {
+                     "achievementId":  "125",
+                     "bossKey":  "boss-rush",
+                     "boss":  "Boss Rush",
+                     "item":  "Undefined",
+                     "requirement":  "Complete the Boss Rush as Eden"
+                 },
+                 {
+                     "achievementId":  "188",
+                     "bossKey":  "hush",
+                     "boss":  "Hush",
+                     "item":  "Eden\u0027s Blessing",
+                     "requirement":  "Defeat Hush as Eden"
+                 },
+                 {
+                     "achievementId":  "201",
+                     "bossKey":  "ultra-greed",
+                     "boss":  "Ultra Greed",
+                     "item":  "GB Bug",
+                     "requirement":  "Defeat Ultra Greed as Eden"
+                 },
+                 {
+                     "achievementId":  "303",
+                     "bossKey":  "ultra-greedier",
+                     "boss":  "Ultra Greedier",
+                     "item":  "Metronome",
+                     "requirement":  "Defeat Ultra Greedier as Eden"
+                 },
+                 {
+                     "achievementId":  "289",
+                     "bossKey":  "delirium",
+                     "boss":  "Delirium",
+                     "item":  "Eden\u0027s Soul",
+                     "requirement":  "Defeat Delirium as Eden"
+                 },
+                 {
+                     "achievementId":  "214",
+                     "bossKey":  "mega-satan",
+                     "boss":  "Mega Satan",
+                     "item":  "Yellow Baby",
+                     "requirement":  "Defeat Mega Satan as Eden"
+                 },
+                 {
+                     "achievementId":  "256",
+                     "bossKey":  "all-hard-marks",
+                     "boss":  "All Hard Marks",
+                     "item":  "Cracked Baby",
+                     "requirement":  "Earn all Hard mode Completion Marks as Eden"
+                 },
+                 {
+                     "achievementId":  "458",
+                     "bossKey":  "mother",
+                     "boss":  "Mother",
+                     "item":  "\u0027M",
+                     "requirement":  "Defeat Mother as Eden"
+                 },
+                 {
+                     "achievementId":  "459",
+                     "bossKey":  "the-beast",
+                     "boss":  "The Beast",
+                     "item":  "Everything Jar",
+                     "requirement":  "Defeat The Beast as Eden"
+                 }
+             ],
+    "The Lost":  [
+                     {
+                         "achievementId":  "175",
+                         "bossKey":  "moms-heart",
+                         "boss":  "Mom\u0027s Heart (Hard)",
+                         "item":  "-0- Baby",
+                         "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as The Lost"
+                     },
+                     {
+                         "achievementId":  "129",
+                         "bossKey":  "isaac",
+                         "boss":  "Isaac",
+                         "item":  "Isaac\u0027s Heart",
+                         "requirement":  "Defeat Isaac as The Lost"
+                     },
+                     {
+                         "achievementId":  "130",
+                         "bossKey":  "satan",
+                         "boss":  "Satan",
+                         "item":  "The Mind",
+                         "requirement":  "Defeat Satan as The Lost"
+                     },
+                     {
+                         "achievementId":  "131",
+                         "bossKey":  "blue-baby",
+                         "boss":  "???",
+                         "item":  "The Body",
+                         "requirement":  "Defeat??? as The Lost"
+                     },
+                     {
+                         "achievementId":  "132",
+                         "bossKey":  "the-lamb",
+                         "boss":  "The Lamb",
+                         "item":  "The Soul",
+                         "requirement":  "Defeat The Lamb as The Lost"
+                     },
+                     {
+                         "achievementId":  "133",
+                         "bossKey":  "boss-rush",
+                         "boss":  "Boss Rush",
+                         "item":  "The D100",
+                         "requirement":  "Complete the Boss Rush as The Lost"
+                     },
+                     {
+                         "achievementId":  "189",
+                         "bossKey":  "hush",
+                         "boss":  "Hush",
+                         "item":  "Sworn Protector",
+                         "requirement":  "Defeat Hush as The Lost"
+                     },
+                     {
+                         "achievementId":  "202",
+                         "bossKey":  "ultra-greed",
+                         "boss":  "Ultra Greed",
+                         "item":  "Zodiac",
+                         "requirement":  "Defeat Ultra Greed as The Lost"
+                     },
+                     {
+                         "achievementId":  "307",
+                         "bossKey":  "ultra-greedier",
+                         "boss":  "Ultra Greedier",
+                         "item":  "Dad\u0027s Lost Coin",
+                         "requirement":  "Defeat Ultra Greedier as The Lost"
+                     },
+                     {
+                         "achievementId":  "293",
+                         "bossKey":  "delirium",
+                         "boss":  "Delirium",
+                         "item":  "Holy Card",
+                         "requirement":  "Defeat Delirium as The Lost"
+                     },
+                     {
+                         "achievementId":  "215",
+                         "bossKey":  "mega-satan",
+                         "boss":  "Mega Satan",
+                         "item":  "White Baby",
+                         "requirement":  "Defeat Mega Satan as The Lost"
+                     },
+                     {
+                         "achievementId":  "156",
+                         "bossKey":  "all-hard-marks",
+                         "boss":  "All Hard Marks",
+                         "item":  "Godhead",
+                         "requirement":  "Earn all 6 / 9 / 10 / 12 Completion Marks on Hard mode as The Lost"
+                     },
+                     {
+                         "achievementId":  "460",
+                         "bossKey":  "mother",
+                         "boss":  "Mother",
+                         "item":  "Lost Soul",
+                         "requirement":  "Defeat Mother as The Lost"
+                     },
+                     {
+                         "achievementId":  "461",
+                         "bossKey":  "the-beast",
+                         "boss":  "The Beast",
+                         "item":  "Hungry Soul",
+                         "requirement":  "Defeat The Beast as The Lost"
+                     }
+                 ],
+    "Lilith":  [
+                   {
+                       "achievementId":  "223",
+                       "bossKey":  "moms-heart",
+                       "boss":  "Mom\u0027s Heart (Hard)",
+                       "item":  "Goat Head Baby",
+                       "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Lilith"
+                   },
+                   {
+                       "achievementId":  "218",
+                       "bossKey":  "isaac",
+                       "boss":  "Isaac",
+                       "item":  "Rune Bag",
+                       "requirement":  "Defeat Isaac as Lilith"
+                   },
+                   {
+                       "achievementId":  "220",
+                       "bossKey":  "satan",
+                       "boss":  "Satan",
+                       "item":  "Serpent\u0027s Kiss",
+                       "requirement":  "Defeat Satan as Lilith"
+                   },
+                   {
+                       "achievementId":  "219",
+                       "bossKey":  "blue-baby",
+                       "boss":  "???",
+                       "item":  "Cambion Conception",
+                       "requirement":  "Defeat??? as Lilith"
+                   },
+                   {
+                       "achievementId":  "221",
+                       "bossKey":  "the-lamb",
+                       "boss":  "The Lamb",
+                       "item":  "Succubus",
+                       "requirement":  "Defeat The Lamb as Lilith"
+                   },
+                   {
+                       "achievementId":  "222",
+                       "bossKey":  "boss-rush",
+                       "boss":  "Boss Rush",
+                       "item":  "Immaculate Conception",
+                       "requirement":  "Complete the Boss Rush as Lilith"
+                   },
+                   {
+                       "achievementId":  "190",
+                       "bossKey":  "hush",
+                       "boss":  "Hush",
+                       "item":  "Incubus",
+                       "requirement":  "Defeat Hush as Lilith"
+                   },
+                   {
+                       "achievementId":  "203",
+                       "bossKey":  "ultra-greed",
+                       "boss":  "Ultra Greed",
+                       "item":  "Box of Friends",
+                       "requirement":  "Defeat Ultra Greed as Lilith"
+                   },
+                   {
+                       "achievementId":  "306",
+                       "bossKey":  "ultra-greedier",
+                       "boss":  "Ultra Greedier",
+                       "item":  "Duality",
+                       "requirement":  "Defeat Ultra Greedier as Lilith"
+                   },
+                   {
+                       "achievementId":  "292",
+                       "bossKey":  "delirium",
+                       "boss":  "Delirium",
+                       "item":  "Euthanasia",
+                       "requirement":  "Defeat Delirium as Lilith"
+                   },
+                   {
+                       "achievementId":  "216",
+                       "bossKey":  "mega-satan",
+                       "boss":  "Mega Satan",
+                       "item":  "Big Baby",
+                       "requirement":  "Defeat Mega Satan as Lilith"
+                   },
+                   {
+                       "achievementId":  "260",
+                       "bossKey":  "all-hard-marks",
+                       "boss":  "All Hard Marks",
+                       "item":  "Dark Baby",
+                       "requirement":  "Earn all Hard mode Completion Marks as Lilith"
+                   },
+                   {
+                       "achievementId":  "462",
+                       "bossKey":  "mother",
+                       "boss":  "Mother",
+                       "item":  "Blood Puppy",
+                       "requirement":  "Defeat Mother as Lilith"
+                   },
+                   {
+                       "achievementId":  "463",
+                       "bossKey":  "the-beast",
+                       "boss":  "The Beast",
+                       "item":  "C Section",
+                       "requirement":  "Defeat The Beast as Lilith"
+                   }
+               ],
+    "Keeper":  [
+                   {
+                       "achievementId":  "241",
+                       "bossKey":  "moms-heart",
+                       "boss":  "Mom\u0027s Heart (Hard)",
+                       "item":  "Super Greed Baby",
+                       "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Keeper"
+                   },
+                   {
+                       "achievementId":  "236",
+                       "bossKey":  "isaac",
+                       "boss":  "Isaac",
+                       "item":  "Keeper holds Wooden Nickel",
+                       "requirement":  "Defeat Isaac as Keeper"
+                   },
+                   {
+                       "achievementId":  "237",
+                       "bossKey":  "satan",
+                       "boss":  "Satan",
+                       "item":  "Keeper holds Store Key",
+                       "requirement":  "Defeat Satan as Keeper"
+                   },
+                   {
+                       "achievementId":  "238",
+                       "bossKey":  "blue-baby",
+                       "boss":  "???",
+                       "item":  "Deep Pockets",
+                       "requirement":  "Defeat??? as Keeper"
+                   },
+                   {
+                       "achievementId":  "239",
+                       "bossKey":  "the-lamb",
+                       "boss":  "The Lamb",
+                       "item":  "Karma",
+                       "requirement":  "Defeat The Lamb as Keeper"
+                   },
+                   {
+                       "achievementId":  "240",
+                       "bossKey":  "boss-rush",
+                       "boss":  "Boss Rush",
+                       "item":  "Sticky Nickels",
+                       "requirement":  "Complete the Boss Rush as Keeper"
+                   },
+                   {
+                       "achievementId":  "191",
+                       "bossKey":  "hush",
+                       "boss":  "Hush",
+                       "item":  "Keeper now holds... A Penny!",
+                       "requirement":  "Defeat Hush as Keeper"
+                   },
+                   {
+                       "achievementId":  "204",
+                       "bossKey":  "ultra-greed",
+                       "boss":  "Ultra Greed",
+                       "item":  "Rib of Greed",
+                       "requirement":  "Defeat Ultra Greed as Keeper"
+                   },
+                   {
+                       "achievementId":  "308",
+                       "bossKey":  "ultra-greedier",
+                       "boss":  "Ultra Greedier",
+                       "item":  "Eye of Greed",
+                       "requirement":  "Defeat Ultra Greedier as Keeper"
+                   },
+                   {
+                       "achievementId":  "294",
+                       "bossKey":  "delirium",
+                       "boss":  "Delirium",
+                       "item":  "Crooked Penny",
+                       "requirement":  "Defeat Delirium as Keeper"
+                   },
+                   {
+                       "achievementId":  "217",
+                       "bossKey":  "mega-satan",
+                       "boss":  "Mega Satan",
+                       "item":  "Noose Baby",
+                       "requirement":  "Defeat Mega Satan as Keeper"
+                   },
+                   {
+                       "achievementId":  "264",
+                       "bossKey":  "all-hard-marks",
+                       "boss":  "All Hard Marks",
+                       "item":  "Sale Baby",
+                       "requirement":  "Earn all Hard mode Completion Marks as Keeper"
+                   },
+                   {
+                       "achievementId":  "464",
+                       "bossKey":  "mother",
+                       "boss":  "Mother",
+                       "item":  "Keeper\u0027s Sack",
+                       "requirement":  "Defeat Mother as Keeper"
+                   },
+                   {
+                       "achievementId":  "465",
+                       "bossKey":  "the-beast",
+                       "boss":  "The Beast",
+                       "item":  "Keeper\u0027s Box",
+                       "requirement":  "Defeat The Beast as Keeper"
+                   }
+               ],
+    "Apollyon":  [
+                     {
+                         "achievementId":  "318",
+                         "bossKey":  "moms-heart",
+                         "boss":  "Mom\u0027s Heart (Hard)",
+                         "item":  "Smelter",
+                         "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Apollyon"
+                     },
+                     {
+                         "achievementId":  "310",
+                         "bossKey":  "isaac",
+                         "boss":  "Isaac",
+                         "item":  "Locust of Wrath",
+                         "requirement":  "Defeat Isaac as Apollyon"
+                     },
+                     {
+                         "achievementId":  "311",
+                         "bossKey":  "satan",
+                         "boss":  "Satan",
+                         "item":  "Locust of Pestilence",
+                         "requirement":  "Defeat Satan as Apollyon"
+                     },
+                     {
+                         "achievementId":  "312",
+                         "bossKey":  "blue-baby",
+                         "boss":  "???",
+                         "item":  "Locust of Famine",
+                         "requirement":  "Defeat??? as Apollyon"
+                     },
+                     {
+                         "achievementId":  "313",
+                         "bossKey":  "the-lamb",
+                         "boss":  "The Lamb",
+                         "item":  "Locust of Death",
+                         "requirement":  "Defeat The Lamb as Apollyon"
+                     },
+                     {
+                         "achievementId":  "314",
+                         "bossKey":  "boss-rush",
+                         "boss":  "Boss Rush",
+                         "item":  "Locust of Conquest",
+                         "requirement":  "Complete the Boss Rush as Apollyon"
+                     },
+                     {
+                         "achievementId":  "315",
+                         "bossKey":  "hush",
+                         "boss":  "Hush",
+                         "item":  "Hushy",
+                         "requirement":  "Defeat Hush as Apollyon"
+                     },
+                     {
+                         "achievementId":  "316",
+                         "bossKey":  "ultra-greed",
+                         "boss":  "Ultra Greed",
+                         "item":  "Brown Nugget",
+                         "requirement":  "Defeat Ultra Greed as Apollyon"
+                     },
+                     {
+                         "achievementId":  "309",
+                         "bossKey":  "ultra-greedier",
+                         "boss":  "Ultra Greedier",
+                         "item":  "Black Rune",
+                         "requirement":  "Defeat Ultra Greedier as Apollyon"
+                     },
+                     {
+                         "achievementId":  "295",
+                         "bossKey":  "delirium",
+                         "boss":  "Delirium",
+                         "item":  "Void",
+                         "requirement":  "Defeat Delirium as Apollyon"
+                     },
+                     {
+                         "achievementId":  "317",
+                         "bossKey":  "mega-satan",
+                         "boss":  "Mega Satan",
+                         "item":  "Mort Baby",
+                         "requirement":  "Defeat Mega Satan as Apollyon"
+                     },
+                     {
+                         "achievementId":  "319",
+                         "bossKey":  "all-hard-marks",
+                         "boss":  "All Hard Marks",
+                         "item":  "Apollyon Baby",
+                         "requirement":  "Earn all Hard mode Completion Marks as Apollyon"
+                     },
+                     {
+                         "achievementId":  "466",
+                         "bossKey":  "mother",
+                         "boss":  "Mother",
+                         "item":  "Lil Portal",
+                         "requirement":  "Defeat Mother as Apollyon"
+                     },
+                     {
+                         "achievementId":  "467",
+                         "bossKey":  "the-beast",
+                         "boss":  "The Beast",
+                         "item":  "Worm Friend",
+                         "requirement":  "Defeat The Beast as Apollyon"
+                     }
+                 ],
+    "The Forgotten":  [
+                          {
+                              "achievementId":  "392",
+                              "bossKey":  "moms-heart",
+                              "boss":  "Mom\u0027s Heart (Hard)",
+                              "item":  "Marrow",
+                              "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "393",
+                              "bossKey":  "isaac",
+                              "boss":  "Isaac",
+                              "item":  "Slipped Rib",
+                              "requirement":  "Defeat Isaac as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "394",
+                              "bossKey":  "satan",
+                              "boss":  "Satan",
+                              "item":  "Pointy Rib",
+                              "requirement":  "Defeat Satan as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "395",
+                              "bossKey":  "blue-baby",
+                              "boss":  "???",
+                              "item":  "Jaw Bone",
+                              "requirement":  "Defeat??? as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "396",
+                              "bossKey":  "the-lamb",
+                              "boss":  "The Lamb",
+                              "item":  "Brittle Bones",
+                              "requirement":  "Defeat The Lamb as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "397",
+                              "bossKey":  "boss-rush",
+                              "boss":  "Boss Rush",
+                              "item":  "Divorce Papers",
+                              "requirement":  "Complete the Boss Rush as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "398",
+                              "bossKey":  "hush",
+                              "boss":  "Hush",
+                              "item":  "Hallowed Ground",
+                              "requirement":  "Defeat Hush as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "399",
+                              "bossKey":  "ultra-greed",
+                              "boss":  "Ultra Greed",
+                              "item":  "Finger Bone",
+                              "requirement":  "Defeat Ultra Greed as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "400",
+                              "bossKey":  "ultra-greedier",
+                              "boss":  "Ultra Greedier",
+                              "item":  "Dad\u0027s Ring",
+                              "requirement":  "Defeat Ultra Greedier as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "401",
+                              "bossKey":  "delirium",
+                              "boss":  "Delirium",
+                              "item":  "Book of the Dead",
+                              "requirement":  "Defeat Delirium as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "403",
+                              "bossKey":  "mega-satan",
+                              "boss":  "Mega Satan",
+                              "item":  "Bound Baby",
+                              "requirement":  "Defeat Mega Satan as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "402",
+                              "bossKey":  "all-hard-marks",
+                              "boss":  "All Hard Marks",
+                              "item":  "Bone Baby",
+                              "requirement":  "Earn all Hard mode Completion Marks as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "468",
+                              "bossKey":  "mother",
+                              "boss":  "Mother",
+                              "item":  "Bone Spurs",
+                              "requirement":  "Defeat Mother as The Forgotten"
+                          },
+                          {
+                              "achievementId":  "469",
+                              "bossKey":  "the-beast",
+                              "boss":  "The Beast",
+                              "item":  "Spirit Shackles",
+                              "requirement":  "Defeat The Beast as The Forgotten"
+                          }
+                      ],
+    "Bethany":  [
+                    {
+                        "achievementId":  "416",
+                        "bossKey":  "moms-heart",
+                        "boss":  "Mom\u0027s Heart (Hard)",
+                        "item":  "Wisp Baby",
+                        "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Bethany"
+                    },
+                    {
+                        "achievementId":  "417",
+                        "bossKey":  "isaac",
+                        "boss":  "Isaac",
+                        "item":  "Book of Virtues",
+                        "requirement":  "Defeat Isaac as Bethany"
+                    },
+                    {
+                        "achievementId":  "418",
+                        "bossKey":  "satan",
+                        "boss":  "Satan",
+                        "item":  "Urn of Souls",
+                        "requirement":  "Defeat Satan as Bethany"
+                    },
+                    {
+                        "achievementId":  "419",
+                        "bossKey":  "blue-baby",
+                        "boss":  "???",
+                        "item":  "Blessed Penny",
+                        "requirement":  "Defeat??? as Bethany"
+                    },
+                    {
+                        "achievementId":  "420",
+                        "bossKey":  "the-lamb",
+                        "boss":  "The Lamb",
+                        "item":  "Alabaster Box",
+                        "requirement":  "Defeat The Lamb as Bethany"
+                    },
+                    {
+                        "achievementId":  "421",
+                        "bossKey":  "boss-rush",
+                        "boss":  "Boss Rush",
+                        "item":  "Beth\u0027s Faith",
+                        "requirement":  "Complete the Boss Rush as Bethany"
+                    },
+                    {
+                        "achievementId":  "423",
+                        "bossKey":  "hush",
+                        "boss":  "Hush",
+                        "item":  "Divine Intervention",
+                        "requirement":  "Defeat Hush as Bethany"
+                    },
+                    {
+                        "achievementId":  "422",
+                        "bossKey":  "ultra-greed",
+                        "boss":  "Ultra Greed",
+                        "item":  "Soul Locket",
+                        "requirement":  "Defeat Ultra Greed as Bethany"
+                    },
+                    {
+                        "achievementId":  "424",
+                        "bossKey":  "ultra-greedier",
+                        "boss":  "Ultra Greedier",
+                        "item":  "Vade Retro",
+                        "requirement":  "Defeat Ultra Greedier as Bethany"
+                    },
+                    {
+                        "achievementId":  "425",
+                        "bossKey":  "delirium",
+                        "boss":  "Delirium",
+                        "item":  "Star of Bethlehem",
+                        "requirement":  "Defeat Delirium as Bethany"
+                    },
+                    {
+                        "achievementId":  "427",
+                        "bossKey":  "mega-satan",
+                        "boss":  "Mega Satan",
+                        "item":  "Glowing Baby",
+                        "requirement":  "Defeat Mega Satan as Bethany"
+                    },
+                    {
+                        "achievementId":  "426",
+                        "bossKey":  "all-hard-marks",
+                        "boss":  "All Hard Marks",
+                        "item":  "Hope Baby",
+                        "requirement":  "Earn all Hard mode Completion Marks as Bethany"
+                    },
+                    {
+                        "achievementId":  "470",
+                        "bossKey":  "mother",
+                        "boss":  "Mother",
+                        "item":  "Revelation",
+                        "requirement":  "Defeat Mother as Bethany"
+                    },
+                    {
+                        "achievementId":  "471",
+                        "bossKey":  "the-beast",
+                        "boss":  "The Beast",
+                        "item":  "Jar of Wisps",
+                        "requirement":  "Defeat The Beast as Bethany"
+                    }
+                ],
+    "Jacob \u0026 Esau":  [
+                              {
+                                  "achievementId":  "428",
+                                  "bossKey":  "moms-heart",
+                                  "boss":  "Mom\u0027s Heart (Hard)",
+                                  "item":  "Double Baby",
+                                  "requirement":  "Defeat Mom\u0027s Heart or It Lives! on Hard mode as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "429",
+                                  "bossKey":  "isaac",
+                                  "boss":  "Isaac",
+                                  "item":  "The Stairway",
+                                  "requirement":  "Defeat Isaac as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "430",
+                                  "bossKey":  "satan",
+                                  "boss":  "Satan",
+                                  "item":  "Red Stew",
+                                  "requirement":  "Defeat Satan as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "431",
+                                  "bossKey":  "blue-baby",
+                                  "boss":  "???",
+                                  "item":  "Birthright",
+                                  "requirement":  "Defeat??? as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "432",
+                                  "bossKey":  "the-lamb",
+                                  "boss":  "The Lamb",
+                                  "item":  "Damocles",
+                                  "requirement":  "Defeat The Lamb as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "433",
+                                  "bossKey":  "boss-rush",
+                                  "boss":  "Boss Rush",
+                                  "item":  "Rock Bottom",
+                                  "requirement":  "Complete Boss Rush as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "435",
+                                  "bossKey":  "hush",
+                                  "boss":  "Hush",
+                                  "item":  "Vanishing Twin",
+                                  "requirement":  "Defeat Hush as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "434",
+                                  "bossKey":  "ultra-greed",
+                                  "boss":  "Ultra Greed",
+                                  "item":  "Inner Child",
+                                  "requirement":  "Defeat Ultra Greed as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "436",
+                                  "bossKey":  "ultra-greedier",
+                                  "boss":  "Ultra Greedier",
+                                  "item":  "Genesis",
+                                  "requirement":  "Defeat Ultra Greedier as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "437",
+                                  "bossKey":  "delirium",
+                                  "boss":  "Delirium",
+                                  "item":  "Suplex!",
+                                  "requirement":  "Defeat Delirium as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "439",
+                                  "bossKey":  "mega-satan",
+                                  "boss":  "Mega Satan",
+                                  "item":  "Illusion Baby",
+                                  "requirement":  "Defeat Mega Satan as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "438",
+                                  "bossKey":  "all-hard-marks",
+                                  "boss":  "All Hard Marks",
+                                  "item":  "Solomon\u0027s Baby",
+                                  "requirement":  "Earn all Hard mode Completion Marks as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "472",
+                                  "bossKey":  "mother",
+                                  "boss":  "Mother",
+                                  "item":  "Magic Skin",
+                                  "requirement":  "Defeat Mother as Jacob and Esau"
+                              },
+                              {
+                                  "achievementId":  "473",
+                                  "bossKey":  "the-beast",
+                                  "boss":  "The Beast",
+                                  "item":  "Friend Finder",
+                                  "requirement":  "Defeat The Beast as Jacob and Esau"
+                              }
+                          ]
+}
