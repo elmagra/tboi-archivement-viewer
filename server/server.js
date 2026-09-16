@@ -7,44 +7,99 @@ const cors = require("cors")
 require("dotenv").config()
 
 const app = express()
+const port = Number(process.env.PORT) || 3001
+const isProduction = process.env.NODE_ENV === "production"
 
+const normalizeBaseUrl = (url) => url.trim().replace(/\/+$/, "")
 
-// ===============================
-// 1. CORS
-// ===============================
+const serverUrl = normalizeBaseUrl(
+  process.env.BACKEND_URL ||
+    process.env.RENDER_EXTERNAL_URL ||
+    `http://localhost:${port}`
+)
+
+const frontendUrls = (
+  process.env.FRONTEND_URLS ||
+  process.env.FRONTEND_URL ||
+  "http://localhost:5173"
+)
+  .split(",")
+  .map(normalizeBaseUrl)
+  .filter(Boolean)
+
+const defaultFrontendUrl = `${frontendUrls[0]}/`
+const allowedFrontendOrigins = new Set(
+  frontendUrls.map((url) => new URL(url).origin)
+)
+
+const getAllowedReturnUrl = (candidate) => {
+  if (!candidate) return defaultFrontendUrl
+
+  try {
+    const returnUrl = new URL(candidate)
+
+    if (!allowedFrontendOrigins.has(returnUrl.origin)) {
+      return defaultFrontendUrl
+    }
+
+    return returnUrl.toString()
+  } catch {
+    return defaultFrontendUrl
+  }
+}
+
+const getFailureRedirectUrl = () => {
+  const failureUrl = new URL(defaultFrontendUrl)
+
+  failureUrl.searchParams.set("login", "failed")
+
+  return failureUrl.toString()
+}
+
+if (!process.env.SESSION_SECRET) {
+  throw new Error("SESSION_SECRET is required")
+}
+
+if (!process.env.STEAM_API_KEY) {
+  throw new Error("STEAM_API_KEY is required")
+}
+
+if (isProduction) {
+  app.set("trust proxy", 1)
+}
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin(origin, callback) {
+      if (!origin || allowedFrontendOrigins.has(origin)) {
+        callback(null, true)
+        return
+      }
+
+      callback(new Error(`Origin not allowed by CORS: ${origin}`))
+    },
     credentials: true,
   })
 )
 
-
-// ===============================
-// 2. SESIONES
-// ===============================
+const sessionCookieOptions = {
+  httpOnly: true,
+  sameSite: isProduction ? "none" : "lax",
+  secure: isProduction,
+  maxAge: 1000 * 60 * 60 * 24 * 7,
+}
 
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
+    cookie: sessionCookieOptions,
   })
 )
 
-
-// ===============================
-// 3. PASSPORT
-// ===============================
-
 app.use(passport.initialize())
 app.use(passport.session())
-
-
-// ===============================
-// 4. GUARDAR USUARIO EN SESIÓN
-// ===============================
 
 passport.serializeUser((user, done) => {
   done(null, user)
@@ -54,31 +109,17 @@ passport.deserializeUser((user, done) => {
   done(null, user)
 })
 
-
-// ===============================
-// 5. CONFIGURACIÓN DE STEAM
-// ===============================
-
 passport.use(
   new SteamStrategy(
     {
-      returnURL: "http://localhost:3001/auth/steam/return",
-
-      realm: "http://localhost:3001/",
-
+      returnURL: `${serverUrl}/auth/steam/return`,
+      realm: `${serverUrl}/`,
       apiKey: process.env.STEAM_API_KEY,
     },
-
     (identifier, profile, done) => {
-
-      console.log("Perfil recibido de Steam:")
-      console.log(profile)
-
       const user = {
         steamId: profile.id,
-
         name: profile.displayName,
-
         avatar:
           profile.photos?.[2]?.value ||
           profile.photos?.[1]?.value ||
@@ -91,53 +132,46 @@ passport.use(
   )
 )
 
-
-// ===============================
-// 6. LOGIN CON STEAM
-// ===============================
+const rememberReturnUrl = (req, res, next) => {
+  req.session.returnTo = getAllowedReturnUrl(req.query.returnTo)
+  req.session.save(next)
+}
 
 app.get(
   "/auth/steam",
+  rememberReturnUrl,
   passport.authenticate("steam")
 )
 
-
-// ===============================
-// 7. CALLBACK DE STEAM
-// ===============================
-
 app.get(
   "/auth/steam/return",
-
   passport.authenticate("steam", {
-    failureRedirect: "http://localhost:5173/?login=failed",
+    failureRedirect: getFailureRedirectUrl(),
   }),
+  (req, res, next) => {
+    const returnUrl = req.session.returnTo || defaultFrontendUrl
 
-  (req, res) => {
+    delete req.session.returnTo
+    req.session.save((error) => {
+      if (error) {
+        next(error)
+        return
+      }
 
-    console.log("Usuario conectado:")
-    console.log(req.user)
-
-    res.redirect("http://localhost:5173/")
+      res.redirect(returnUrl)
+    })
   }
 )
 
-
-// ===============================
-// 8. DATOS DEL USUARIO LOGUEADO
-// ===============================
-
 app.get("/api/me", (req, res) => {
-
   if (!req.user) {
     return res.json({
       loggedIn: false,
     })
   }
 
-  res.json({
+  return res.json({
     loggedIn: true,
-
     user: {
       steamId: req.user.steamId,
       name: req.user.name,
@@ -146,13 +180,7 @@ app.get("/api/me", (req, res) => {
   })
 })
 
-
-// ===============================
-// 9. ACHIEVEMENTS DEL JUEGO
-// ===============================
-
 app.get("/api/achievements", async (req, res) => {
-
   if (!req.user) {
     return res.status(401).json({
       error: "No has iniciado sesión",
@@ -160,64 +188,62 @@ app.get("/api/achievements", async (req, res) => {
   }
 
   const steamId = req.user.steamId
-
-  // The Binding of Isaac: Rebirth
   const appId = 250900
+  const steamUrl = new URL(
+    "https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/"
+  )
 
-  const url =
-    `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/` +
-    `?appid=${appId}` +
-    `&key=${process.env.STEAM_API_KEY}` +
-    `&steamid=${steamId}` +
-    `&l=english`
+  steamUrl.searchParams.set("appid", appId)
+  steamUrl.searchParams.set("key", process.env.STEAM_API_KEY)
+  steamUrl.searchParams.set("steamid", steamId)
+  steamUrl.searchParams.set("l", "english")
 
   try {
-
-    const steamResponse = await fetch(url)
-
+    const steamResponse = await fetch(steamUrl)
     const text = await steamResponse.text()
 
     if (!steamResponse.ok) {
-
       return res.status(steamResponse.status).json({
         error: "Steam API devolvió un error",
         response: text,
       })
-
     }
 
-    const data = JSON.parse(text)
-
-    res.json(data)
-
+    return res.json(JSON.parse(text))
   } catch (error) {
+    console.error("Error obteniendo achievements:", error)
 
-    console.error("Error obteniendo achievements:")
-    console.error(error)
-
-    res.status(500).json({
+    return res.status(500).json({
       error: error.message,
     })
-
   }
 })
 
 app.get("/auth/logout", (req, res, next) => {
-  req.logout((error) => {
-    if (error) {
-      return next(error)
+  const returnUrl = getAllowedReturnUrl(req.query.returnTo)
+
+  req.logout((logoutError) => {
+    if (logoutError) {
+      next(logoutError)
+      return
     }
 
-    req.session.destroy(() => {
-      res.clearCookie("connect.sid")
-      res.redirect("http://localhost:5173/")
+    req.session.destroy((sessionError) => {
+      if (sessionError) {
+        next(sessionError)
+        return
+      }
+
+      res.clearCookie("connect.sid", sessionCookieOptions)
+      res.redirect(returnUrl)
     })
   })
 })
-// ===============================
-// 10. ARRANCAR SERVIDOR
-// ===============================
 
-app.listen(3001, () => {
-  console.log("Servidor iniciado en http://localhost:3001")
+app.get("/health", (req, res) => {
+  res.json({ status: "ok" })
+})
+
+app.listen(port, () => {
+  console.log(`Servidor iniciado en ${serverUrl}`)
 })

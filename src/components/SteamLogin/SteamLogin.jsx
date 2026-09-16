@@ -1,4 +1,5 @@
 import "./SteamLogin.css"
+import { getAuthUrl } from "../../config/urls"
 
 export function SteamProfile({ user }) {
   return (
@@ -16,8 +17,7 @@ export function SteamProfile({ user }) {
       <button
         className="steam-button logout-button"
         onClick={() => {
-          window.location.href =
-            "http://localhost:3001/auth/logout"
+          window.location.href = getAuthUrl("/auth/logout")
         }}
       >
         LOGOUT
@@ -35,8 +35,7 @@ export default function SteamLogin({ user }) {
         <button
           className="steam-button login-button"
           onClick={() => {
-            window.location.href =
-              "http://localhost:3001/auth/steam"
+            window.location.href = getAuthUrl("/auth/steam")
           }}
         >
           LOGIN WITH STEAM

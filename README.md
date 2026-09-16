@@ -1,16 +1,40 @@
-# React + Vite
+# TBOI Achievement Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visor de logros y desbloqueables de The Binding of Isaac conectado con Steam.
 
-Currently, two official plugins are available:
+## Desarrollo local
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Copia `server/.env.example` como `server/.env`.
+2. Completa `STEAM_API_KEY` y genera un `SESSION_SECRET` seguro.
+3. Ejecuta `start-dev.bat`.
 
-## React Compiler
+El frontend usa `http://localhost:3001` automáticamente durante el desarrollo.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Despliegue
 
-## Expanding the ESLint configuration
+GitHub Pages solo sirve el frontend. El servidor de autenticación de Steam debe
+estar desplegado por separado.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend en Render
+
+1. En Render, crea un **Blueprint** desde este repositorio. Render utilizará
+   `render.yaml`.
+2. Introduce `STEAM_API_KEY` cuando Render la solicite.
+3. Espera al despliegue y copia la URL HTTPS del servicio.
+
+`SESSION_SECRET` se genera automáticamente. Render también proporciona la URL
+del backend al servidor, por lo que el callback de Steam no depende de
+`localhost`.
+
+### Frontend en GitHub Pages
+
+1. Abre **Settings → Secrets and variables → Actions → Variables** en GitHub.
+2. Crea `VITE_API_BASE_URL` con la URL del servicio de Render, sin `/` final.
+3. Vuelve a ejecutar el workflow **Deploy to GitHub Pages**.
+
+El frontend envía su URL actual al iniciar o cerrar sesión, por lo que conserva
+automáticamente el dominio y la ruta actuales después de volver desde Steam.
+
+Si cambia el dominio del frontend, actualiza `FRONTEND_URLS` en Render. Admite
+varias direcciones separadas por comas. Si cambia la URL del backend, actualiza
+`VITE_API_BASE_URL` en GitHub.

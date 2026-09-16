@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: tboi-archivement-viewer-api
+    runtime: node
+    rootDir: server
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: FRONTEND_URLS
+        value: https://elmagra.github.io/tboi-archivement-viewer
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: STEAM_API_KEY
+        sync: false

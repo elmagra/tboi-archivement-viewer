@@ -5,6 +5,7 @@ import CharacterCard from "./components/CharacterCard/CharacterCard"
 import SteamLogin, {
   SteamProfile,
 } from "./components/SteamLogin/SteamLogin"
+import { getApiUrl } from "./config/urls"
 
 import { characters } from "./data/characters"
 import { getCharacterUnlockables } from "./data/unlockables"
@@ -89,7 +90,7 @@ function App() {
   // =========================
 
   useEffect(() => {
-    fetch("http://localhost:3001/api/me", {
+    fetch(getApiUrl("/api/me"), {
       credentials: "include",
     })
       .then((res) => res.json())
@@ -203,7 +204,7 @@ function App() {
 
     if (!user) return
 
-    fetch("http://localhost:3001/api/achievements", {
+    fetch(getApiUrl("/api/achievements"), {
       credentials: "include",
     })
       .then((res) => res.json())
