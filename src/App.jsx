@@ -11,6 +11,10 @@ import { characters } from "./data/characters"
 import { getCharacterUnlockables } from "./data/unlockables"
 import englishTranslations from "./locales/en.json"
 import spanishTranslations from "./locales/es.json"
+import {
+  captureAuthToken,
+  getAuthHeaders,
+} from "./services/auth-token"
 
 const FULL_CIRCLE = Math.PI * 2
 const SHOW_CAROUSEL_PROGRESS = true
@@ -90,8 +94,11 @@ function App() {
   // =========================
 
   useEffect(() => {
+    captureAuthToken()
+
     fetch(getApiUrl("/api/me"), {
       credentials: "include",
+      headers: getAuthHeaders(),
     })
       .then((res) => res.json())
       .then((data) => {
@@ -206,6 +213,7 @@ function App() {
 
     fetch(getApiUrl("/api/achievements"), {
       credentials: "include",
+      headers: getAuthHeaders(),
     })
       .then((res) => res.json())
       .then((data) => {

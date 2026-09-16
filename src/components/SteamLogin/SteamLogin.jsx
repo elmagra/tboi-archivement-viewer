@@ -1,5 +1,6 @@
 import "./SteamLogin.css"
 import { getAuthUrl } from "../../config/urls"
+import { clearAuthToken } from "../../services/auth-token"
 
 export function SteamProfile({ user }) {
   return (
@@ -17,6 +18,7 @@ export function SteamProfile({ user }) {
       <button
         className="steam-button logout-button"
         onClick={() => {
+          clearAuthToken()
           window.location.href = getAuthUrl("/auth/logout")
         }}
       >

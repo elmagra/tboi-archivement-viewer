@@ -3,6 +3,7 @@ const passport = require("passport")
 const SteamStrategy = require("passport-steam").Strategy
 const session = require("express-session")
 const cors = require("cors")
+const jwt = require("jsonwebtoken")
 
 require("dotenv").config()
 
@@ -54,6 +55,40 @@ const getFailureRedirectUrl = () => {
   failureUrl.searchParams.set("login", "failed")
 
   return failureUrl.toString()
+}
+
+const createAuthToken = (user) =>
+  jwt.sign(user, process.env.SESSION_SECRET, {
+    expiresIn: "7d",
+    issuer: "tboi-achievement-viewer",
+    audience: "tboi-achievement-viewer-web",
+  })
+
+const getAuthenticatedUser = (req) => {
+  if (req.user) return req.user
+
+  const [scheme, token] = req.get("authorization")?.split(" ") || []
+
+  if (scheme !== "Bearer" || !token) return null
+
+  try {
+    return jwt.verify(token, process.env.SESSION_SECRET, {
+      issuer: "tboi-achievement-viewer",
+      audience: "tboi-achievement-viewer-web",
+    })
+  } catch {
+    return null
+  }
+}
+
+const createAuthenticatedRedirect = (returnUrl, user) => {
+  const redirectUrl = new URL(returnUrl)
+  const hashParameters = new URLSearchParams(redirectUrl.hash.slice(1))
+
+  hashParameters.set("steamAuth", createAuthToken(user))
+  redirectUrl.hash = hashParameters.toString()
+
+  return redirectUrl.toString()
 }
 
 if (!process.env.SESSION_SECRET) {
@@ -150,6 +185,10 @@ app.get(
   }),
   (req, res, next) => {
     const returnUrl = req.session.returnTo || defaultFrontendUrl
+    const authenticatedRedirect = createAuthenticatedRedirect(
+      returnUrl,
+      req.user
+    )
 
     delete req.session.returnTo
     req.session.save((error) => {
@@ -158,13 +197,15 @@ app.get(
         return
       }
 
-      res.redirect(returnUrl)
+      res.redirect(authenticatedRedirect)
     })
   }
 )
 
 app.get("/api/me", (req, res) => {
-  if (!req.user) {
+  const user = getAuthenticatedUser(req)
+
+  if (!user) {
     return res.json({
       loggedIn: false,
     })
@@ -173,21 +214,23 @@ app.get("/api/me", (req, res) => {
   return res.json({
     loggedIn: true,
     user: {
-      steamId: req.user.steamId,
-      name: req.user.name,
-      avatar: req.user.avatar,
+      steamId: user.steamId,
+      name: user.name,
+      avatar: user.avatar,
     },
   })
 })
 
 app.get("/api/achievements", async (req, res) => {
-  if (!req.user) {
+  const user = getAuthenticatedUser(req)
+
+  if (!user) {
     return res.status(401).json({
       error: "No has iniciado sesión",
     })
   }
 
-  const steamId = req.user.steamId
+  const steamId = user.steamId
   const appId = 250900
   const steamUrl = new URL(
     "https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/"
