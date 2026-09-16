@@ -1,40 +1,44 @@
 # TBOI Achievement Viewer
 
-Visor de logros y desbloqueables de The Binding of Isaac conectado con Steam.
+Visor de logros y desbloqueables de **The Binding of Isaac: Rebirth** conectado
+con Steam y diseñado con un estilo inspirado en el juego.
+
+## Funcionalidades
+
+- Carrusel de personajes controlable con el teclado.
+- Progreso de logros para cada personaje.
+- Listado de jefes y recompensas desbloqueables.
+- Descripciones en inglés y español.
+- Diseño responsive.
+
+> El perfil de Steam y **Game details** deben ser públicos para consultar los
+> logros. El proyecto todavía está en una fase temprana y puede contener
+> errores.
 
 ## Desarrollo local
 
-1. Copia `server/.env.example` como `server/.env`.
-2. Completa `STEAM_API_KEY` y genera un `SESSION_SECRET` seguro.
-3. Ejecuta `start-dev.bat`.
+Instala las dependencias del frontend y del servidor:
 
-El frontend usa `http://localhost:3001` automáticamente durante el desarrollo.
+```bash
+npm install
+cd server
+npm install
+```
+
+Copia `server/.env.example` como `server/.env`, añade tu Steam API Key y ejecuta:
+
+```text
+start-dev.bat
+```
 
 ## Despliegue
 
-GitHub Pages solo sirve el frontend. El servidor de autenticación de Steam debe
-estar desplegado por separado.
+El frontend se publica en GitHub Pages y el servidor de Steam en Render mediante
+`render.yaml`. Render utiliza el plan gratuito.
 
-### Backend en Render
+Después de desplegar el servidor, añade su URL a la variable
+`VITE_API_BASE_URL` del repositorio de GitHub y vuelve a ejecutar el workflow de
+GitHub Pages.
 
-1. En Render, crea un **Blueprint** desde este repositorio. Render utilizará
-   `render.yaml`.
-2. Introduce `STEAM_API_KEY` cuando Render la solicite.
-3. Espera al despliegue y copia la URL HTTPS del servicio.
-
-`SESSION_SECRET` se genera automáticamente. Render también proporciona la URL
-del backend al servidor, por lo que el callback de Steam no depende de
-`localhost`.
-
-### Frontend en GitHub Pages
-
-1. Abre **Settings → Secrets and variables → Actions → Variables** en GitHub.
-2. Crea `VITE_API_BASE_URL` con la URL del servicio de Render, sin `/` final.
-3. Vuelve a ejecutar el workflow **Deploy to GitHub Pages**.
-
-El frontend envía su URL actual al iniciar o cerrar sesión, por lo que conserva
-automáticamente el dominio y la ruta actuales después de volver desde Steam.
-
-Si cambia el dominio del frontend, actualiza `FRONTEND_URLS` en Render. Admite
-varias direcciones separadas por comas. Si cambia la URL del backend, actualiza
-`VITE_API_BASE_URL` en GitHub.
+Este proyecto no está afiliado con los creadores de The Binding of Isaac,
+Valve ni Steam.
