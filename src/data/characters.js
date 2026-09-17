@@ -1,3 +1,5 @@
+import taintedUnlockablesData from "./tainted-unlockables.json"
+
 export const characters = [
   {
     name: "Isaac",
@@ -339,3 +341,10 @@ export const characters = [
     ],
   },
 ]
+
+export const taintedCharacters = Object.entries(taintedUnlockablesData).map(
+  ([name, unlockables]) => ({
+    name,
+    achievements: unlockables.map((unlockable) => unlockable.achievementId),
+  })
+)

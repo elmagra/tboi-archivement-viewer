@@ -1,0 +1,869 @@
+{
+  "Tainted Isaac": [
+    {
+      "achievementId": "548",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Mom's Lock",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Isaac"
+    },
+    {
+      "achievementId": "618",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Isaac",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Isaac"
+    },
+    {
+      "achievementId": "601",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Mega Chest",
+      "requirement": "Defeat Mega Satan as Tainted Isaac"
+    },
+    {
+      "achievementId": "541",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Stars?",
+      "requirement": "Defeat Ultra Greedier as Tainted Isaac"
+    },
+    {
+      "achievementId": "584",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Spindown Dice",
+      "requirement": "Defeat Delirium as Tainted Isaac"
+    },
+    {
+      "achievementId": "549",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Dice Bag",
+      "requirement": "Defeat Mother as Tainted Isaac"
+    },
+    {
+      "achievementId": "491",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Glitched Crown",
+      "requirement": "Defeat The Beast as Tainted Isaac"
+    }
+  ],
+  "Tainted Magdalene": [
+    {
+      "achievementId": "550",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Holy Crown",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Magdalene"
+    },
+    {
+      "achievementId": "619",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Magdalene",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Magdalene"
+    },
+    {
+      "achievementId": "602",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Queen of Hearts",
+      "requirement": "Defeat Mega Satan as Tainted Magdalene"
+    },
+    {
+      "achievementId": "530",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Lovers?",
+      "requirement": "Defeat Ultra Greedier as Tainted Magdalene"
+    },
+    {
+      "achievementId": "585",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Hypercoagulation",
+      "requirement": "Defeat Delirium as Tainted Magdalene"
+    },
+    {
+      "achievementId": "551",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Mother's Kiss",
+      "requirement": "Defeat Mother as Tainted Magdalene"
+    },
+    {
+      "achievementId": "492",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Belly Jelly",
+      "requirement": "Defeat The Beast as Tainted Magdalene"
+    }
+  ],
+  "Tainted Cain": [
+    {
+      "achievementId": "552",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Gilded Key",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Cain"
+    },
+    {
+      "achievementId": "620",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Cain",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Cain"
+    },
+    {
+      "achievementId": "603",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Gold Pill",
+      "requirement": "Defeat Mega Satan as Tainted Cain"
+    },
+    {
+      "achievementId": "534",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "Wheel of Fortune?",
+      "requirement": "Defeat Ultra Greedier as Tainted Cain"
+    },
+    {
+      "achievementId": "586",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Bag of Crafting",
+      "requirement": "Defeat Delirium as Tainted Cain"
+    },
+    {
+      "achievementId": "553",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Lucky Sack",
+      "requirement": "Defeat Mother as Tainted Cain"
+    },
+    {
+      "achievementId": "493",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Blue Key",
+      "requirement": "Defeat The Beast as Tainted Cain"
+    }
+  ],
+  "Tainted Judas": [
+    {
+      "achievementId": "554",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Your Soul",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Judas"
+    },
+    {
+      "achievementId": "621",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Judas",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Judas"
+    },
+    {
+      "achievementId": "604",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Black Sack",
+      "requirement": "Defeat Mega Satan as Tainted Judas"
+    },
+    {
+      "achievementId": "525",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Magician?",
+      "requirement": "Defeat Ultra Greedier as Tainted Judas"
+    },
+    {
+      "achievementId": "587",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Dark Arts",
+      "requirement": "Defeat Delirium as Tainted Judas"
+    },
+    {
+      "achievementId": "555",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Number Magnet",
+      "requirement": "Defeat Mother as Tainted Judas"
+    },
+    {
+      "achievementId": "494",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Sanguine Bond",
+      "requirement": "Defeat The Beast as Tainted Judas"
+    }
+  ],
+  "Tainted Blue Baby": [
+    {
+      "achievementId": "556",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Dingle Berry",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted ???"
+    },
+    {
+      "achievementId": "622",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of ???",
+      "requirement": "Defeat Hush and Boss Rush as Tainted ???"
+    },
+    {
+      "achievementId": "605",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Charming Poop",
+      "requirement": "Defeat Mega Satan as Tainted ???"
+    },
+    {
+      "achievementId": "528",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Emperor?",
+      "requirement": "Defeat Ultra Greedier as Tainted ???"
+    },
+    {
+      "achievementId": "588",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "IBS",
+      "requirement": "Defeat Delirium as Tainted ???"
+    },
+    {
+      "achievementId": "557",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Ring Cap",
+      "requirement": "Defeat Mother as Tainted ???"
+    },
+    {
+      "achievementId": "495",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "The Swarm",
+      "requirement": "Defeat The Beast as Tainted ???"
+    }
+  ],
+  "Tainted Eve": [
+    {
+      "achievementId": "558",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Strange Key",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Eve"
+    },
+    {
+      "achievementId": "623",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Eve",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Eve"
+    },
+    {
+      "achievementId": "606",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Horse Pill",
+      "requirement": "Defeat Mega Satan as Tainted Eve"
+    },
+    {
+      "achievementId": "527",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Empress?",
+      "requirement": "Defeat Ultra Greedier as Tainted Eve"
+    },
+    {
+      "achievementId": "589",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Sumptorium",
+      "requirement": "Defeat Delirium as Tainted Eve"
+    },
+    {
+      "achievementId": "559",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Lil Clot",
+      "requirement": "Defeat Mother as Tainted Eve"
+    },
+    {
+      "achievementId": "496",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Heartbreak",
+      "requirement": "Defeat The Beast as Tainted Eve"
+    }
+  ],
+  "Tainted Samson": [
+    {
+      "achievementId": "560",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Temporary Tattoo",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Samson"
+    },
+    {
+      "achievementId": "624",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Samson",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Samson"
+    },
+    {
+      "achievementId": "607",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Crane Game",
+      "requirement": "Defeat Mega Satan as Tainted Samson"
+    },
+    {
+      "achievementId": "535",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "Strength?",
+      "requirement": "Defeat Ultra Greedier as Tainted Samson"
+    },
+    {
+      "achievementId": "590",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Berserk!",
+      "requirement": "Defeat Delirium as Tainted Samson"
+    },
+    {
+      "achievementId": "561",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Swallowed M80",
+      "requirement": "Defeat Mother as Tainted Samson"
+    },
+    {
+      "achievementId": "497",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Larynx",
+      "requirement": "Defeat The Beast as Tainted Samson"
+    }
+  ],
+  "Tainted Azazel": [
+    {
+      "achievementId": "562",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Wicked Crown",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Azazel"
+    },
+    {
+      "achievementId": "625",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Azazel",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Azazel"
+    },
+    {
+      "achievementId": "608",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Hell Game",
+      "requirement": "Defeat Mega Satan as Tainted Azazel"
+    },
+    {
+      "achievementId": "539",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Devil?",
+      "requirement": "Defeat Ultra Greedier as Tainted Azazel"
+    },
+    {
+      "achievementId": "591",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Hemoptysis",
+      "requirement": "Defeat Delirium as Tainted Azazel"
+    },
+    {
+      "achievementId": "563",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Azazel's Stump",
+      "requirement": "Defeat Mother as Tainted Azazel"
+    },
+    {
+      "achievementId": "498",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Azazel's Rage",
+      "requirement": "Defeat The Beast as Tainted Azazel"
+    }
+  ],
+  "Tainted Lazarus": [
+    {
+      "achievementId": "564",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Torn Pocket",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Lazarus"
+    },
+    {
+      "achievementId": "626",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Lazarus",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Lazarus"
+    },
+    {
+      "achievementId": "609",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Wooden Chest",
+      "requirement": "Defeat Mega Satan as Tainted Lazarus"
+    },
+    {
+      "achievementId": "543",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "Judgement?",
+      "requirement": "Defeat Ultra Greedier as Tainted Lazarus"
+    },
+    {
+      "achievementId": "592",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Flip",
+      "requirement": "Defeat Delirium as Tainted Lazarus"
+    },
+    {
+      "achievementId": "565",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Torn Card",
+      "requirement": "Defeat Mother as Tainted Lazarus"
+    },
+    {
+      "achievementId": "499",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Salvation",
+      "requirement": "Defeat The Beast as Tainted Lazarus"
+    }
+  ],
+  "Tainted Eden": [
+    {
+      "achievementId": "566",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Nuh Uh!",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Eden"
+    },
+    {
+      "achievementId": "627",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Eden",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Eden"
+    },
+    {
+      "achievementId": "610",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Wild Card",
+      "requirement": "Defeat Mega Satan as Tainted Eden"
+    },
+    {
+      "achievementId": "544",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The World?",
+      "requirement": "Defeat Ultra Greedier as Tainted Eden"
+    },
+    {
+      "achievementId": "593",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Corrupted Data",
+      "requirement": "Defeat Delirium as Tainted Eden"
+    },
+    {
+      "achievementId": "567",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Modeling Clay",
+      "requirement": "Defeat Mother as Tainted Eden"
+    },
+    {
+      "achievementId": "500",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "TMTRAINER",
+      "requirement": "Defeat The Beast as Tainted Eden"
+    }
+  ],
+  "Tainted Lost": [
+    {
+      "achievementId": "568",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Kid's Drawing",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Lost"
+    },
+    {
+      "achievementId": "628",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of the Lost",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Lost"
+    },
+    {
+      "achievementId": "611",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Haunted Chest",
+      "requirement": "Defeat Mega Satan as Tainted Lost"
+    },
+    {
+      "achievementId": "524",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Fool?",
+      "requirement": "Defeat Ultra Greedier as Tainted Lost"
+    },
+    {
+      "achievementId": "594",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Ghost Bombs",
+      "requirement": "Defeat Delirium as Tainted Lost"
+    },
+    {
+      "achievementId": "569",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Crystal Key",
+      "requirement": "Defeat Mother as Tainted Lost"
+    },
+    {
+      "achievementId": "501",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Sacred Orb",
+      "requirement": "Defeat The Beast as Tainted Lost"
+    }
+  ],
+  "Tainted Lilith": [
+    {
+      "achievementId": "570",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "The Twins",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Lilith"
+    },
+    {
+      "achievementId": "629",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Lilith",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Lilith"
+    },
+    {
+      "achievementId": "612",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Fool's Gold",
+      "requirement": "Defeat Mega Satan as Tainted Lilith"
+    },
+    {
+      "achievementId": "526",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The High Priestess?",
+      "requirement": "Defeat Ultra Greedier as Tainted Lilith"
+    },
+    {
+      "achievementId": "595",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Gello",
+      "requirement": "Defeat Delirium as Tainted Lilith"
+    },
+    {
+      "achievementId": "571",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Adoption Papers",
+      "requirement": "Defeat Mother as Tainted Lilith"
+    },
+    {
+      "achievementId": "502",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Twisted Pair",
+      "requirement": "Defeat The Beast as Tainted Lilith"
+    }
+  ],
+  "Tainted Keeper": [
+    {
+      "achievementId": "572",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Keeper's Bargain",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Keeper"
+    },
+    {
+      "achievementId": "630",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of the Keeper",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Keeper"
+    },
+    {
+      "achievementId": "613",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Golden Penny",
+      "requirement": "Defeat Mega Satan as Tainted Keeper"
+    },
+    {
+      "achievementId": "536",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Hanged Man?",
+      "requirement": "Defeat Ultra Greedier as Tainted Keeper"
+    },
+    {
+      "achievementId": "596",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Keeper's Kin",
+      "requirement": "Defeat Delirium as Tainted Keeper"
+    },
+    {
+      "achievementId": "573",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Cursed Penny",
+      "requirement": "Defeat Mother as Tainted Keeper"
+    },
+    {
+      "achievementId": "503",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Strawman",
+      "requirement": "Defeat The Beast as Tainted Keeper"
+    }
+  ],
+  "Tainted Apollyon": [
+    {
+      "achievementId": "574",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Cricket Leg",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Apollyon"
+    },
+    {
+      "achievementId": "631",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Apollyon",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Apollyon"
+    },
+    {
+      "achievementId": "614",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Rotten Beggar",
+      "requirement": "Defeat Mega Satan as Tainted Apollyon"
+    },
+    {
+      "achievementId": "540",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Tower?",
+      "requirement": "Defeat Ultra Greedier as Tainted Apollyon"
+    },
+    {
+      "achievementId": "597",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Abyss",
+      "requirement": "Defeat Delirium as Tainted Apollyon"
+    },
+    {
+      "achievementId": "575",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Apollyon's Best Friend",
+      "requirement": "Defeat Mother as Tainted Apollyon"
+    },
+    {
+      "achievementId": "504",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Echo Chamber",
+      "requirement": "Defeat The Beast as Tainted Apollyon"
+    }
+  ],
+  "Tainted Forgotten": [
+    {
+      "achievementId": "576",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Polished Bone",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Forgotten"
+    },
+    {
+      "achievementId": "632",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of the Forgotten",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Forgotten"
+    },
+    {
+      "achievementId": "615",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Golden Battery",
+      "requirement": "Defeat Mega Satan as Tainted Forgotten"
+    },
+    {
+      "achievementId": "537",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "Death?",
+      "requirement": "Defeat Ultra Greedier as Tainted Forgotten"
+    },
+    {
+      "achievementId": "598",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Decap Attack",
+      "requirement": "Defeat Delirium as Tainted Forgotten"
+    },
+    {
+      "achievementId": "577",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Hollow Heart",
+      "requirement": "Defeat Mother as Tainted Forgotten"
+    },
+    {
+      "achievementId": "505",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Isaac's Tomb",
+      "requirement": "Defeat The Beast as Tainted Forgotten"
+    }
+  ],
+  "Tainted Bethany": [
+    {
+      "achievementId": "578",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "Expansion Pack",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Bethany"
+    },
+    {
+      "achievementId": "633",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Bethany",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Bethany"
+    },
+    {
+      "achievementId": "616",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Confessional",
+      "requirement": "Defeat Mega Satan as Tainted Bethany"
+    },
+    {
+      "achievementId": "529",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Hierophant?",
+      "requirement": "Defeat Ultra Greedier as Tainted Bethany"
+    },
+    {
+      "achievementId": "599",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Lemegeton",
+      "requirement": "Defeat Delirium as Tainted Bethany"
+    },
+    {
+      "achievementId": "579",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Beth's Essence",
+      "requirement": "Defeat Mother as Tainted Bethany"
+    },
+    {
+      "achievementId": "506",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Vengeful Spirit",
+      "requirement": "Defeat The Beast as Tainted Bethany"
+    }
+  ],
+  "Tainted Jacob": [
+    {
+      "achievementId": "580",
+      "bossKey": "tainted-final-bosses",
+      "boss": "Isaac + ??? + Satan + The Lamb",
+      "item": "RC Remote",
+      "requirement": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Jacob"
+    },
+    {
+      "achievementId": "634",
+      "bossKey": "boss-rush-and-hush",
+      "boss": "Boss Rush + Hush",
+      "item": "Soul of Jacob and Esau",
+      "requirement": "Defeat Hush and Boss Rush as Tainted Jacob"
+    },
+    {
+      "achievementId": "617",
+      "bossKey": "mega-satan",
+      "boss": "Mega Satan",
+      "item": "Golden Trinket",
+      "requirement": "Defeat Mega Satan as Tainted Jacob"
+    },
+    {
+      "achievementId": "542",
+      "bossKey": "ultra-greedier",
+      "boss": "Ultra Greedier",
+      "item": "The Sun and the Moon?",
+      "requirement": "Defeat Ultra Greedier as Tainted Jacob"
+    },
+    {
+      "achievementId": "600",
+      "bossKey": "delirium",
+      "boss": "Delirium",
+      "item": "Anima Sola",
+      "requirement": "Defeat Delirium as Tainted Jacob"
+    },
+    {
+      "achievementId": "581",
+      "bossKey": "mother",
+      "boss": "Mother",
+      "item": "Found Soul",
+      "requirement": "Defeat Mother as Tainted Jacob"
+    },
+    {
+      "achievementId": "507",
+      "bossKey": "the-beast",
+      "boss": "The Beast",
+      "item": "Esau Jr.",
+      "requirement": "Defeat The Beast as Tainted Jacob"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import "./CharacterCard.css"
 
 import { getResourceSlug } from "../../utils/resource-slug"
 
-const characterImages = import.meta.glob("../../assets/characters/*.webp", {
+const characterImages = import.meta.glob("../../assets/characters/**/*.webp", {
   eager: true,
   import: "default",
   query: "?url",
@@ -16,8 +16,10 @@ export default function CharacterCard({
 }) {
   const [hasImageError, setHasImageError] = useState(false)
 
-  const image =
-    characterImages[`../../assets/characters/${getResourceSlug(name)}.webp`]
+  const imagePath = Object.keys(characterImages).find((path) =>
+    path.endsWith(`/${getResourceSlug(name)}.webp`)
+  )
+  const image = characterImages[imagePath]
 
   const handleImageError = () => {
     setHasImageError(true)

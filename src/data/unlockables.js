@@ -1,4 +1,5 @@
 import unlockablesData from "./unlockables.json"
+import taintedUnlockablesData from "./tainted-unlockables.json"
 import { getResourceSlug } from "../utils/resource-slug"
 
 const bossIcons = import.meta.glob("../assets/bosses/*.png", {
@@ -30,15 +31,31 @@ const bossDisplayOrder = [
   "all-hard-marks",
 ]
 
+const taintedBossDisplayOrder = [
+  "tainted-final-bosses",
+  "boss-rush-and-hush",
+  "mega-satan",
+  "ultra-greedier",
+  "delirium",
+  "mother",
+  "the-beast",
+]
+
 export const getCharacterUnlockables = (characterName) => {
-  const characterUnlockables = unlockablesData[characterName] ?? []
+  const characterUnlockables =
+    unlockablesData[characterName] ??
+    taintedUnlockablesData[characterName] ??
+    []
   const characterSlug = getResourceSlug(characterName)
+  const displayOrder = characterName.startsWith("Tainted ")
+    ? taintedBossDisplayOrder
+    : bossDisplayOrder
 
   return [...characterUnlockables]
     .sort(
       (firstUnlockable, secondUnlockable) =>
-        bossDisplayOrder.indexOf(firstUnlockable.bossKey) -
-        bossDisplayOrder.indexOf(secondUnlockable.bossKey)
+        displayOrder.indexOf(firstUnlockable.bossKey) -
+        displayOrder.indexOf(secondUnlockable.bossKey)
     )
     .map((unlockable) => ({
       ...unlockable,

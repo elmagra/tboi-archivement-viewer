@@ -953,6 +953,482 @@
     "Friend Finder": {
       "description": "Friend Finder es un objeto activable introducido en The Binding of Isaac .",
       "effect": "Al activarlo, hace aparecer un monstruo aliado aleatorio que sigue los movimientos de Isaac y dispara en la dirección que elija, similar al comportamiento de Jacob y Esau ."
+    },
+    "Mom's Lock": {
+      "description": "Mom's Lock es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Otorga los efectos de un elemento de Mom aleatorio en cada habitación."
+    },
+    "Soul of Isaac": {
+      "description": "Soul of Isaac es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Cambia los objetos de la habitación como El D6, pero estos alternarán entre el objeto cambiado y el objeto original cada segundo."
+    },
+    "Mega Chest": {
+      "description": "Mega Chest es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Stars?": {
+      "description": "The Stars? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Spindown Dice": {
+      "description": "Spindown Dice es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Dice Bag": {
+      "description": "Dice Bag es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Al entrar en una nueva habitación, otorga a Isaac un artículo consumible de Dados temporal. Los dados desaparecen una vez que salen de esa habitación."
+    },
+    "Glitched Crown": {
+      "description": "Glitched Crown es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Antes de recogerlos, los objetos en pedestales cambian entre 5 objetos aleatorios."
+    },
+    "Holy Crown": {
+      "description": "Holy Crown es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Aparece una Sala del Tesoro en la Catedral."
+    },
+    "Soul of Magdalene": {
+      "description": "Soul of Magdalene es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Envuelve a Isaac en un aura roja de burbujas durante la habitación actual. Todos los enemigos asesinados soltarán mitades de corazones rojos que desaparecen tras 2 segundos."
+    },
+    "Queen of Hearts": {
+      "description": "Queen of Hearts es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Lovers?": {
+      "description": "The Lovers? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Hypercoagulation": {
+      "description": "Hypercoagulation es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Al recibir daño de un enemigo o por donar vida, lanza corazones rojos desde Isaac que desaparecen después de 1.5 segundos."
+    },
+    "Mother's Kiss": {
+      "description": "Mother's Kiss es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "El contenedor de corazones puede superar el límite máximo de contenedores."
+    },
+    "Belly Jelly": {
+      "description": "Belly Jelly es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace que los enemigos reboten lejos de Isaac, causando daño si golpean a un enemigo u obstáculo. Isaac también puede rebotar proyectiles enemigos."
+    },
+    "Gilded Key": {
+      "description": "Gilded Key es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Reemplaza todos los cofres nuevos, excepto los mega cofres, por cofres bloqueados."
+    },
+    "Soul of Cain": {
+      "description": "Soul of Cain es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Crea una habitación roja como haría Llave roja para cada posible salida. Puede abrir habitaciones cerradas, incluyendo la puerta de carne, la puerta para acceder al ascenso y la puerta de Mega Satán."
+    },
+    "Gold Pill": {
+      "description": "Gold Pill es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Wheel of Fortune?": {
+      "description": "Wheel of Fortune? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Bag of Crafting": {
+      "description": "Bag of Crafting es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Lucky Sack": {
+      "description": "Lucky Sack es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Genera una bolsa de mano al viajar al siguiente piso."
+    },
+    "Blue Key": {
+      "description": "Blue Key es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Entrar en una habitación que requiere una llave lleva a Isaac a una habitación que se asemeja a Blue Womb, que actúa como un medio de las dos habitaciones."
+    },
+    "Your Soul": {
+      "description": "Your Soul es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Se puede usar para pagar un trato con el diablo sin perder corazones y luego se consume."
+    },
+    "Soul of Judas": {
+      "description": "Soul of Judas es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Activa el efecto de Artes oscuras, convirtiendo a Isaac en un fantasma que puede pasar a través de los enemigos y paralizarlos. Después de unos segundos, atacará a los enemigos y obtendrá una mejora de daño por cada objetivo."
+    },
+    "Black Sack": {
+      "description": "Black Sack es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Un familiar que suelta un saco cada 5-6 habitaciones."
+    },
+    "The Magician?": {
+      "description": "The Magician? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Dark Arts": {
+      "description": "Dark Arts es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Vuelve a Isaac invulnerable e intangible durante un segundo. Cuando el efecto termina, todos los enemigos que Isaac haya atravesado recibirán daño y Isaac obtendrá una mejora temporal de daño por cada uno."
+    },
+    "Number Magnet": {
+      "description": "Number Magnet es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Aumenta la probabilidad de ganar una habitación del diablo en un 10%."
+    },
+    "Sanguine Bond": {
+      "description": "Sanguine Bond es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Genera un tipo de pinchos especial en la Habitación del Diablo. Recibir daño de los pinchos tiene una probabilidad de dar una recompensa."
+    },
+    "Dingle Berry": {
+      "description": "Dingle Berry es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Genera dos popos amistosas al despejar una habitación."
+    },
+    "Soul of ???": {
+      "description": "Soul of ??? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Provoca 8 gases venenosos que dejan un rastro de creep marrón. Coloca 7 bombas con el efecto de Bombas de Trasero rápidamente."
+    },
+    "Charming Poop": {
+      "description": "Charming Poop es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Emperor?": {
+      "description": "The Emperor? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "IBS": {
+      "description": "IBS es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Isaac obtiene cacas con diferentes efectos, como las de Tainted???."
+    },
+    "Ring Cap": {
+      "description": "Ring Cap es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Swarm": {
+      "description": "The Swarm es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer nueve moscas orbitales que se convierten en moscas azules al bloquear un proyectil. Al superar una habitación, genera una mosca orbital."
+    },
+    "Strange Key": {
+      "description": "Strange Key es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Desbloquea el pasaje a Blue Womb y la lucha de Hush, independientemente de la duración de la carrera. El uso de Pandora's Box le otorga un efecto especial, consumiendo la clave."
+    },
+    "Soul of Eve": {
+      "description": "Soul of Eve es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer 14 Ave Muerta que vuelan y atacan a los enemigos. Los familiares generados se irán cuando todas las víctimas hayan muerto o Isaac salga de la habitación."
+    },
+    "Horse Pill": {
+      "description": "Horse Pill es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Empress?": {
+      "description": "The Empress? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Sumptorium": {
+      "description": "Sumptorium es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Mantener el botón de disparo convierte corazones en familiares que disparan lágrimas pero pueden ser destruidos. Activar Sumptorium convierte a los familiares de nuevo en corazones."
+    },
+    "Lil Clot": {
+      "description": "Lil Clot es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Genera un coágulo de sangre familiar en el suelo junto a Isaac. Este familiar se mueve y dispara."
+    },
+    "Heartbreak": {
+      "description": "Heartbreak es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Da 3 corazones rotos y + 0.25 por cada corazón roto que Isaac tenga. Cada golpe que fuera a ser fatal le dará en su lugar 2 corazones rotos hasta que tenga sólo corazones rotos."
+    },
+    "Temporary Tattoo": {
+      "description": "Temporary Tattoo es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Genera un cofre después de limpiar una sala de desafíos, o un objeto después de limpiar una sala de desafíos de jefe."
+    },
+    "Soul of Samson": {
+      "description": "Soul of Samson es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Isaac es transformado en la forma berserker de Tainted Samson durante 10 segundos."
+    },
+    "Crane Game": {
+      "description": "Crane Game es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Strength?": {
+      "description": "Strength? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Berserk!": {
+      "description": "Berserk! es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Provoca que Isaac entre en modo berserker durante 5 segundos, aumentando mucho su velocidad, cadencia y daño, pero limitándolo a sólo usar un arma cuerpo a cuerpo en lugar de sus lágrimas. El objeto se carga al causar daño a los enemigos en lugar de limpiar habitaciones."
+    },
+    "Swallowed M80": {
+      "description": "Swallowed M80 es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Isaac explota al recibir daño."
+    },
+    "Larynx": {
+      "description": "Larynx es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Isaac grita, dañando y empujando a los enemigos cercanos. El alarido es más fuerte conforme más carga tiene el objeto. También puede ser cargado al recibir daño."
+    },
+    "Wicked Crown": {
+      "description": "Wicked Crown es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Aparece una habitación del tesoro en Sheol."
+    },
+    "Soul of Azazel": {
+      "description": "Soul of Azazel es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Activa el efecto de Mega Ráfaga durante 7.5 segundos."
+    },
+    "Hell Game": {
+      "description": "Hell Game es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Devil?": {
+      "description": "The Devil? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Hemoptysis": {
+      "description": "Hemoptysis es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Pulsar dos veces el botón de disparo hace que Isaac estornude sangre, causando daño a los enemigos frente a él."
+    },
+    "Azazel's Stump": {
+      "description": "Azazel's Stump es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Al ingresar a una nueva habitación, agrega la posibilidad de convertirse en Azazel para la habitación actual."
+    },
+    "Azazel's Rage": {
+      "description": "Azazel's Rage es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Isaac acumula ira cada vez que supera una habitación. Tras 4 habitaciones, dispara un gran rayo de Azufre al entrar en la siguiente habitación."
+    },
+    "Torn Pocket": {
+      "description": "Torn Pocket es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Al ser golpeado, Isaac deja caer todas sus pastillas (excepto para todos los corazones y cartas / píldoras / runas)."
+    },
+    "Soul of Lazarus": {
+      "description": "Soul of Lazarus es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Si se activa, Isaac morirá y será inmediatamente revivido en la misma habitación con medio corazón. Tendrá un tiempo de invencibilidad. La piedra de alma es consumida automáticamente cuando Isaac recibe daño fatal, funcionando como una vida extra."
+    },
+    "Wooden Chest": {
+      "description": "Wooden Chest es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Judgement?": {
+      "description": "Judgement? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Flip": {
+      "description": "Flip es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Torn Card": {
+      "description": "Torn Card es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Agrega la posibilidad de disparar una lágrima de Ipecac + My Reflection tear."
+    },
+    "Salvation": {
+      "description": "Salvation es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Da un aura que invoca rayos de luz sobre los enemigos en su interior. El aura se vuelve más grandes conforme Isaac recibe más daño en el piso."
+    },
+    "Nuh Uh!": {
+      "description": "Nuh Uh! es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Reemplaza llaves y monedas que aparecen en el Capítulo 4 y más allá con pastillas más útiles."
+    },
+    "Soul of Eden": {
+      "description": "Soul of Eden es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Activa el efecto de El D6 y D20. Los objetos cambiados usan fuentes de obtención aleatorias, como si se tuviera Caos."
+    },
+    "Wild Card": {
+      "description": "Wild Card es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Lleva a Isaac a una versión abandonada y más grande de Home que contiene una copia de cada objeto en el juego. Al tomar un objeto, Isaac vuelve al piso donde usó Death Certificate."
+    },
+    "The World?": {
+      "description": "The World? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Corrupted Data": {
+      "description": "Corrupted Data es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Modeling Clay": {
+      "description": "Modeling Clay es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "TMTRAINER": {
+      "description": "TMTRAINER es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Causa que todos los futuros objetos encontrados estén \"glitcheados\", dándoles efectos aleatorios."
+    },
+    "Kid's Drawing": {
+      "description": "Kid's Drawing es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Mientras se mantiene, cuenta para la transformación de Guppy."
+    },
+    "Soul of the Lost": {
+      "description": "Soul of the Lost es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Isaac \"muere\" y se convierte en The Lost durante la habitación actual, con todos los beneficios y debilidades del personaje."
+    },
+    "Haunted Chest": {
+      "description": "Haunted Chest es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Fool?": {
+      "description": "The Fool? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Ghost Bombs": {
+      "description": "Ghost Bombs es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Da 5 bombas. Las bombas obtienen efecto espectral y hacen aparecer fantasmas que causan daño por contacto y explotan tras 10 segundos."
+    },
+    "Crystal Key": {
+      "description": "Crystal Key es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Otorga la oportunidad de crear automáticamente salas de Red Key."
+    },
+    "Sacred Orb": {
+      "description": "Sacred Orb es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Impide que aparezcan objetos de baja calidad."
+    },
+    "The Twins": {
+      "description": "The Twins es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Soul of Lilith": {
+      "description": "Soul of Lilith es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Otorga un familiar aleatorio."
+    },
+    "Fool's Gold": {
+      "description": "Fool's Gold es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The High Priestess?": {
+      "description": "The High Priestess? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Gello": {
+      "description": "Gello es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer un demonio familiar atado a Isaac que se mueve y dispara en la dirección en que Isaac dispara, copiando su daño, cadencia, rango, velocidad del proyectil y efectos de lágrima."
+    },
+    "Adoption Papers": {
+      "description": "Adoption Papers es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Las tiendas pueden vender familiares, que siempre tendrán un precio con descuento."
+    },
+    "Twisted Pair": {
+      "description": "Twisted Pair es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Da dos familiares a los lados de Isaac que disparan lágrimas con la cadencia, rango, velocidad del proyectil y efectos de lágrima de Isaac. Su daño escala con el daño de Isaac."
+    },
+    "Keeper's Bargain": {
+      "description": "Keeper's Bargain es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Soul of the Keeper": {
+      "description": "Soul of the Keeper es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer de 3 a 25 monedas al azar."
+    },
+    "Golden Penny": {
+      "description": "Golden Penny es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Hanged Man?": {
+      "description": "The Hanged Man? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Keeper's Kin": {
+      "description": "Keeper's Kin es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Las rocas y jarrones hacen aparecer arañas azules cada cierto tiempo mientras haya enemigos en la habitación, y hacen aparecer 2 arañas azules al destruirlos."
+    },
+    "Cursed Penny": {
+      "description": "Cursed Penny es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Previene las maldiciones, da un corazón negro y aumenta la probabilidad de que aparezca la habitación del pacto."
+    },
+    "Strawman": {
+      "description": "Strawman es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer un Keeper para pelear contra los enemigos junto a Isaac. Al morir, hace aparecer arañas azules y Strawman es removido del inventario de Isaac."
+    },
+    "Cricket Leg": {
+      "description": "Cricket Leg es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Soul of Apollyon": {
+      "description": "Soul of Apollyon es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer 5 langostas al azar, con los efectos de cualquiera de los siguientes: Locust of Conquest, Locust of Pestilence, Locust of War, Locust of Famine y Locust of Death."
+    },
+    "Rotten Beggar": {
+      "description": "Rotten Beggar es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Tower?": {
+      "description": "The Tower? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Abyss": {
+      "description": "Abyss es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Destruye todos los pedestales de la habitación y le da a Isaac una mosca de ataque como familiar por cada objeto destruido."
+    },
+    "Apollyon's Best Friend": {
+      "description": "Apollyon's Best Friend es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Otorga a Isaac 1 langosta familiar con las que puede apuntar y disparar, de manera similar a Bob's Brain o GB Bug."
+    },
+    "Echo Chamber": {
+      "description": "Echo Chamber es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Al usar una carta, píldora o runa, activa el efecto de cada carta, píldora y runa que se haya usado desde que se tomó Echo Chamber."
+    },
+    "Polished Bone": {
+      "description": "Polished Bone es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Cuando limpias una habitación, tienes la oportunidad de engendrar un Bony amigable."
+    },
+    "Soul of the Forgotten": {
+      "description": "Soul of the Forgotten es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer un The Forgotten como personaje secundario temporal, controlado a la vez que Isaac."
+    },
+    "Golden Battery": {
+      "description": "Golden Battery es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Death?": {
+      "description": "Death? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Decap Attack": {
+      "description": "Decap Attack es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Lanza la cabeza de Isaac, la cual puede disparar lágrimas desde el lugar donde aterrice. Activar el objeto nuevamente o caminar sobre la cabeza la devuelve a su sitio."
+    },
+    "Hollow Heart": {
+      "description": "Hollow Heart es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Otorga un corazón de hueso vacío al entrar en un piso nuevo."
+    },
+    "Isaac's Tomb": {
+      "description": "Isaac's Tomb es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer un cofre viejo al comenzar cada piso."
+    },
+    "Expansion Pack": {
+      "description": "Expansion Pack es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "El uso de un elemento activo desencadena otro efecto de elemento activo aleatorio."
+    },
+    "Soul of Bethany": {
+      "description": "Soul of Bethany es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer 6 llamas del Libro de virtudes con propiedades aleatorias."
+    },
+    "Confessional": {
+      "description": "Confessional es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "The Hierophant?": {
+      "description": "The Hierophant? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Consulta la entrada de la wiki para conocer el efecto completo."
+    },
+    "Lemegeton": {
+      "description": "Lemegeton es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Invoca el fantasma de un objeto pasivo al azar, el cual orbita alrededor de Isaac y puede ser destruido. Mientras esté vivo, Isaac obtiene el efecto de ese objeto."
+    },
+    "Beth's Essence": {
+      "description": "Beth's Essence es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Una vez por piso, recibir daño generará un fuego fatuo y otorgará unos segundos de invulnerabilidad. Entrar en una habitación de ángel genera 5 fuegos fatuos. Dar dinero a los mendigos puede generar fuegos fatuos."
+    },
+    "Vengeful Spirit": {
+      "description": "Vengeful Spirit es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Al recibir daño, invoca una llama orbital que dura todo el piso hasta un máximo de 6. Pueden disparar pero no bloquean proyectiles."
+    },
+    "RC Remote": {
+      "description": "RC Remote es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "En lugar de ir detrás de Isaac, los familiares están controlados directamente por las mismas entradas que los de Isaac."
+    },
+    "Soul of Jacob and Esau": {
+      "description": "Soul of Jacob and Esau es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Hace aparecer a Esau como personaje secundario temporal, controlado a la vez que Isaac."
+    },
+    "Golden Trinket": {
+      "description": "Golden Trinket es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Incrementa el ataque en 2."
+    },
+    "The Sun and the Moon?": {
+      "description": "The Sun and the Moon? es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Desbloquea XIX - The Sun?, que carga por completo el objeto activable a cambio de infligir daño, y XVIII - The Moon?, que transporta al jugador a la habitación ultra secreta."
+    },
+    "Anima Sola": {
+      "description": "Anima Sola es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Encadena al enemigo más cercano durante 5 segundos, impidiéndole actuar."
+    },
+    "Found Soul": {
+      "description": "Found Soul es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Genera un familiar que copia los movimientos y escalas de Isaac con daño y lágrimas. Si recibe daño, morirá y reaparecerá en el siguiente piso."
+    },
+    "Esau Jr.": {
+      "description": "Esau Jr. es una recompensa desbloqueable añadida en The Binding of Isaac: Repentance.",
+      "effect": "Cambia entre el personaje actual y Esau Jr., quien tiene un aumento fijo de 2 puntos de daño y puede volar. Los personajes tienen objetos y vida independientes; morir con cualquiera termina la partida."
     }
   }
 }

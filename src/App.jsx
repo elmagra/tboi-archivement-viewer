@@ -7,7 +7,10 @@ import SteamLogin, {
 } from "./components/SteamLogin/SteamLogin"
 import { getApiUrl } from "./config/urls"
 
-import { characters } from "./data/characters"
+import {
+  characters,
+  taintedCharacters,
+} from "./data/characters"
 import { getCharacterUnlockables } from "./data/unlockables"
 import englishTranslations from "./locales/en.json"
 import spanishTranslations from "./locales/es.json"
@@ -38,6 +41,7 @@ function App() {
   const [user, setUser] = useState(null)
   const [achievements, setAchievements] = useState([])
   const [language, setLanguage] = useState(getInitialLanguage)
+  const [isTaintedMode, setIsTaintedMode] = useState(false)
 
   // Personaje que está seleccionado
   const [selectedIndex, setSelectedIndex] = useState(0)
@@ -47,7 +51,8 @@ function App() {
   const localizedUnlockableInfo = selectedUnlockable
     ? translationsByLanguage[language].unlockables[selectedUnlockable.item]
     : null
-  const selectedCharacter = characters[selectedIndex]
+  const activeCharacters = isTaintedMode ? taintedCharacters : characters
+  const selectedCharacter = activeCharacters[selectedIndex]
   const selectedCharacterUnlockables = getCharacterUnlockables(
     selectedCharacter.name
   )
@@ -63,6 +68,11 @@ function App() {
 
   const handleCloseUnlockable = useCallback(() => {
     setSelectedUnlockable(null)
+  }, [])
+
+  const handleToggleCharacterMode = useCallback(() => {
+    setSelectedUnlockable(null)
+    setIsTaintedMode((isCurrentlyTainted) => !isCurrentlyTainted)
   }, [])
 
   const handleSelectUnlockable = (event) => {
@@ -160,11 +170,17 @@ function App() {
         return
       }
 
+      if (event.key.toLowerCase() === "e" && !event.repeat) {
+        event.preventDefault()
+        handleToggleCharacterMode()
+        return
+      }
+
       // Flecha derecha
       if (event.key === "ArrowRight") {
         event.preventDefault()
         setSelectedIndex((actual) =>
-          (actual + 1) % characters.length
+          (actual + 1) % activeCharacters.length
         )
         return
       }
@@ -174,7 +190,7 @@ function App() {
       if (event.key === "ArrowLeft") {
         event.preventDefault()
         setSelectedIndex((actual) =>
-          (actual - 1 + characters.length) % characters.length
+          (actual - 1 + activeCharacters.length) % activeCharacters.length
         )
         return
       }
@@ -198,6 +214,8 @@ function App() {
     handleCloseUnlockable,
     handleHideUnlockables,
     handleShowUnlockables,
+    handleToggleCharacterMode,
+    activeCharacters.length,
     isShowingUnlockables,
     selectedUnlockable,
   ])
@@ -234,7 +252,11 @@ function App() {
 
 
   return (
-    <div className={`app${isShowingUnlockables ? "" : " is-character-screen"}`}>
+    <div
+      className={`app${isShowingUnlockables ? "" : " is-character-screen"}${
+        isTaintedMode ? " is-tainted-mode" : ""
+      }`}
+    >
       {user && <SteamProfile user={user} />}
 
       {!isShowingUnlockables ? (
@@ -255,6 +277,16 @@ function App() {
           </div>
 
           <section className="character-paper">
+            <button
+              className="character-mode-card"
+              type="button"
+              aria-pressed={isTaintedMode}
+              onClick={handleToggleCharacterMode}
+            >
+              <span className="character-mode-key">E</span>
+              <span>{isTaintedMode ? "NORMAL" : "TAINTED"}</span>
+            </button>
+
             <SteamLogin user={user} />
 
             <main className="character-selector">
@@ -265,7 +297,7 @@ function App() {
                 tabIndex={0}
                 data-show-all-progress={SHOW_CAROUSEL_PROGRESS}
               >
-              {characters.map((character, index) => {
+              {activeCharacters.map((character, index) => {
 
                 // =========================
                 // CONTAR LOGROS
@@ -289,12 +321,12 @@ function App() {
 
 
                 // Hace que el círculo pueda continuar infinitamente
-                if (offset > characters.length / 2) {
-                  offset -= characters.length
+                if (offset > activeCharacters.length / 2) {
+                  offset -= activeCharacters.length
                 }
 
-                if (offset < -characters.length / 2) {
-                  offset += characters.length
+                if (offset < -activeCharacters.length / 2) {
+                  offset += activeCharacters.length
                 }
 
 
@@ -302,7 +334,7 @@ function App() {
                 const isNextToSelected = Math.abs(offset) === 1
                 const isSecondNextToSelected = Math.abs(offset) === 2
                 const angle =
-                  Math.PI / 2 - offset * (FULL_CIRCLE / characters.length)
+                  Math.PI / 2 - offset * (FULL_CIRCLE / activeCharacters.length)
                 const x = Math.cos(angle)
                 const y = Math.sin(angle)
                 const sidePosition = Math.abs(Math.cos(angle))

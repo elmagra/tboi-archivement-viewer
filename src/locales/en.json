@@ -953,6 +953,482 @@
     "Friend Finder": {
       "description": "Friend Finder is an unlockable activated item added in The Binding of Isaac: Repentance .",
       "effect": "On use, spawns a random friendly monster that mimics Isaac's movements and attacks, similar to Jacob and Esau . Friendly monsters can take damage from flames, spikes, and other hazards."
+    },
+    "Mom's Lock": {
+      "description": "Mom's Lock is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Grants the effects of a random Mom item each room."
+    },
+    "Soul of Isaac": {
+      "description": "Soul of Isaac is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Rerolls all items in the room, but they cycle back to the original item after one second, repeating. If more uses are stacked, an additional item per use will be cycled through."
+    },
+    "Mega Chest": {
+      "description": "Mega Chest is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Stars?": {
+      "description": "The Stars? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Removes Isaac's oldest passive item (ignoring starting items) and creates 2 random item pedestals from the current room's item pool. Does nothing if Isaac has no items."
+    },
+    "Spindown Dice": {
+      "description": "Spindown Dice is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Reduces the internal ID number of all items in the room by one, turning them into the item with that number."
+    },
+    "Dice Bag": {
+      "description": "Dice Bag is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "When Isaac enters a new room, has a chance to give him a Dice item as a consumable for the current room."
+    },
+    "Glitched Crown": {
+      "description": "Glitched Crown is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Item pedestals cycle between 5 random items before being picked up."
+    },
+    "Holy Crown": {
+      "description": "Holy Crown is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "A Treasure Room and Shop appear in the Cathedral."
+    },
+    "Soul of Magdalene": {
+      "description": "Soul of Magdalene is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Surrounds Isaac with a bubbling red aura for the current room. All enemies killed drop Half Red Hearts that disappear in 2 seconds."
+    },
+    "Queen of Hearts": {
+      "description": "Queen of Hearts is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Drops 1-20 full Red Hearts on the ground."
+    },
+    "The Lovers?": {
+      "description": "The Lovers? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Creates a random item from the current room's item pool. Turns one Red Heart Container or two Soul Hearts into a Broken Heart."
+    },
+    "Hypercoagulation": {
+      "description": "Hypercoagulation is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "After Isaac takes damage from an enemy or donates health, launches Red Hearts from Isaac that despawn after 1.5 seconds."
+    },
+    "Mother's Kiss": {
+      "description": "Mother's Kiss is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Grants one heart container."
+    },
+    "Belly Jelly": {
+      "description": "Belly Jelly is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Causes enemies to bounce off of Isaac, dealing damage to them if they hit an enemy or obstacle. Also gives Isaac the chance to deflect enemy shots."
+    },
+    "Gilded Key": {
+      "description": "Gilded Key is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Replaces all new chests, except Mega Chests and Old Chests, with Locked Chests. Grants one Key on pickup."
+    },
+    "Soul of Cain": {
+      "description": "Soul of Cain is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Opens all doors in the room and creates a Red Room on all valid walls. This also destroys the mirror located in Downpour / Dross II."
+    },
+    "Gold Pill": {
+      "description": "Gold Pill is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "Wheel of Fortune?": {
+      "description": "Wheel of Fortune? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Invokes a random Dice Room effect."
+    },
+    "Bag of Crafting": {
+      "description": "Bag of Crafting is an unlockable pickup added in The Binding of Isaac: Repentance.",
+      "effect": "Swipes a bag that collects and holds up to 8 pickups, which can then be used to craft an item. The power level of the item is based on the quality of pickups used."
+    },
+    "Lucky Sack": {
+      "description": "Lucky Sack is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a n upon traveling to the next floor."
+    },
+    "Blue Key": {
+      "description": "Blue Key is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Doors can be unlocked without using Keys. Opening a door this way brings Isaac to an in-between room that resembles???, with a few monsters."
+    },
+    "Your Soul": {
+      "description": "Your Soul is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Can be used to pay for a Devil deal without losing hearts, and is then consumed."
+    },
+    "Soul of Judas": {
+      "description": "Soul of Judas is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Increases Isaac's speed and makes him invulnerable for 3 seconds and allows him to pass through enemies. Damages all enemies and destroys all projectiles Isaac ran through when the effect ends, and grants a temporary Damage bonus for each enemy and projectile hit."
+    },
+    "Black Sack": {
+      "description": "Black Sack is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Magician?": {
+      "description": "The Magician? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Grants a repelling blue aura for one minute that strongly pushes enemies and projectiles away from Isaac."
+    },
+    "Dark Arts": {
+      "description": "Dark Arts is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Briefly grants +1 speed and makes Isaac invulnerable and intangible. When the effect ends, destroys all projectiles and damages all enemies Isaac passed through."
+    },
+    "Number Magnet": {
+      "description": "Number Magnet is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Increases the chance of earning a Devil Room by 10%, prevents Krampus from spawning, and generates special Devil Room layouts."
+    },
+    "Sanguine Bond": {
+      "description": "Sanguine Bond is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a special set of spikes in the Devil Room. Taking damage from the spikes has a chance to grant a reward."
+    },
+    "Dingle Berry": {
+      "description": "Dingle Berry is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a Dip Familiar upon clearing a room."
+    },
+    "Soul of ???": {
+      "description": "Soul of ??? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Causes 8 poison farts that leave lingering brown creep, then plants a trail of 7 Butt Bombs in quick succession. Standing on the creep gives +1.5 Fire Rate and +1 Damage."
+    },
+    "Charming Poop": {
+      "description": "Charming Poop is an unlockable pickup added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Emperor?": {
+      "description": "The Emperor? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Teleports Isaac into an extra Boss Room from the boss pool two floors deeper than the current floor (but never a final boss). The boss will drop a reward. Exiting the room returns Isaac to where he used the card."
+    },
+    "IBS": {
+      "description": "IBS is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Causes Isaac to throw poop, create buffing creep, or drop bombs while fighting enemies."
+    },
+    "Ring Cap": {
+      "description": "Ring Cap is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Placing a Bomb spawns an extra bomb for free."
+    },
+    "The Swarm": {
+      "description": "The Swarm is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns eight orbital flies, which turn into Blue Flies after they block a shot. Each time a room is cleared, spawns another orbital fly."
+    },
+    "Strange Key": {
+      "description": "Strange Key is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Unlocks the passageway to??? and the n fight, regardless of the run duration. Using Pandora's Box grants it a special effect, consuming the key."
+    },
+    "Soul of Eve": {
+      "description": "Soul of Eve is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "14 Dead Bird familiars fly in and attack enemies. They last 10 seconds and will begin to leave after the limit, but will stay as long as an enemy is alive. They will disappear if Isaac leaves the room."
+    },
+    "Horse Pill": {
+      "description": "Horse Pill is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Empress?": {
+      "description": "The Empress? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Grants 2 temporary Red Heart Containers, +1.5 Fire Rate, and -0.1 Speed for one minute, along with Magdalene's hairstyle. The effect does not stack with itself."
+    },
+    "Sumptorium": {
+      "description": "Sumptorium is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Removes half a heart and creates a Clot familiar that mimics Isaac's movements and tear effects. As Tainted Eve, passively converts health into Clots while firing. Activating returns all Clots to health."
+    },
+    "Lil Clot": {
+      "description": "Lil Clot is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a clot familiar that mimics Isaac's movements and tears. It dies for the current room after taking too much damage."
+    },
+    "Heartbreak": {
+      "description": "Heartbreak is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Grants 3 broken hearts and +0.25 damage for every broken heart Isaac has. Every otherwise fatal hit will add 2 more until Isaac has nothing but broken hearts."
+    },
+    "Temporary Tattoo": {
+      "description": "Temporary Tattoo is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Drops a Chest after clearing a Challenge Room, or an extra Boss item after clearing a Boss Challenge Room."
+    },
+    "Soul of Samson": {
+      "description": "Soul of Samson is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Isaac turns berserk for 10 seconds, replacing his tears with a melee jawbone club and gaining +0.4 Speed, some Tears, and +3 flat Damage."
+    },
+    "Crane Game": {
+      "description": "Crane Game is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "Strength?": {
+      "description": "Strength? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "All enemies in the room are weakened, becoming slightly slower and taking double damage from all sources. Affected enemies also have their damage reduced to half a heart. The effect lasts up to one minute, or until the room is left."
+    },
+    "Berserk!": {
+      "description": "Berserk! is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Isaac goes berserk for 5 seconds, greatly increasing his speed, tears, and damage, but restricting him to using a melee weapon instead of his tears. This item charges by dealing damage to enemies instead of clearing rooms."
+    },
+    "Swallowed M80": {
+      "description": "Swallowed M80 is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Isaac explodes upon taking damage."
+    },
+    "Larynx": {
+      "description": "Larynx is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Isaac shouts, damaging and pushing away nearby enemies. The shout gets stronger the more charges the item has. Larynx gains 1 charge whenever Isaac takes damage, in addition to charging normally."
+    },
+    "Wicked Crown": {
+      "description": "Wicked Crown is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "A Treasure Room and Shop appear in Sheol."
+    },
+    "Soul of Azazel": {
+      "description": "Soul of Azazel is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Activates Mega Blast for 7.5 seconds."
+    },
+    "Hell Game": {
+      "description": "Hell Game is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Devil?": {
+      "description": "The Devil? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Invokes The Bible (which can kill Mom). Grants Flight and spawns a Seraphim familiar for 30 seconds."
+    },
+    "Hemoptysis": {
+      "description": "Hemoptysis is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Double-tapping a fire button causes Isaac to sneeze blood, dealing damage to enemies in front of him. Affected enemies are cursed and take more damage from Brimstone-like attacks."
+    },
+    "Azazel's Stump": {
+      "description": "Azazel's Stump is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "When clearing a room, adds a 33% chance to turn into Azazel until clearing another."
+    },
+    "Azazel's Rage": {
+      "description": "Azazel's Rage is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Isaac builds rage every time a room is cleared. After four rooms, fires a large Brimstone laser when entering the next room."
+    },
+    "Torn Pocket": {
+      "description": "Torn Pocket is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Upon taking damage, Isaac drops 2 random Pickups from among those he's currently holding. Pickups of higher amounts have more chance to drop."
+    },
+    "Soul of Lazarus": {
+      "description": "Soul of Lazarus is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Isaac dies, and is immediately revived at half a Heart in the same room, with 1.5 second of invincibility time. The soul stone is automatically used upon taking fatal damage, acting as an extra life."
+    },
+    "Wooden Chest": {
+      "description": "Wooden Chest is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "Judgement?": {
+      "description": "Judgement? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a Shop Restock Machine near Isaac."
+    },
+    "Flip": {
+      "description": "Flip is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Item pedestals have a second un-interactable \"ghostly\" item behind them. Activating will flip the real and ghostly items around. If playing as Tainted Lazarus, also flips between them and Dead Tainted Lazarus."
+    },
+    "Torn Card": {
+      "description": "Torn Card is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Every 15 shots, Isaac shoots an Ipecac + My Reflection tear."
+    },
+    "Salvation": {
+      "description": "Salvation is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Gives Isaac a halo that summons beams of light on enemies inside it. The halo grows larger the more times Isaac has taken damage this floor."
+    },
+    "Nuh Uh!": {
+      "description": "Nuh Uh! is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Replaces Keys and coins that spawn in Chapter 4 and beyond with more useful pickups."
+    },
+    "Soul of Eden": {
+      "description": "Soul of Eden is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Rerolls all pickups, trinkets, and items in the room. The rerolled items use random pools, as if Chaos were held."
+    },
+    "Wild Card": {
+      "description": "Wild Card is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Copies the effect of the most recently used Pill, Card, Rune, Soul Stone, or activated item."
+    },
+    "The World?": {
+      "description": "The World? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Creates a trap door which always leads to a Crawl Space."
+    },
+    "Corrupted Data": {
+      "description": "Corrupted Data is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Secret Rooms and I AM ERROR rooms now have a chance of generating glitch items, as if caused by TMTRAINER. The chances in Secret Rooms are 1/60 and 1/16 in I AM ERROR rooms."
+    },
+    "Modeling Clay": {
+      "description": "Modeling Clay is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "50% chance to grant the effect of a random passive Item each room."
+    },
+    "TMTRAINER": {
+      "description": "TMTRAINER is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Causes all future items to be \"glitched\", granting them completely random effects."
+    },
+    "Kid's Drawing": {
+      "description": "Kid's Drawing is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "While held, counts as one of three items needed to transform into Guppy."
+    },
+    "Soul of the Lost": {
+      "description": "Soul of the Lost is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Turns Isaac into a ghost for the current room as if he touched the White Fire Place in Downpour II / Dross II, temporarily granting The Lost's properties."
+    },
+    "Haunted Chest": {
+      "description": "Haunted Chest is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Fool?": {
+      "description": "The Fool? is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Drops all hearts, trinkets, and pickups Isaac currently possesses on the floor, leaving Isaac at half a heart. Pickups may be dropped as items such as A Quarter and Boom!."
+    },
+    "Ghost Bombs": {
+      "description": "Ghost Bombs is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "+5 Bombs. Bombs become spectral and spawn ghosts that deal contact damage to enemies and explode after 10 seconds."
+    },
+    "Crystal Key": {
+      "description": "Crystal Key is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Whenever Isaac clears a room, has a chance to open a neighboring Red Room."
+    },
+    "Sacred Orb": {
+      "description": "Sacred Orb is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Prevents items of quality 0-1 from appearing, and items of quality 2 from appearing 33% of the time. Quest items are unaffected."
+    },
+    "The Twins": {
+      "description": "The Twins is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Adds a chance to duplicate one of Isaac's familiars when entering a new room."
+    },
+    "Soul of Lilith": {
+      "description": "Soul of Lilith is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Grants one permanent familiar from the Baby Shop. Can give familiars that Isaac already has."
+    },
+    "Fool's Gold": {
+      "description": "Fool's Gold is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The High Priestess?": {
+      "description": "The High Priestess? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Mom's leg starts stomping down repeatedly, targeting Isaac, for one minute, like holding Broken Shovel 1."
+    },
+    "Gello": {
+      "description": "Gello is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a demon familiar for the current room attached to Isaac that moves and fires in the direction Isaac shoots, using Isaac's damage, tears, range, shot speed, and special tear effects."
+    },
+    "Adoption Papers": {
+      "description": "Adoption Papers is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Shops can sell familiars, which will always be at a discounted price."
+    },
+    "Twisted Pair": {
+      "description": "Twisted Pair is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns two familiars that float on either side of Isaac and fire tears that use his tears, range, shot speed, and tear effects, and scale with damage."
+    },
+    "Keeper's Bargain": {
+      "description": "Keeper's Bargain is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Adds a chance for Devil Deals to cost money instead of health."
+    },
+    "Soul of the Keeper": {
+      "description": "Soul of the Keeper is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Drops 1-25 random Coins on the ground."
+    },
+    "Golden Penny": {
+      "description": "Golden Penny is an unlockable pickup added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Hanged Man?": {
+      "description": "The Hanged Man? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Isaac turns visually into Keeper for 30 seconds, with triple shot and -0.1 speed. Killed enemies drop a random coin."
+    },
+    "Keeper's Kin": {
+      "description": "Keeper's Kin is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Rocks and other Obstacles spawn blue spiders over time while in a room with enemies, and spawn two blue spiders when destroyed."
+    },
+    "Cursed Penny": {
+      "description": "Cursed Penny is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Picking up coins teleports Isaac to a random room. r+ The type of the coin picked up affects the teleport destination."
+    },
+    "Strawman": {
+      "description": "Strawman is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a controllable Keeper to fight enemies alongside Isaac, functioning similarly to Jacob and Esau. If Keeper dies, he spawns 5 blue spiders and Strawman is removed from Isaac's inventory."
+    },
+    "Cricket Leg": {
+      "description": "Cricket Leg is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Adds a 1/6 chance to spawn a random locust when killing an enemy."
+    },
+    "Soul of Apollyon": {
+      "description": "Soul of Apollyon is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns 15 random locusts."
+    },
+    "Rotten Beggar": {
+      "description": "Rotten Beggar is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Tower?": {
+      "description": "The Tower? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Creates 7 clusters of random rocks and other obstacles. Spawned clusters will often contain tinted rocks, with the possibility of finding more than one in the same room. The pathways between exits can't be blocked."
+    },
+    "Abyss": {
+      "description": "Abyss is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Destroys all item pedestals in the room and gives Isaac a unique locust familiar for each item destroyed. Locusts fly forwards in the direction Isaac shoots and damage enemies hit. Destroying certain items spawns special locusts with unique effects."
+    },
+    "Apollyon's Best Friend": {
+      "description": "Apollyon's Best Friend is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns an Abyss locust familiar which will fly forward while Isaac shoots."
+    },
+    "Echo Chamber": {
+      "description": "Echo Chamber is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "When Isaac uses a Card, Pill, or Rune, he also uses a copy of the previous three Cards/Pills/Runes he used after picking up Echo Chamber."
+    },
+    "Polished Bone": {
+      "description": "Polished Bone is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "After clearing a room, adds a 25% chance to spawn a friendly Bony."
+    },
+    "Soul of the Forgotten": {
+      "description": "Soul of the Forgotten is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns The Forgotten as a temporary secondary character, controlled at the same time as Isaac. He dies with no consequences if his health run out, and disappears when Isaac leaves the room. The bone swing deals high damage, and reflects tears."
+    },
+    "Golden Battery": {
+      "description": "Golden Battery is an unlockable pickup added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "Death?": {
+      "description": "Death? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Creates a friendly Bony, Black Bony, Bone Fly, Revenant, Big Bony, or an orbital bone for each enemy killed in the current room."
+    },
+    "Decap Attack": {
+      "description": "Decap Attack is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Throws Isaac's head, which is still able to fire tears at the spot it lands. Reactivating the item or stepping on the head reattaches it."
+    },
+    "Hollow Heart": {
+      "description": "Hollow Heart is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Grants an empty n upon entering a new floor."
+    },
+    "Isaac's Tomb": {
+      "description": "Isaac's Tomb is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns an n at the start of each floor."
+    },
+    "Expansion Pack": {
+      "description": "Expansion Pack is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Once per room, using an active item triggers another random active item effect."
+    },
+    "Soul of Bethany": {
+      "description": "Soul of Bethany is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns 6 Book of Virtues wisps with random properties."
+    },
+    "Confessional": {
+      "description": "Confessional is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "See the wiki entry for the complete effect."
+    },
+    "The Hierophant?": {
+      "description": "The Hierophant? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns 2 ns on the ground."
+    },
+    "Lemegeton": {
+      "description": "Lemegeton is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a destructible orbital familiar representing a random passive item, which blocks shots and deals contact damage. While the wisp is alive, Isaac gains that item's effects."
+    },
+    "Beth's Essence": {
+      "description": "Beth's Essence is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Upon entering an Angel Room, spawns 5 wisp orbitals. Giving money to Beggars can spawn wisps."
+    },
+    "Vengeful Spirit": {
+      "description": "Vengeful Spirit is an unlockable passive item added in The Binding of Isaac: Repentance.",
+      "effect": "After taking damage, spawns an orbital wisp that lasts for the entire floor, up to a maximum of six. They fire tears but do not block shots."
+    },
+    "RC Remote": {
+      "description": "RC Remote is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Instead of trailing behind Isaac, familiars are directly controlled by the same inputs as Isaac's."
+    },
+    "Soul of Jacob and Esau": {
+      "description": "Soul of Jacob and Esau is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns Esau as a temporary secondary character, controlled at the same time as Isaac. He dies with no consequences if his health runs out, and disappears when Isaac leaves the room. Esau has random items equal to the number of items Isaac has, each based on the pools of the items Isaac's were obtained from."
+    },
+    "Golden Trinket": {
+      "description": "Golden Trinket is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Golden trinkets have their effects either doubled or given additional effects, identical to how the trinket works with Mom's Box."
+    },
+    "The Sun and the Moon?": {
+      "description": "The Sun and the Moon? is an unlockable card or rune added in The Binding of Isaac: Repentance.",
+      "effect": "Unlocks both XIX - The Sun?, which fully charges Isaac's active item while damaging him, and XVIII - The Moon?, which sends Isaac to the Ultra Secret Room."
+    },
+    "Anima Sola": {
+      "description": "Anima Sola is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Chains down the nearest enemy for 5 seconds, preventing them from moving or attacking."
+    },
+    "Found Soul": {
+      "description": "Found Soul is an unlockable trinket added in The Binding of Isaac: Repentance.",
+      "effect": "Spawns a familiar that copies Isaac's movements and scales with damage and tears. If it takes damage, it will die and respawn on the next floor."
+    },
+    "Esau Jr.": {
+      "description": "Esau Jr. is an unlockable reward added in The Binding of Isaac: Repentance.",
+      "effect": "Swaps between the current character and Esau Jr., who has +2 flat damage and flight. Characters have independent items and health. Dying as either character ends the run."
     }
   }
 }

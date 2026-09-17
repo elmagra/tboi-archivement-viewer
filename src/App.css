@@ -62,6 +62,55 @@ body {
     inset 0 0 30px rgba(81, 75, 73, 0.16);
 }
 
+.character-mode-card {
+  position: absolute;
+  z-index: 120;
+  top: 10px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 9px;
+  border: 2px dashed var(--border);
+  background: #d8d0c4;
+  box-shadow: 2px 3px 0 rgba(81, 75, 73, 0.35);
+  color: var(--blood);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1;
+  cursor: pointer;
+  transform: rotate(-1deg);
+  transition:
+    background 0.12s ease,
+    transform 0.12s ease;
+}
+
+.character-mode-card:hover,
+.character-mode-card:focus-visible {
+  background: #c7bdb1;
+  outline: 2px solid var(--blood);
+  outline-offset: 3px;
+  transform: rotate(1deg) scale(1.04);
+}
+
+.character-mode-key {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  border: 2px solid currentColor;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 18px;
+}
+
+.app.is-tainted-mode .character-mode-card {
+  border-style: solid;
+  background: #5b514c;
+  color: #f0dfd0;
+  box-shadow: 2px 3px 0 rgba(43, 37, 34, 0.5);
+}
+
 .disclaimers {
   align-self: end;
   display: grid;
@@ -686,6 +735,24 @@ body {
 }
 
 @media (max-width: 560px) {
+  .character-mode-card {
+    top: 6px;
+    left: 6px;
+    gap: 4px;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+  .character-mode-key {
+    width: 18px;
+    height: 18px;
+    font-size: 14px;
+  }
+
+  .character-mode-card + h1 {
+    margin-top: 34px;
+  }
+
   .unlockables-grid {
     grid-template-columns: 1fr;
   }
