@@ -15,7 +15,6 @@ import { getCharacterUnlockables } from "./data/unlockables"
 import englishTranslations from "./locales/en.json"
 import spanishTranslations from "./locales/es.json"
 import {
-  captureAuthToken,
   getAuthHeaders,
 } from "./services/auth-token"
 
@@ -104,10 +103,7 @@ function App() {
   // =========================
 
   useEffect(() => {
-    captureAuthToken()
-
     fetch(getApiUrl("/api/me"), {
-      credentials: "include",
       headers: getAuthHeaders(),
     })
       .then((res) => res.json())
@@ -230,7 +226,6 @@ function App() {
     if (!user) return
 
     fetch(getApiUrl("/api/achievements"), {
-      credentials: "include",
       headers: getAuthHeaders(),
     })
       .then((res) => res.json())

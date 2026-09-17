@@ -14,5 +14,7 @@ services:
         value: https://elmagra.github.io/tboi-archivement-viewer
       - key: SESSION_SECRET
         generateValue: true
+      - key: AUTH_TOKEN_SECRET
+        generateValue: true
       - key: STEAM_API_KEY
         sync: false
