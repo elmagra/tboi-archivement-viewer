@@ -34,6 +34,14 @@ service-account*.json
 # Local configuration
 *.local
 
+# Local security-audit skill and reports
+.agents/skills/security-audit/
+.cursor/skills/security-audit/
+.claude/skills/security-audit/
+.security-audit/
+security-audit-skill/
+skills-lock.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
