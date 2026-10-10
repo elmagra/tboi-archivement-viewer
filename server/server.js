@@ -1,4 +1,6 @@
 const crypto = require("node:crypto")
+const fs = require("node:fs")
+const path = require("node:path")
 const express = require("express")
 const passport = require("passport")
 const SteamStrategy = require("passport-steam").Strategy
@@ -42,9 +44,7 @@ if (isProduction && authTokenSecret.length < 32) {
 const normalizeBaseUrl = (url) => url.trim().replace(/\/+$/, "")
 
 const serverUrl = normalizeBaseUrl(
-  process.env.BACKEND_URL ||
-    process.env.RENDER_EXTERNAL_URL ||
-    `http://localhost:${port}`
+  process.env.BACKEND_URL || `http://localhost:${port}`
 )
 
 const frontendUrls = (
@@ -64,6 +64,17 @@ const defaultFrontendUrl = `${frontendUrls[0]}/`
 const allowedFrontendOrigins = new Set(
   frontendUrls.map((url) => new URL(url).origin)
 )
+const staticDir = path.resolve(
+  process.env.STATIC_DIR || path.join(__dirname, "..", "dist")
+)
+const frontendIndexPath = path.join(staticDir, "index.html")
+const shouldServeFrontend =
+  isProduction && fs.existsSync(frontendIndexPath)
+
+const isApiOrAuthPath = (requestPath) =>
+  requestPath.startsWith("/api") ||
+  requestPath.startsWith("/auth") ||
+  requestPath === "/health"
 
 const getAllowedReturnUrl = (candidate) => {
   if (!candidate) return defaultFrontendUrl
@@ -209,6 +220,24 @@ app.use(
   helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" },
     crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
+    contentSecurityPolicy: {
+      useDefaults: true,
+      directives: {
+        "script-src": ["'self'"],
+        "style-src": ["'self'", "https://fonts.googleapis.com"],
+        "font-src": ["'self'", "https://fonts.gstatic.com"],
+        "img-src": [
+          "'self'",
+          "data:",
+          "https://avatars.steamstatic.com",
+          "https://*.steamstatic.com",
+          "https://*.akamaihd.net",
+        ],
+        "connect-src": ["'self'"],
+        "object-src": ["'none'"],
+        "frame-src": ["'none'"],
+      },
+    },
   })
 )
 app.use(
@@ -440,6 +469,31 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok" })
 })
 
+if (shouldServeFrontend) {
+  app.use(
+    express.static(staticDir, {
+      index: false,
+      fallthrough: true,
+    })
+  )
+
+  app.use((req, res, next) => {
+    if (req.method !== "GET" && req.method !== "HEAD") {
+      next()
+      return
+    }
+
+    if (isApiOrAuthPath(req.path)) {
+      next()
+      return
+    }
+
+    res.sendFile(frontendIndexPath, (error) => {
+      if (error) next(error)
+    })
+  })
+}
+
 app.use((error, req, res, next) => {
   if (res.headersSent) {
     next(error)
@@ -455,6 +509,10 @@ app.use((error, req, res, next) => {
 
   res.status(status).json({ error: message })
 })
+
+if (isProduction && !shouldServeFrontend) {
+  console.warn(`Frontend build not found in ${staticDir}`)
+}
 
 if (require.main === module) {
   app.listen(port, () => {
