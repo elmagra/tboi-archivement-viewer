@@ -34,12 +34,21 @@ const bossDisplayOrder = [
 const taintedBossDisplayOrder = [
   "tainted-final-bosses",
   "boss-rush-and-hush",
-  "mega-satan",
   "ultra-greedier",
+  "mega-satan",
   "delirium",
   "mother",
   "the-beast",
 ]
+
+const combinedBossIconKeys = {
+  "boss-rush-and-hush": ["boss-rush", "hush"],
+}
+
+const getBossIconUrls = (bossKey) =>
+  (combinedBossIconKeys[bossKey] || [bossKey])
+    .map((iconKey) => bossIcons[`../assets/bosses/${iconKey}.png`])
+    .filter(Boolean)
 
 export const getCharacterUnlockables = (characterName) => {
   const characterUnlockables =
@@ -57,14 +66,19 @@ export const getCharacterUnlockables = (characterName) => {
         displayOrder.indexOf(firstUnlockable.bossKey) -
         displayOrder.indexOf(secondUnlockable.bossKey)
     )
-    .map((unlockable) => ({
-      ...unlockable,
-      bossIcon: bossIcons[`../assets/bosses/${unlockable.bossKey}.png`],
-      icon:
-        rewardIcons[
-          `../assets/unlockables/${characterSlug}/${getResourceSlug(
-            unlockable.item
-          )}.jpg`
-        ],
-    }))
+    .map((unlockable) => {
+      const bossIconUrls = getBossIconUrls(unlockable.bossKey)
+
+      return {
+        ...unlockable,
+        bossIconUrls,
+        bossIcon: bossIconUrls[0],
+        icon:
+          rewardIcons[
+            `../assets/unlockables/${characterSlug}/${getResourceSlug(
+              unlockable.item
+            )}.jpg`
+          ],
+      }
+    })
 }
