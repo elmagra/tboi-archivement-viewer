@@ -17,8 +17,13 @@ body {
   box-sizing: border-box;
   height: 100vh;
   height: 100svh;
+  height: 100dvh;
   min-height: 0;
-  padding: 24px 40px;
+  padding:
+    max(24px, env(safe-area-inset-top))
+    max(40px, env(safe-area-inset-right))
+    max(24px, env(safe-area-inset-bottom))
+    max(40px, env(safe-area-inset-left));
   overflow: hidden;
 }
 
@@ -54,7 +59,7 @@ body {
   min-width: 0;
   min-height: 0;
   padding: 10px 20px 14px;
-  overflow: hidden;
+  overflow: hidden auto;
   background: var(--paper);
   border: 3px solid #77706c;
   box-shadow:
@@ -140,6 +145,8 @@ body {
   z-index: 120;
   top: 10px;
   left: 12px;
+  min-height: 36px;
+  touch-action: manipulation;
   display: flex;
   align-items: center;
   gap: 7px;
@@ -175,13 +182,6 @@ body {
   border: 2px solid currentColor;
   background: rgba(255, 255, 255, 0.2);
   font-size: 18px;
-}
-
-.app.is-tainted-mode .character-mode-card {
-  border-style: solid;
-  background: #5b514c;
-  color: #f0dfd0;
-  box-shadow: 2px 3px 0 rgba(43, 37, 34, 0.5);
 }
 
 .disclaimers {
@@ -290,6 +290,65 @@ body {
   margin-top: 32px;
 }
 
+.character-wheel-row {
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  min-width: 0;
+  min-height: 160px;
+}
+
+.carousel-arrow {
+  position: absolute;
+  z-index: 130;
+  top: 50%;
+  display: none;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  padding: 0;
+  border: 3px solid var(--border);
+  border-radius: 4px;
+  background: rgba(210, 204, 202, 0.92);
+  box-shadow: 2px 2px 0 rgba(81, 75, 73, 0.4);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+  cursor: pointer;
+  touch-action: manipulation;
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.carousel-arrow.is-prev {
+  left: 0;
+}
+
+.carousel-arrow.is-next {
+  right: 0;
+}
+
+.carousel-arrow:hover,
+.carousel-arrow:focus-visible {
+  background: #c4bbb6;
+  outline: 2px solid var(--blood);
+  outline-offset: 3px;
+}
+
+.carousel-arrow:active {
+  transform: translateY(-50%) scale(0.94);
+}
+
+@media (max-width: 1024px) {
+  .carousel-arrow {
+    display: grid;
+    place-items: center;
+  }
+}
+
 .character-wheel {
   --wheel-radius-x: 420px;
   --wheel-radius-y: 125px;
@@ -298,16 +357,21 @@ body {
   position: relative;
   flex: 1 1 auto;
   width: 100%;
-  min-height: 0;
-  height: 370px;
+  min-width: 0;
+  min-height: 160px;
+  height: clamp(200px, 42vh, 370px);
   margin: 0 auto;
+  container-type: size;
   outline: none;
+  touch-action: pan-y;
+  user-select: none;
 }
 
 .character-position {
   position: absolute;
   top: 42%;
   left: 50%;
+  cursor: pointer;
   transform:
     translate(-50%, -50%)
     translate(
@@ -317,8 +381,20 @@ body {
     scale(calc(var(--character-scale) * var(--wheel-item-scale)));
 
   transition:
-    transform 0.45s ease,
-    opacity 0.45s ease;
+    transform 0.42s ease,
+    opacity 0.42s ease;
+}
+
+@supports (width: 1cqw) {
+  .character-position {
+    transform:
+      translate(-50%, -50%)
+      translate(
+        calc(var(--wheel-x) * min(42cqw, var(--wheel-radius-x))),
+        calc(var(--wheel-y) * min(34cqh, var(--wheel-radius-y)))
+      )
+      scale(calc(var(--character-scale) * var(--wheel-item-scale)));
+  }
 }
 
 .character-position:not(.is-selected) .character-name {
@@ -340,6 +416,8 @@ body {
   z-index: 110;
   margin: 0 auto;
   padding: 8px 28px;
+  min-height: 44px;
+  touch-action: manipulation;
   border: 3px solid var(--border);
   border-radius: 3px;
   background: var(--paper);
@@ -370,7 +448,9 @@ body {
 }
 
 .character-selector > .enter-button {
-  margin-top: 20px;
+  flex: 0 0 auto;
+  margin-top: auto;
+  padding-top: 8px;
 }
 
 .unlockables-section {
@@ -713,11 +793,23 @@ body {
 
 @media (max-width: 900px) {
   .character-screen-layout {
-    grid-template-columns:
-      minmax(70px, 1fr)
-      minmax(0, 1040px)
-      minmax(70px, 1fr);
-    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .character-screen-layout::after {
+    content: none;
+  }
+
+  .disclaimers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: stretch;
+  }
+
+  .character-paper {
+    flex: 1 1 auto;
   }
 
   .steam-disclaimer {
@@ -738,7 +830,7 @@ body {
     --wheel-radius-y: 95px;
     --wheel-item-scale: 0.86;
 
-    height: 310px;
+    height: clamp(210px, 36vh, 310px);
   }
 
   .unlockables-grid {
@@ -749,22 +841,40 @@ body {
 @media (max-width: 760px) {
   .app {
     padding: 16px 8px;
+    padding:
+      max(12px, env(safe-area-inset-top))
+      max(8px, env(safe-area-inset-right))
+      max(12px, env(safe-area-inset-bottom))
+      max(8px, env(safe-area-inset-left));
   }
 
   .app.is-character-screen {
     padding: 8px;
+    padding:
+      max(8px, env(safe-area-inset-top))
+      max(8px, env(safe-area-inset-right))
+      max(8px, env(safe-area-inset-bottom))
+      max(8px, env(safe-area-inset-left));
   }
 
-  .character-screen-layout {
-    grid-template-columns:
-      minmax(54px, 1fr)
-      minmax(0, 1040px)
-      minmax(54px, 1fr);
-    gap: 8px;
+  .app.is-logged-in.is-character-screen {
+    padding-top: max(72px, env(safe-area-inset-top));
   }
 
   .character-paper {
     padding: 8px 10px 12px;
+  }
+
+  .carousel-arrow {
+    position: static;
+    width: 44px;
+    height: 44px;
+    font-size: 32px;
+    transform: none;
+  }
+
+  .carousel-arrow:active {
+    transform: scale(0.94);
   }
 
   .steam-disclaimer {
@@ -785,7 +895,7 @@ body {
     --wheel-radius-y: 80px;
     --wheel-item-scale: 0.78;
 
-    height: 250px;
+    height: clamp(180px, 32vh, 250px);
   }
 
   .character-selector > .enter-button {
@@ -845,6 +955,25 @@ body {
     height: 68px;
   }
 
+  .unlockable-modal-boss-group {
+    height: 68px;
+  }
+
+  .unlockable-modal-boss-group.is-combined {
+    width: 118px;
+    height: 72px;
+  }
+
+  .unlockable-modal-boss-group.is-combined .boss-icon.is-primary {
+    width: 58px;
+    height: 52px;
+  }
+
+  .unlockable-modal-boss-group.is-combined .boss-icon.is-secondary {
+    width: 50px;
+    height: 50px;
+  }
+
   .unlockable-modal-details {
     margin: 18px 0 16px;
     padding: 12px;
@@ -856,6 +985,10 @@ body {
 }
 
 @media (max-width: 560px) {
+  .disclaimers {
+    grid-template-columns: 1fr;
+  }
+
   .character-mode-card {
     top: 6px;
     left: 6px;
@@ -892,19 +1025,20 @@ body {
 }
 
 @media (max-width: 420px) {
-  .character-screen-layout {
-    grid-template-columns: 48px minmax(0, 1040px) 48px;
-    gap: 6px;
-  }
-
   .character-paper {
     padding-inline: 6px;
   }
 
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+  }
+
   .steam-disclaimer {
-    padding: 5px 4px;
-    font-size: 9px;
-    line-height: 1;
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 1.15;
   }
 
   .steam-disclaimer strong {
@@ -921,7 +1055,7 @@ body {
     --wheel-radius-y: 66px;
     --wheel-item-scale: 0.68;
 
-    height: 220px;
+    height: clamp(160px, 28vh, 220px);
   }
 
   .unlockable-modal-images {
@@ -933,6 +1067,25 @@ body {
   .unlockable-modal-item {
     width: 64px;
     height: 58px;
+  }
+
+  .unlockable-modal-boss-group {
+    height: 58px;
+  }
+
+  .unlockable-modal-boss-group.is-combined {
+    width: 108px;
+    height: 62px;
+  }
+
+  .unlockable-modal-boss-group.is-combined .boss-icon.is-primary {
+    width: 50px;
+    height: 44px;
+  }
+
+  .unlockable-modal-boss-group.is-combined .boss-icon.is-secondary {
+    width: 42px;
+    height: 42px;
   }
 
   .unlockable-wiki-link {
@@ -956,7 +1109,7 @@ body {
     --wheel-radius-y: 96px;
     --wheel-item-scale: 0.82;
 
-    height: 270px;
+    height: clamp(190px, 34vh, 270px);
   }
 
   .character-selector > .enter-button {
@@ -977,7 +1130,7 @@ body {
     --wheel-radius-y: 65px;
     --wheel-item-scale: 0.68;
 
-    height: 190px;
+    height: clamp(140px, 30vh, 190px);
   }
 
   .character-selector > .enter-button {
@@ -986,5 +1139,14 @@ body {
 
   .unlockables-section {
     padding-block: 4px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .character-position,
+  .enter-button,
+  .character-mode-card,
+  .unlockable-card {
+    transition: none;
   }
 }

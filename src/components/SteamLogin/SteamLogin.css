@@ -35,6 +35,8 @@ h1 {
 
   transform: rotate(-1deg);
 
+  touch-action: manipulation;
+
   transition:
     transform 0.1s ease,
     box-shadow 0.1s ease,

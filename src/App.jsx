@@ -20,7 +20,19 @@ import {
 
 const FULL_CIRCLE = Math.PI * 2
 const SHOW_CAROUSEL_PROGRESS = true
+const CAROUSEL_HOLD_MS = 480
+const SWIPE_DISTANCE_PX = 48
 const LANGUAGE_STORAGE_KEY = "tboi-viewer-language"
+
+const isTypingTarget = (target) =>
+  target instanceof HTMLElement &&
+  Boolean(
+    target.closest("input, textarea, select, [contenteditable='true']")
+  )
+const translationsByLanguage = {
+  en: englishTranslations,
+  es: spanishTranslations,
+}
 
 function BossIcons({ iconUrls = [], className }) {
   const visibleIcons = iconUrls.filter(Boolean)
@@ -44,11 +56,6 @@ function BossIcons({ iconUrls = [], className }) {
   )
 }
 
-const translationsByLanguage = {
-  en: englishTranslations,
-  es: spanishTranslations,
-}
-
 const getInitialLanguage = () => {
   const savedLanguage = window.localStorage.getItem(LANGUAGE_STORAGE_KEY)
 
@@ -70,6 +77,13 @@ function App() {
   const [isShowingUnlockables, setIsShowingUnlockables] = useState(false)
   const [selectedUnlockable, setSelectedUnlockable] = useState(null)
   const unlockablesGridRef = useRef(null)
+  const heldCarouselKeyRef = useRef(null)
+  const carouselHoldTimerRef = useRef(null)
+  const swipeStateRef = useRef({
+    x: null,
+    isDragging: false,
+    didSwipe: false,
+  })
   const localizedUnlockableInfo = selectedUnlockable
     ? translationsByLanguage[language].unlockables[selectedUnlockable.item]
     : null
@@ -93,9 +107,98 @@ function App() {
   }, [])
 
   const handleToggleCharacterMode = useCallback(() => {
+    const nextCharacterCount = isTaintedMode
+      ? characters.length
+      : taintedCharacters.length
+
     setSelectedUnlockable(null)
     setIsTaintedMode((isCurrentlyTainted) => !isCurrentlyTainted)
+    setSelectedIndex((index) => (index < nextCharacterCount ? index : 0))
+  }, [isTaintedMode])
+
+  const handleStopCarouselHold = useCallback(() => {
+    if (carouselHoldTimerRef.current) {
+      window.clearInterval(carouselHoldTimerRef.current)
+      carouselHoldTimerRef.current = null
+    }
+
+    heldCarouselKeyRef.current = null
   }, [])
+
+  const handleMoveSelection = useCallback((direction) => {
+    setSelectedIndex((actualIndex) => {
+      const characterCount = isTaintedMode
+        ? taintedCharacters.length
+        : characters.length
+
+      return (actualIndex + direction + characterCount) % characterCount
+    })
+  }, [isTaintedMode])
+
+  const handleStartCarouselHold = useCallback((key, direction) => {
+    if (heldCarouselKeyRef.current === key) return
+
+    handleStopCarouselHold()
+    heldCarouselKeyRef.current = key
+    handleMoveSelection(direction)
+    carouselHoldTimerRef.current = window.setInterval(() => {
+      handleMoveSelection(direction)
+    }, CAROUSEL_HOLD_MS)
+  }, [handleMoveSelection, handleStopCarouselHold])
+
+  const handleCarouselButtonPointerDown = (key, direction) => (event) => {
+    if (event.pointerType === "mouse" && event.button !== 0) return
+
+    event.preventDefault()
+    event.currentTarget.setPointerCapture?.(event.pointerId)
+    handleStartCarouselHold(key, direction)
+  }
+
+  const handleSelectCharacter = (index) => {
+    if (swipeStateRef.current.didSwipe || swipeStateRef.current.isDragging) return
+
+    if (index === selectedIndex) {
+      handleShowUnlockables()
+      return
+    }
+
+    setSelectedIndex(index)
+  }
+
+  const handleWheelPointerDown = (event) => {
+    if (event.target.closest(".carousel-arrow")) return
+
+    swipeStateRef.current = {
+      x: event.clientX,
+      isDragging: false,
+      didSwipe: false,
+    }
+  }
+
+  const handleWheelPointerMove = (event) => {
+    if (swipeStateRef.current.x == null) return
+
+    if (Math.abs(event.clientX - swipeStateRef.current.x) >= SWIPE_DISTANCE_PX) {
+      swipeStateRef.current.isDragging = true
+    }
+  }
+
+  const handleWheelPointerUp = (event) => {
+    const { x, isDragging } = swipeStateRef.current
+    swipeStateRef.current = {
+      x: null,
+      isDragging: false,
+      didSwipe: isDragging,
+    }
+
+    if (!isDragging) return
+
+    const deltaX = event.clientX - x
+
+    if (Math.abs(deltaX) < SWIPE_DISTANCE_PX) return
+
+    handleMoveSelection(deltaX < 0 ? 1 : -1)
+  }
 
   const handleSelectUnlockable = (event) => {
     const achievementId = event.currentTarget.dataset.achievementId
@@ -120,6 +223,12 @@ function App() {
 
     unlockablesGridRef.current?.focus()
   }, [isShowingUnlockables, selectedUnlockable])
+
+  useEffect(() => {
+    if (isShowingUnlockables) {
+      handleStopCarouselHold()
+    }
+  }, [handleStopCarouselHold, isShowingUnlockables])
 
   // =========================
   // COMPROBAR LOGIN
@@ -146,9 +255,11 @@ function App() {
   // =========================
 
   useEffect(() => {
-
     const handleKeyDown = (event) => {
+      if (isTypingTarget(event.target)) return
+
       if (isShowingUnlockables) {
+        handleStopCarouselHold()
         const isInteractiveElement = event.target.closest?.("button, a")
 
         if (selectedUnlockable) {
@@ -189,52 +300,67 @@ function App() {
         return
       }
 
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+        event.preventDefault()
+
+        if (event.repeat) return
+
+        handleStartCarouselHold(
+          event.key,
+          event.key === "ArrowRight" ? 1 : -1
+        )
+        return
+      }
+
+      handleStopCarouselHold()
+
       if (event.key.toLowerCase() === "e" && !event.repeat) {
         event.preventDefault()
         handleToggleCharacterMode()
         return
       }
 
-      // Flecha derecha
-      if (event.key === "ArrowRight") {
-        event.preventDefault()
-        setSelectedIndex((actual) =>
-          (actual + 1) % activeCharacters.length
-        )
-        return
-      }
-
-
-      // Flecha izquierda
-      if (event.key === "ArrowLeft") {
-        event.preventDefault()
-        setSelectedIndex((actual) =>
-          (actual - 1 + activeCharacters.length) % activeCharacters.length
-        )
-        return
-      }
-
-      if (event.key === "Enter") {
+      if (event.key === "Enter" && !event.repeat) {
         event.preventDefault()
         handleShowUnlockables()
       }
-
     }
 
+    const handleKeyUp = (event) => {
+      if (heldCarouselKeyRef.current === event.key) {
+        handleStopCarouselHold()
+      }
+    }
+
+    const handleWindowBlur = () => {
+      handleStopCarouselHold()
+    }
+
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        handleStopCarouselHold()
+      }
+    }
 
     window.addEventListener("keydown", handleKeyDown)
-
+    window.addEventListener("keyup", handleKeyUp)
+    window.addEventListener("blur", handleWindowBlur)
+    document.addEventListener("visibilitychange", handleVisibilityChange)
 
     return () => {
+      handleStopCarouselHold()
       window.removeEventListener("keydown", handleKeyDown)
+      window.removeEventListener("keyup", handleKeyUp)
+      window.removeEventListener("blur", handleWindowBlur)
+      document.removeEventListener("visibilitychange", handleVisibilityChange)
     }
-
   }, [
     handleCloseUnlockable,
     handleHideUnlockables,
     handleShowUnlockables,
+    handleStartCarouselHold,
+    handleStopCarouselHold,
     handleToggleCharacterMode,
-    activeCharacters.length,
     isShowingUnlockables,
     selectedUnlockable,
   ])
@@ -273,7 +399,7 @@ function App() {
     <div
       className={`app${isShowingUnlockables ? "" : " is-character-screen"}${
         isTaintedMode ? " is-tainted-mode" : ""
-      }`}
+      }${user ? " is-logged-in" : ""}`}
     >
       {user && <SteamProfile user={user} />}
 
@@ -313,13 +439,31 @@ function App() {
             <SteamLogin user={user} />
 
             <main className="character-selector">
-              <div
-                className="character-wheel"
-                role="listbox"
-                aria-label="Selector de personajes"
-                tabIndex={0}
-                data-show-all-progress={SHOW_CAROUSEL_PROGRESS}
-              >
+              <div className="character-wheel-row">
+                <button
+                  className="carousel-arrow is-prev"
+                  type="button"
+                  aria-label="Personaje anterior"
+                  onPointerDown={handleCarouselButtonPointerDown("ArrowLeft", -1)}
+                  onPointerUp={handleStopCarouselHold}
+                  onPointerCancel={handleStopCarouselHold}
+                  onLostPointerCapture={handleStopCarouselHold}
+                >
+                  ‹
+                </button>
+
+                <div
+                  className="character-wheel"
+                  role="listbox"
+                  aria-label="Selector de personajes"
+                  aria-activedescendant={`character-option-${selectedIndex}`}
+                  tabIndex={0}
+                  data-show-all-progress={SHOW_CAROUSEL_PROGRESS}
+                  onPointerDown={handleWheelPointerDown}
+                  onPointerMove={handleWheelPointerMove}
+                  onPointerUp={handleWheelPointerUp}
+                  onPointerCancel={handleWheelPointerUp}
+                >
               {activeCharacters.map((character, index) => {
 
                 // =========================
@@ -380,11 +524,21 @@ function App() {
                 return (
                   <div
                     key={character.name}
+                    id={`character-option-${index}`}
                     className={`character-position${
                       isSelected ? " is-selected" : ""
                     }`}
                     role="option"
                     aria-selected={isSelected}
+                    tabIndex={-1}
+                    onClick={() => handleSelectCharacter(index)}
+                    onKeyDown={(event) => {
+                      if (event.key !== "Enter" && event.key !== " ") return
+
+                      event.preventDefault()
+                      event.stopPropagation()
+                      handleSelectCharacter(index)
+                    }}
 
                     style={{
                       "--wheel-x": x,
@@ -406,6 +560,19 @@ function App() {
 
               })}
 
+                </div>
+
+                <button
+                  className="carousel-arrow is-next"
+                  type="button"
+                  aria-label="Personaje siguiente"
+                  onPointerDown={handleCarouselButtonPointerDown("ArrowRight", 1)}
+                  onPointerUp={handleStopCarouselHold}
+                  onPointerCancel={handleStopCarouselHold}
+                  onLostPointerCapture={handleStopCarouselHold}
+                >
+                  ›
+                </button>
               </div>
 
               <button

@@ -1,6 +1,6 @@
 .character-card {
   position: relative;
-  width: 180px;
+  width: clamp(110px, 22cqw, 180px);
 
   display: flex;
   flex-direction: column;
@@ -11,14 +11,15 @@
   padding: 8px 10px 14px;
 
   user-select: none;
-
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 /* CONTADOR DE ACHIEVEMENTS */
 .archivementCounter {
   margin: 0 0 2px 0;
 
-  font-size: 30px;
+  font-size: clamp(18px, 3.6cqw, 30px);
   font-weight: 900;
 
   color: #2b2522;
@@ -53,12 +54,13 @@
 
 /* PERSONAJE */
 .character-image {
-  width: 90px;
-  height: 90px;
+  width: clamp(56px, 11cqw, 90px);
+  height: clamp(56px, 11cqw, 90px);
 
   object-fit: contain;
 
   image-rendering: pixelated;
+  pointer-events: none;
 }
 
 .character-image-fallback {
@@ -77,9 +79,9 @@
 
 .character-name {
   margin: 10px 5px 5px;
+  max-width: 100%;
 
-
-  font-size: 40px;
+  font-size: clamp(20px, 4.6cqw, 40px);
   font-weight: bold;  
 
   color: #8f1118;
@@ -87,6 +89,7 @@
   text-transform: uppercase;
 
   letter-spacing: -1px;
+  overflow-wrap: anywhere;
 
   text-shadow:
     1px 1px 0 #c3bab1,
