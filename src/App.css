@@ -62,6 +62,79 @@ body {
     inset 0 0 30px rgba(81, 75, 73, 0.16);
 }
 
+.app.is-tainted-mode .character-paper,
+.app.is-tainted-mode .unlockables-paper {
+  border-color: #5a4540;
+  clip-path: polygon(
+    0 1.1%,
+    3.2% 0,
+    7.4% 1.6%,
+    11% 0.2%,
+    16.5% 1.8%,
+    21% 0,
+    26.8% 1.4%,
+    32% 0.3%,
+    38.5% 1.7%,
+    44% 0,
+    50.2% 1.5%,
+    56% 0.2%,
+    61.8% 1.9%,
+    67% 0,
+    73.4% 1.4%,
+    79% 0.4%,
+    85.2% 1.8%,
+    91% 0,
+    96.4% 1.5%,
+    100% 0.4%,
+    98.6% 6%,
+    100% 12.2%,
+    97.8% 18.5%,
+    100% 25%,
+    98.4% 31.6%,
+    100% 38%,
+    97.6% 44.8%,
+    100% 51.4%,
+    98.2% 58%,
+    100% 64.6%,
+    97.4% 71.2%,
+    100% 78%,
+    98.6% 84.4%,
+    100% 91%,
+    97.8% 96.6%,
+    100% 100%,
+    93.6% 98.2%,
+    88% 100%,
+    82.4% 97.8%,
+    76% 100%,
+    70.2% 98.4%,
+    64% 100%,
+    57.6% 97.6%,
+    51% 100%,
+    45.2% 98.2%,
+    39% 100%,
+    32.8% 97.8%,
+    26% 100%,
+    19.6% 98.4%,
+    13% 100%,
+    7.4% 97.6%,
+    0 100%,
+    2.2% 93.4%,
+    0 87%,
+    2.6% 80.2%,
+    0 73.6%,
+    2% 67%,
+    0 60.4%,
+    2.8% 53.6%,
+    0 47%,
+    2.2% 40.4%,
+    0 33.8%,
+    2.6% 27%,
+    0 20.4%,
+    2% 13.8%,
+    0 7.2%
+  );
+}
+
 .character-mode-card {
   position: absolute;
   z-index: 120;
@@ -414,6 +487,34 @@ body {
   filter: drop-shadow(1px 2px 0 rgba(41, 35, 35, 0.3));
 }
 
+.boss-icon-group {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 46px;
+}
+
+.boss-icon-group.is-combined {
+  gap: 2px;
+  width: 86px;
+}
+
+.boss-icon-group.is-combined .boss-icon.is-primary {
+  width: 40px;
+  height: 36px;
+}
+
+.boss-icon-group.is-combined .boss-icon.is-secondary {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 0;
+}
+
+.unlockable-card.is-locked .boss-icon-group.is-combined .boss-icon {
+  filter: grayscale(1) contrast(0.7) drop-shadow(1px 2px 0 rgba(41, 35, 35, 0.3));
+  opacity: 0.45;
+}
+
 .unlock-arrow {
   color: var(--border);
   font-size: 25px;
@@ -532,6 +633,26 @@ body {
   height: 86px;
   object-fit: contain;
   image-rendering: pixelated;
+}
+
+.unlockable-modal-boss-group {
+  height: 86px;
+}
+
+.unlockable-modal-boss-group.is-combined {
+  gap: 4px;
+  width: 146px;
+  height: 92px;
+}
+
+.unlockable-modal-boss-group.is-combined .boss-icon.is-primary {
+  width: 72px;
+  height: 66px;
+}
+
+.unlockable-modal-boss-group.is-combined .boss-icon.is-secondary {
+  width: 64px;
+  height: 64px;
 }
 
 .unlockable-modal-details {

@@ -21,6 +21,29 @@ import {
 const FULL_CIRCLE = Math.PI * 2
 const SHOW_CAROUSEL_PROGRESS = true
 const LANGUAGE_STORAGE_KEY = "tboi-viewer-language"
+
+function BossIcons({ iconUrls = [], className }) {
+  const visibleIcons = iconUrls.filter(Boolean)
+  const isCombined = visibleIcons.length > 1
+
+  return (
+    <div
+      className={`boss-icon-group${isCombined ? " is-combined" : ""}${
+        className ? ` ${className}` : ""
+      }`}
+    >
+      {visibleIcons.map((iconUrl, index) => (
+        <img
+          key={`${iconUrl}-${index}`}
+          src={iconUrl}
+          alt=""
+          className={`boss-icon${index === 0 ? " is-primary" : " is-secondary"}`}
+        />
+      ))}
+    </div>
+  )
+}
+
 const translationsByLanguage = {
   en: englishTranslations,
   es: spanishTranslations,
@@ -51,7 +74,7 @@ function App() {
     ? translationsByLanguage[language].unlockables[selectedUnlockable.item]
     : null
   const activeCharacters = isTaintedMode ? taintedCharacters : characters
-  const selectedCharacter = activeCharacters[selectedIndex]
+  const selectedCharacter = activeCharacters[selectedIndex] ?? activeCharacters[0]
   const selectedCharacterUnlockables = getCharacterUnlockables(
     selectedCharacter.name
   )
@@ -276,6 +299,11 @@ function App() {
               className="character-mode-card"
               type="button"
               aria-pressed={isTaintedMode}
+              aria-label={
+                isTaintedMode
+                  ? "Switch to normal characters"
+                  : "Switch to Tainted characters"
+              }
               onClick={handleToggleCharacterMode}
             >
               <span className="character-mode-key">E</span>
@@ -428,11 +456,7 @@ function App() {
                         aria-label={`Ver información de ${unlockable.item}`}
                       >
                         <div className="unlockable-boss">
-                          <img
-                            src={unlockable.bossIcon}
-                            alt=""
-                            className="boss-icon"
-                          />
+                          <BossIcons iconUrls={unlockable.bossIconUrls} />
                           <span>{unlockable.boss}</span>
                         </div>
 
@@ -513,10 +537,9 @@ function App() {
 
                 <div className="unlockable-modal-images">
                   <div>
-                    <img
-                      src={selectedUnlockable.bossIcon}
-                      alt={selectedUnlockable.boss}
-                      className="unlockable-modal-boss"
+                    <BossIcons
+                      iconUrls={selectedUnlockable.bossIconUrls}
+                      className="unlockable-modal-boss-group"
                     />
                     <span>{selectedUnlockable.boss}</span>
                   </div>
