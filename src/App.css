@@ -14,6 +14,7 @@ body {
 }
 
 .app {
+  position: relative;
   box-sizing: border-box;
   height: 100vh;
   height: 100svh;
@@ -230,6 +231,46 @@ body {
   background: rgba(190, 145, 51, 0.14);
   color: rgba(91, 62, 14, 0.9);
   transform: rotate(0.4deg);
+}
+
+.github-stamp {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 52px;
+  padding: 10px 14px;
+  border: 3px solid var(--border);
+  background: var(--paper);
+  box-shadow: 4px 4px 0 rgba(81, 75, 73, 0.4);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  text-decoration: none;
+  touch-action: manipulation;
+  transform: rotate(-0.6deg);
+  transition:
+    background 0.12s ease,
+    transform 0.12s ease;
+}
+
+.github-stamp:hover,
+.github-stamp:focus-visible {
+  background: #c7bdb1;
+  outline: 2px solid var(--blood);
+  outline-offset: 3px;
+  transform: rotate(1deg) scale(1.03);
+}
+
+.github-stamp-mark {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
 }
 
 .language-switch {
@@ -808,6 +849,17 @@ body {
     align-self: stretch;
   }
 
+  .github-stamp {
+    grid-column: 1 / -1;
+    min-height: 44px;
+    font-size: 20px;
+  }
+
+  .github-stamp-mark {
+    width: 22px;
+    height: 22px;
+  }
+
   .character-paper {
     flex: 1 1 auto;
   }
@@ -1022,6 +1074,18 @@ body {
   .unlockable-card {
     min-height: 82px;
   }
+
+  .github-stamp {
+    min-height: 40px;
+    gap: 8px;
+    padding: 8px 10px;
+    font-size: 18px;
+  }
+
+  .github-stamp-mark {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1146,7 +1210,8 @@ body {
   .character-position,
   .enter-button,
   .character-mode-card,
-  .unlockable-card {
+  .unlockable-card,
+  .github-stamp {
     transition: none;
   }
 }
